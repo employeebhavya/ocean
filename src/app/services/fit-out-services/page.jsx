@@ -19,7 +19,7 @@ function FitOuts() {
       location: "Chennai, India",
     },
     {
-      imgSrc: "/serviceinner/ajuba.png",
+      imgSrc: "/serviceinner/Ajuba.png",
       title: "Ajuba",
       location: "Chennai, India",
     },

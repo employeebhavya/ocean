@@ -23,9 +23,10 @@ function Footer() {
               <div className={Styles.columnFooterColumnLink}>
                 <div>
                   <p>
-                    Ocean Lifespaces India Pvt LtdMF-1, Industrial Estate, CIPET
-                    Hostel Road, Guindy, Chennai - 600 032,<br></br> Tamil Nadu,
-                    India.
+                    Ocean Lifespaces India Pvt Ltd<br></br>
+                    MF-1, Industrial Estate,<br></br>
+                    CIPET Hostel Road, Guindy,<br></br>
+                    Chennai – 600 032, Tamil Nadu, India.
                   </p>
                 </div>
                 <div>
