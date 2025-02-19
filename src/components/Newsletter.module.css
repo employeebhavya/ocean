@@ -49,8 +49,8 @@
   right: 5px;
   background-color: var(--color-orange);
   border: none;
-  width: clamp(30px, 3vw, 3vw);
-  height: clamp(30px, 3vw, 3vw);
+  width: clamp(28px, 2.9vw, 2.9vw);
+  height: clamp(28px, 2.9vw, 2.9vw);
   border-radius: 50%;
   cursor: pointer;
   display: flex;
