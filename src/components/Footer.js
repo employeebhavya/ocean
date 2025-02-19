@@ -21,23 +21,19 @@ function Footer() {
               </div>
               <hr style={{ height: "1px", color: "white" }} />
               <div className={Styles.columnFooterColumnLink}>
-                <div>
-                  <p>
-                    Ocean Lifespaces India Pvt Ltd<br></br>
-                    MF-1, Industrial Estate,<br></br>
-                    CIPET Hostel Road, Guindy,<br></br>
-                    Chennai – 600 032, Tamil Nadu, India.
-                  </p>
-                </div>
-                <div>
-                  <p style={{ display: "flex", flexDirection: "column" }}>
-                    <span>Call Us: +91-98410 22110</span>
-                    <span>Tel: +91-44-6919 9900</span>
-                  </p>
-                </div>
-                <div className={Styles.rightAlign}>
-                  <p>info@ocean.net.in</p>
-                </div>
+                <p>
+                  Ocean Lifespaces India Pvt Ltd<br></br>
+                  MF-1, Industrial Estate,<br></br>
+                  CIPET Hostel Road, Guindy,<br></br>
+                  Chennai – 600 032, Tamil Nadu, India.
+                </p>
+
+                <p style={{ display: "flex", flexDirection: "column" }}>
+                  <span>Call Us: +91-98410 22110</span>
+                  <span>Tel: +91-44-6919 9900</span>
+                </p>
+
+                <p>info@ocean.net.in</p>
               </div>
             </div>
             <div className={Styles.columnFooterRow}>
