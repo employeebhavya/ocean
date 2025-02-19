@@ -35,7 +35,7 @@ function Footer() {
                     <span>Tel: +91-44-6919 9900</span>
                   </p>
                 </div>
-                <div>
+                <div className={Styles.rightAlign}>
                   <p>info@ocean.net.in</p>
                 </div>
               </div>

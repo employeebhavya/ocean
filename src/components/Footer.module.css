@@ -56,6 +56,9 @@
 .columnFooterColumnLink > div {
   display: flex;
 }
+.rightAlign {
+  justify-content: flex-end;
+}
 
 /* responsive-css-starts-here */
 @media only screen and (max-width: 1024px) {
