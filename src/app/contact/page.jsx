@@ -16,8 +16,8 @@ function Contact() {
                 <div className={styles.content}>
                   <h5 className="h5">Address</h5>
                   <p className="description">
-                    Ocean Lifespaces India Pvt LtdMF-1, Industrial Estate,CIPET
-                    Hostel Road, Guindy,Chennai - 600 032, Tamil Nadu, India.
+                    Ocean Lifespaces India Pvt LtdMF-1, Industrial Estate, CIPET
+                    Hostel Road, Guindy, Chennai - 600 032, Tamil Nadu, India.
                   </p>
                 </div>
               </div>

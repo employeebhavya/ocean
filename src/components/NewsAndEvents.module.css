@@ -75,7 +75,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   max-height: 3em; /* Adjust based on line height */
-  line-height: 1.5em; /* Set a suitable line height */
   word-wrap: break-word;
 }
 

@@ -15,7 +15,11 @@ function News() {
                 trends.
               </p>
               <div className={styles.innerColumnNews}>
-                <img src="/news/Background.png" alt="image" />
+                <img
+                  style={{ borderRadius: "15px" }}
+                  src="/news/Background.png"
+                  alt="image"
+                />
                 <img src="/news/Link-1.png" alt="image" />
                 <img src="/news/Link-2.png" alt="image" />
               </div>
@@ -35,7 +39,9 @@ function News() {
           </div>
         </div>
       </section>
-      <NewsAndEvents list={7} />
+      <div className={styles.pbottom}>
+        <NewsAndEvents list={7} />
+      </div>
     </>
   );
 }

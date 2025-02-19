@@ -1,0 +1,28 @@
+/* Styles for the draggable "Drag" circle */
+.dragCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 14px;
+  font-weight: bold;
+  pointer-events: none; /* Make sure it doesn't interfere with dragging */
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.dragCircle span {
+  font-size: 14px;
+}
+
+.dragCircle:hover {
+  cursor: grab;
+}

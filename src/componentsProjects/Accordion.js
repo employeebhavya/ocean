@@ -290,7 +290,7 @@ const Accordion = () => {
               projects.
             </p>
           </div>
-          <h3 className="h3">Leading Architects we have Collaborated with</h3>
+          <h3 className="h3">Leading Architects Collaborated with</h3>
           <div className={styles.rowAccordion}>
             {/* Architects Section */}
             {architects.map((section, index) => (

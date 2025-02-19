@@ -86,7 +86,7 @@
     width: 100%;
     justify-content: flex-start;
   }
-  .columnFooter p br {
+  .removeBr br {
     display: none;
   }
 }

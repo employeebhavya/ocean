@@ -21,7 +21,7 @@ function Footer() {
               </div>
               <hr style={{ height: "1px", color: "white" }} />
               <div className={Styles.columnFooterColumnLink}>
-                <p>
+                <p className={Styles.removeBr}>
                   Ocean Lifespaces India Pvt Ltd<br></br>
                   MF-1, Industrial Estate,<br></br>
                   CIPET Hostel Road, Guindy,<br></br>
