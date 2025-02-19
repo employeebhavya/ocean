@@ -2,6 +2,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
+import GoToTopButton from "@/components/GoToTopButton";
 
 const roboto = Roboto({
   variable: "--font-roboto-sans",
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
         <Menu />
         {children}
         <Footer />
+        <GoToTopButton />
       </body>
     </html>
   );
