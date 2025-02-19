@@ -1,6 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
@@ -54,6 +54,7 @@ const ServiceSlider = () => {
   const buttonRef = useRef(null);
   const serviceRefs = useRef([]); // Array of refs for the services
   const sliderContainerRef = useRef(null); // New container ref
+  const [isHovered, setIsHovered] = useState(false); // Track hover state
 
   const numClones = 2; // Number of clones for looping effect
 
@@ -151,7 +152,12 @@ const ServiceSlider = () => {
   }, []);
 
   return (
-    <section className={Styles.serviceSliderSection} ref={serviceSectionRef}>
+    <section
+      className={Styles.serviceSliderSection}
+      ref={serviceSectionRef}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <div className="container">
         <div className={Styles.rowServiceSlider}>
           <div className={Styles.columnServiceSlider} ref={headingRef}>
@@ -160,7 +166,7 @@ const ServiceSlider = () => {
           </div>
           <div className={Styles.columnServiceSlider} ref={buttonRef}>
             <Link href="/services">
-              <button class={Styles.cta}>
+              <button className={Styles.cta}>
                 <span>Learn More</span>
                 <svg width="15px" height="10px" viewBox="0 0 13 10">
                   <path d="M1,5 L11,5"></path>
@@ -170,6 +176,13 @@ const ServiceSlider = () => {
             </Link>
           </div>
         </div>
+
+        {/* Show the Drag circle only when hovered */}
+        {isHovered && (
+          <div className={Styles.dragCircle}>
+            <span>Drag</span>
+          </div>
+        )}
 
         {/* Wrap the draggable slider in a container */}
         <div

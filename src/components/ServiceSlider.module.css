@@ -125,3 +125,27 @@
     height: auto !important;
   }
 }
+/* Styles for the draggable "Drag" circle */
+.dragCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: #f5831f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+  pointer-events: none; /* Make sure it doesn't interfere with dragging */
+  opacity: 0.8;
+  z-index: 10;
+}
+
+.serviceSliderSection {
+  position: relative; /* Make sure the drag circle is positioned correctly */
+}

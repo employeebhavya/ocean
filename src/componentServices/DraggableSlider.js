@@ -1,6 +1,6 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
 import Link from "next/link";
@@ -45,6 +45,7 @@ const services = [
 const DraggableSlider = () => {
   const sliderRef = useRef(null);
   const wrapRef = useRef(null);
+  const [isHovered, setIsHovered] = useState(false); // Track hover state
   const numClones = 2; // Number of clones for looping effect
 
   useEffect(() => {
@@ -94,7 +95,43 @@ const DraggableSlider = () => {
   }, []);
 
   return (
-    <div ref={wrapRef} style={{ overflow: "hidden", width: "100%" }}>
+    <div
+      ref={wrapRef}
+      style={{
+        overflow: "hidden",
+        width: "100%",
+        position: "relative", // Allow absolute positioning of "Drag" circle
+      }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
+      {/* Show the Drag circle only when hovered */}
+      {isHovered && (
+        <div
+          style={{
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
+            width: "60px",
+            height: "60px",
+            backgroundColor: "#f5831f",
+            color: "white",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            borderRadius: "50%",
+            fontSize: "16px",
+            fontWeight: "bold",
+            pointerEvents: "none", // Make sure it doesn't interfere with dragging
+            opacity: 0.8,
+            zIndex: 10,
+          }}
+        >
+          <span>Drag</span>
+        </div>
+      )}
+
       <div ref={sliderRef} style={{ display: "flex", width: "max-content" }}>
         {services.map((service) => (
           <div
