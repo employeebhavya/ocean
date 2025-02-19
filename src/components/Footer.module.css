@@ -53,6 +53,10 @@
   display: flex;
   justify-content: space-between;
 }
+.columnFooterColumnLink p,
+.columnFooterColumnLink span {
+  color: var(--color-white);
+}
 .columnFooterColumnLink > div {
   display: flex;
 }

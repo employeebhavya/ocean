@@ -13,7 +13,7 @@
   background-color: #f5f7f8;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  max-width: clamp(350px, 55vw, 55vw);
+  max-width: clamp(390px, 55vw, 55vw);
   margin: auto;
   background-image: url("../../public/news-letter.png");
   background-position: center;
@@ -71,5 +71,8 @@
 @media only screen and (max-width: 767px) {
   .input {
     width: 250px;
+  }
+  .container {
+    background-position: initial;
   }
 }
