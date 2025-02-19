@@ -29,8 +29,8 @@ function Footer() {
                 </p>
 
                 <p style={{ display: "flex", flexDirection: "column" }}>
-                  <span>Call Us: +91-98410 22110</span>
-                  <span>Tel: +91-44-6919 9900</span>
+                  Call Us: +91-98410 22110<br></br>
+                  Tel: +91-44-6919 9900
                 </p>
 
                 <p>info@ocean.net.in</p>
