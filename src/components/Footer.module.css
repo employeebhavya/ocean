@@ -105,9 +105,9 @@
     width: 100%;
     justify-content: flex-start;
   }
-  .removeBr br {
+  /* .removeBr br {
     display: none;
-  }
+  } */
   .socialMain {
     row-gap: 15px;
   }
