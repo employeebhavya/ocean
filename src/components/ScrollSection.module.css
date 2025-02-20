@@ -156,6 +156,12 @@
   font-weight: 300;
 }
 
+.circle:hover {
+  background: #fff;
+  color: var(--color-dark-blue);
+  border: 1px solid #fff;
+}
+
 .circle {
   opacity: 0; /* Start as invisible */
   transform: translateY(200px); /* Start down for the animation */

@@ -1,5 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-// Slider.js
 "use client";
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
@@ -51,25 +49,6 @@ const ProjectSlider = () => {
     );
   };
 
-  // useEffect(() => {
-  //   const slider = sliderRef.current;
-  //   const isMobile = window.innerWidth <= 768;
-
-  //   const slideWidth = isMobile
-  //     ? slider.children[0].offsetWidth
-  //     : slider.children[0].offsetWidth; // Get the adjusted width
-
-  //   const gap = isMobile ? 15 : 17; // Adjust for gap
-
-  //   const moveDistance = currentIndex * (slideWidth + gap);
-
-  //   gsap.to(slider, {
-  //     x: -moveDistance,
-  //     duration: 1,
-  //     ease: "power2.inOut",
-  //   });
-  // }, [currentIndex]);
-
   useGSAP(() => {
     const tl = gsap.timeline({
       scrollTrigger: {
@@ -97,14 +76,22 @@ const ProjectSlider = () => {
             <p>
               Since its inception, Ocean Lifespaces has consistently showcased
               its expertise in Turnkey Interiors and Civil Construction. Our
-              portfolio is a testament to our dedication and craftsmanship in
-              delivering high-quality projects. We take pride in our ability to
-              handle every aspect of interior design and construction with
-              precision. Our completed projects reflect our commitment to
-              excellence and innovation. Ocean Lifespaces continues to build on
-              its reputation for reliability and superior service. Each project
-              we complete is a step towards furthering our legacy of excellence
-              in the industry.
+              portfolio stands as a testament to our dedication, craftsmanship,
+              and commitment to delivering high-quality projects.
+            </p>
+            <p>
+              We take pride in our ability to manage every aspect of interior
+              design and construction with precision, ensuring that each space
+              is both functional and visually appealing. Our attention to
+              detail, innovative approach, and client-centric focus allow us to
+              create environments that inspire and endure.
+            </p>
+            <p>
+              With a reputation for reliability and superior service, Ocean
+              Lifespaces continues to push the boundaries of excellence. Every
+              project we complete reinforces our legacy of quality, innovation,
+              and trust, driving us to set new industry standards with each
+              endeavor.
             </p>
             <Link href="/projects">
               <button class={Styles.cta}>
@@ -116,27 +103,6 @@ const ProjectSlider = () => {
               </button>
             </Link>
           </div>
-          {/* <div className={Styles.columnProjectSlider}>
-            <div className={Styles.sliderWrapper}>
-              <div className={Styles.slider} ref={sliderRef}>
-                {images.map((image, index) => (
-                  <div className={Styles.slide} key={index}>
-                    <img src={image} alt={`Slide ${index}`} />
-                  </div>
-                ))}
-              </div>
-
-              <div className={Styles.navigation}>
-                <button className={Styles.prevButton} onClick={handlePrev}>
-                  <BsArrowLeft />
-                </button>
-                <button className={Styles.nextButton} onClick={handleNext}>
-                  <BsArrowRight />
-                </button>
-              </div>
-            </div>
-          </div> */}
-
           <Slider />
         </div>
       </div>

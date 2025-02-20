@@ -47,7 +47,6 @@
   font-size: clamp(15px, 1vw, 1vw);
   font-weight: normal;
   color: var(--color-white);
-  text-align: justify;
 }
 .cta {
   position: relative;

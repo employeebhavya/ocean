@@ -42,7 +42,7 @@
 .columnFooterRow {
   display: flex;
   flex-direction: column;
-  row-gap: clamp(15px, 2vh, 2vh);
+  row-gap: clamp(20px, 2vh, 2vh);
 }
 .columnFooterColumn {
   display: flex;
@@ -64,7 +64,26 @@
 .rightAlign {
   justify-content: flex-end;
 }
-
+.socialMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  column-gap: 10px;
+  align-self: flex-end;
+}
+.social a {
+  color: var(--color-white);
+  font-size: clamp(15px, 1vw, 1vw);
+  text-decoration: none;
+  font-weight: normal;
+  transition: all 0.3s ease;
+}
+.social a:hover {
+  transform: scale(1.2);
+}
 /* responsive-css-starts-here */
 @media only screen and (max-width: 1024px) {
   .rowFooter {
@@ -88,5 +107,11 @@
   }
   .removeBr br {
     display: none;
+  }
+  .socialMain {
+    row-gap: 15px;
+  }
+  .social {
+    align-self: flex-start;
   }
 }

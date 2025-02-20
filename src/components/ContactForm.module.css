@@ -11,7 +11,6 @@
   padding: clamp(20px, 3vw, 3vw);
   border-radius: clamp(10px, 1vw, 1vw);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
 }
 
 .formContainer h2 {

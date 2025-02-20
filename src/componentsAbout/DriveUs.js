@@ -1,6 +1,5 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useRef } from "react";
 import styles from "./DriveUs.module.css";
 import ImageSlider from "./ImageSlider";

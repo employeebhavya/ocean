@@ -16,11 +16,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2vw;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.78) 0%,
-    rgba(244, 246, 247, 0.78) 100%
-  );
+  background: #fff;
   padding: clamp(20px, 2vw, 2vw);
   border-radius: clamp(10px, 1vw, 1vw);
 }

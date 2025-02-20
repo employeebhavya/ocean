@@ -168,45 +168,57 @@ function ScrollSection() {
             <div className={Styles.sectionAboutTwo}>
               <div className={Styles.circlesContainer}>
                 <div className={Styles.circlesRow}>
-                  <div
-                    className={Styles.circle}
-                    ref={(el) => (circleRefs.current[0] = el)}
-                  >
-                    <div className={Styles.circleText}>Turnkey Solutions</div>
-                  </div>
-                  <div
-                    className={Styles.circle}
-                    ref={(el) => (circleRefs.current[1] = el)}
-                  >
-                    <div className={Styles.circleText}>Fit-Out Services</div>
-                  </div>
-                  <div
-                    className={Styles.circle}
-                    ref={(el) => (circleRefs.current[2] = el)}
-                  >
-                    <div className={Styles.circleText}>Civil Construction</div>
-                  </div>
+                  <Link href={"/services/turnkey-solutions"}>
+                    <div
+                      className={Styles.circle}
+                      ref={(el) => (circleRefs.current[0] = el)}
+                    >
+                      <div className={Styles.circleText}>Turnkey Solutions</div>
+                    </div>
+                  </Link>
+                  <Link href={"/services/fit-out-services"}>
+                    <div
+                      className={Styles.circle}
+                      ref={(el) => (circleRefs.current[1] = el)}
+                    >
+                      <div className={Styles.circleText}>Fit-Out Services</div>
+                    </div>
+                  </Link>
+                  <Link href={"/services/civil-construction"}>
+                    <div
+                      className={Styles.circle}
+                      ref={(el) => (circleRefs.current[2] = el)}
+                    >
+                      <div className={Styles.circleText}>
+                        Civil Construction
+                      </div>
+                    </div>
+                  </Link>
                 </div>
                 <div
                   className={Styles.circlesRow}
                   style={{ marginTop: "clamp(-40px, -6vh, -6vh)" }}
                 >
-                  <div
-                    className={Styles.circle}
-                    ref={(el) => (circleRefs.current[3] = el)}
-                  >
-                    <div className={Styles.circleText}>
-                      Real Estate <br></br>Development
+                  <Link href={"/services/real-estate-development"}>
+                    <div
+                      className={Styles.circle}
+                      ref={(el) => (circleRefs.current[3] = el)}
+                    >
+                      <div className={Styles.circleText}>
+                        Real Estate <br></br>Development
+                      </div>
                     </div>
-                  </div>
-                  <div
-                    className={Styles.circle}
-                    ref={(el) => (circleRefs.current[4] = el)}
-                  >
-                    <div className={Styles.circleText}>
-                      Infrastructure<br></br> Development
+                  </Link>
+                  <Link href={"/services/infrastructure-development"}>
+                    <div
+                      className={Styles.circle}
+                      ref={(el) => (circleRefs.current[4] = el)}
+                    >
+                      <div className={Styles.circleText}>
+                        Infrastructure<br></br> Development
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>

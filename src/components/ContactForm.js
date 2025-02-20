@@ -47,7 +47,7 @@ const ContactForm = () => {
 
   return (
     <div className={styles.formContainer}>
-      <h2 className="h2">Feel Free to reach us out</h2>
+      <h2 className="h2">Contact Us</h2>
       <form onSubmit={handleSubmit} className={styles.form}>
         <div className={styles.fieldGroup}>
           <input
