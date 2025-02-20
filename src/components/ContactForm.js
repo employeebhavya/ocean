@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styles from "./ContactForm.module.css";
 
 const ContactForm = () => {
@@ -21,29 +21,24 @@ const ContactForm = () => {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    setSubmitted(false);
-
-    const res = await fetch("/api/sendMail", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(formData),
+    setFormData({
+      name: "",
+      email: "",
+      phone: "",
+      subject: "",
+      message: "",
     });
-
-    if (res.status === 200) {
-      setSubmitted(true);
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      });
-    }
+    setSubmitted(true);
   };
+
+  useEffect(() => {
+    if (submitted) {
+      const timer = setTimeout(() => setSubmitted(false), 3000);
+      return () => clearTimeout(timer);
+    }
+  }, [submitted]);
 
   return (
     <div className={styles.formContainer}>
@@ -57,7 +52,7 @@ const ContactForm = () => {
             value={formData.name}
             onChange={handleChange}
             required
-            className={styles.inputField} // Add class
+            className={styles.inputField}
           />
           <input
             type="email"
@@ -66,7 +61,7 @@ const ContactForm = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className={styles.inputField} // Add class
+            className={styles.inputField}
           />
         </div>
         <div className={styles.fieldGroup}>
@@ -77,7 +72,7 @@ const ContactForm = () => {
             value={formData.phone}
             onChange={handleChange}
             required
-            className={styles.inputField} // Add class
+            className={styles.inputField}
           />
           <input
             type="text"
@@ -86,7 +81,7 @@ const ContactForm = () => {
             value={formData.subject}
             onChange={handleChange}
             required
-            className={styles.inputField} // Add class
+            className={styles.inputField}
           />
         </div>
         <textarea
@@ -95,14 +90,24 @@ const ContactForm = () => {
           value={formData.message}
           onChange={handleChange}
           required
-          className={styles.textareaField} // Add class
+          className={styles.textareaField}
         />
         <button type="submit" className={styles.submitButton}>
           Submit
         </button>
       </form>
+
       {submitted && (
-        <p className={styles.successMessage}>Form submitted successfully!</p>
+        <div className={styles.popupOverlay}>
+          <div className={styles.popup}>
+            <p
+              style={{ color: "green", fontWeight: "bold" }}
+              className="description"
+            >
+              Thank you! Your form has been submitted successfully.
+            </p>
+          </div>
+        </div>
       )}
     </div>
   );
