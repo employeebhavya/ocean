@@ -26,7 +26,7 @@ function Footer() {
                   Ocean Lifespaces India Pvt Ltd<br></br>
                   MF-1 Industrial Estate<br></br>
                   CIPET Hostel Road <br></br>
-                  {""}Chennai - 600 032 <br></br>Tamil Nadu India.
+                  {""}Chennai - 600 032 <br></br>Tamil Nadu India
                 </p>
 
                 <p style={{ display: "flex", flexDirection: "column" }}>
