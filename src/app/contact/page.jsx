@@ -18,8 +18,8 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Address</h5>
                     <p className="description">
-                      Ocean Lifespaces India Pvt Ltd MF-1 Industrial Estate
-                      CIPET Hostel Road Chennai - 600 032 Tamil Nadu India.
+                      Ocean Lifespaces India Pvt Ltd MF-1, Industrial Estate,
+                      CIPET Hostel Road, Chennai – 600 032, Tamil Nadu, India.
                     </p>
                   </div>
                 </div>
@@ -55,8 +55,8 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Telangana</h5>
                     <p className="description">
-                      102/11 103/108 104/9 Ground Floor Boss Tower Patrika Nagar
-                      Madhapur Hyderabad 500081
+                      102/11,103/108&104/9, Ground Floor, Boss Tower, Patrika
+                      Nagar, Madhapur, Hyderabad, 500081
                     </p>
                     <Link
                       href=""
@@ -81,8 +81,8 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Karnataka</h5>
                     <p className="description">
-                      Door No 748/2 Shri Krishna Temple Road HAL 1st Stage
-                      Indiranagar Bengaluru 560038
+                      Door No.748/2, Shri Krishna Temple Road, HAL 1st Stage,
+                      Indiranagar, Bengaluru, 560038
                     </p>
                     <Link
                       href="https://g.co/kgs/dTA1oc1"
@@ -107,8 +107,8 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Andhra Pradesh</h5>
                     <p className="description">
-                      No 14903 Shar Road Near Flyover Bridge Kollamitta Sri
-                      Potti Sriramulu Nellore 524121
+                      No.14903, Shar Road, Near Flyover Bridge, Kollamitta, Sri
+                      Potti Sriramulu, Nellore, 524121
                     </p>
                     <Link
                       href=""
@@ -133,8 +133,8 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Pondicherry</h5>
                     <p className="description">
-                      Plot No 25 1st Cross 1st Cross Street Anatham Nagar
-                      Moolakulam Puducherry 605010
+                      Plot No.25, 1st Cross, 1st Cross Street, Anadham Nagar,
+                      Moolakulam, Puducherry - 605010
                     </p>
                     <Link
                       href=""
@@ -159,7 +159,7 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Kerala</h5>
                     <p className="description">
-                      No III / 728 Sabari South Chittoor Ernakulam 682027
+                      No. III / 728, Sabari, South Chittoor, Ernakulam, 682027
                     </p>
                     <Link
                       href=""
@@ -184,8 +184,8 @@ function Contact() {
                   <div className={styles.content}>
                     <h5 className="h5">Ahmedabad</h5>
                     <p className="description">
-                      Block B Shop no 404 Sumel Business Park 9 Dudheshwar Road
-                      Gujarat Ahmedabad 380004
+                      Block B, Shop no.404, Sumel Business Park 9, Dudheshwar
+                      Road, Gujarat, Ahmedabad - 380004
                     </p>
                     <Link
                       href=""

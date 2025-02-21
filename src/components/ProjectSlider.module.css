@@ -27,6 +27,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
+  column-gap: 4vw;
 }
 .columnProjectSlider {
   position: relative;
