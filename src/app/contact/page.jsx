@@ -3,6 +3,7 @@ import Link from "next/link";
 import styles from "./contact.module.css";
 import ContactForm from "../../components/ContactForm";
 import FAQ from "../../components/FAQ";
+import MapComponent from "@/components/MapComponent";
 
 function Contact() {
   return (
@@ -11,16 +12,18 @@ function Contact() {
         <div className="container">
           <div className={styles.rowMainContact}>
             <div className={styles.rowContact}>
-              <div className={styles.columnContact}>
-                <img src="/contact/map.png" alt="image" />
-                <div className={styles.content}>
-                  <h5 className="h5">Address</h5>
-                  <p className="description">
-                    Ocean Lifespaces India Pvt Ltd MF-1 Industrial Estate CIPET
-                    Hostel Road Chennai - 600 032 Tamil Nadu India.
-                  </p>
+              <Link href={"#map"}>
+                <div className={styles.columnContact}>
+                  <img src="/contact/map.png" alt="image" />
+                  <div className={styles.content}>
+                    <h5 className="h5">Address</h5>
+                    <p className="description">
+                      Ocean Lifespaces India Pvt Ltd MF-1 Industrial Estate
+                      CIPET Hostel Road Chennai - 600 032 Tamil Nadu India.
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </Link>
               <div className={styles.columnContact}>
                 <img src="/contact/mail.png" alt="image" />
                 <div className={styles.content}>
@@ -55,6 +58,20 @@ function Contact() {
                       102/11 103/108 104/9 Ground Floor Boss Tower Patrika Nagar
                       Madhapur Hyderabad 500081
                     </p>
+                    <Link
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.getDirection}
+                    >
+                      <button class="inner-blue-button">
+                        <span>Get Direction</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -67,6 +84,20 @@ function Contact() {
                       Door No 748/2 Shri Krishna Temple Road HAL 1st Stage
                       Indiranagar Bengaluru 560038
                     </p>
+                    <Link
+                      href="https://g.co/kgs/dTA1oc1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.getDirection}
+                    >
+                      <button class="inner-blue-button">
+                        <span>Get Direction</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -79,6 +110,20 @@ function Contact() {
                       No 14903 Shar Road Near Flyover Bridge Kollamitta Sri
                       Potti Sriramulu Nellore 524121
                     </p>
+                    <Link
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.getDirection}
+                    >
+                      <button class="inner-blue-button">
+                        <span>Get Direction</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -91,6 +136,20 @@ function Contact() {
                       Plot No 25 1st Cross 1st Cross Street Anatham Nagar
                       Moolakulam Puducherry 605010
                     </p>
+                    <Link
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.getDirection}
+                    >
+                      <button class="inner-blue-button">
+                        <span>Get Direction</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -102,6 +161,20 @@ function Contact() {
                     <p className="description">
                       No III / 728 Sabari South Chittoor Ernakulam 682027
                     </p>
+                    <Link
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.getDirection}
+                    >
+                      <button class="inner-blue-button">
+                        <span>Get Direction</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -114,12 +187,31 @@ function Contact() {
                       Block B Shop no 404 Sumel Business Park 9 Dudheshwar Road
                       Gujarat Ahmedabad 380004
                     </p>
+                    <Link
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={styles.getDirection}
+                    >
+                      <button class="inner-blue-button">
+                        <span>Get Direction</span>
+                        <svg width="15px" height="10px" viewBox="0 0 13 10">
+                          <path d="M1,5 L11,5"></path>
+                          <polyline points="8 1 12 5 8 9"></polyline>
+                        </svg>
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <ContactForm />
+        </div>
+      </section>
+      <section id="map" style={{ paddingBottom: "50px" }}>
+        <div className="container">
+          <MapComponent />
         </div>
       </section>
       <section className={styles.faqSection}>

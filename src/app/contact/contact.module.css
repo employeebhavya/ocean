@@ -98,6 +98,9 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
+.getDirection {
+  margin-top: 10px;
+}
 /* media-query-css */
 
 @media only screen and (min-width: 551px) and (max-width: 1024px) {
