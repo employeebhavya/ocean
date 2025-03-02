@@ -16,16 +16,22 @@ function Leadership() {
           <h4>leadership</h4>
           <h2>Meet our Managing Director & CEO</h2>
           <p>
-            The organization is led by the most dynamic and highly visioned Mr.
-            SK Peter. With Fiery instinct, futuristic outlook, indomitable will
-            and a burning passion he has taken the company to the highest level.
+            Under the visionary leadership of Mr. S.K. Peter, the organization
+            has reached new heights of excellence. His strategic foresight,
+            relentless drive, and commitment to innovation have been
+            instrumental in shaping the company&apos;s success and industry
+            leadership.
           </p>
           <p>
-            His strength in delivering projects on time with superior quality
-            won projects of larger magnitude and Ocean paced forward with great
-            success. He built great alliances with architects and moved on from
-            turnkey general contracting company to design, build and handing
-            over superior model to clients.
+            Recognizing the potential of offering comprehensive solutions, he
+            transformed the company into a full-service turnkey general
+            contracting firm, encompassing Interior Works, Civil Construction,
+            and Infrastructure Development. By fostering strong alliances with
+            leading architects, he further elevated the company&apos;s
+            capabilities, evolving it from a general contracting firm into a
+            prominent EPC contractor—solidifying Ocean&apos;s formidable
+            presence in the fields of Interiors, Infrastructure Development, and
+            Civil Construction.
           </p>
         </div>
       </div>

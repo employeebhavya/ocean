@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Styles from "./ScrollSection.module.css";
 import Link from "next/link";
-import { BsArrowUpRight } from "react-icons/bs";
 import { useGSAP } from "@gsap/react";
 
 function ScrollSection() {
@@ -145,12 +144,13 @@ function ScrollSection() {
                   About Us
                 </h2>
                 <p className={Styles.aboutDescription} ref={descriptionRef}>
-                  Ocean Lifespaces India Private Limited, formerly Ocean
-                  Interiors Limited, was found in the year 1996. Under the
-                  visionary leadership of Mr. S.K. Peter, MD & CEO, today the
-                  company has expanded to become one of the best in the field of
-                  General Contracting Works including all MEP, Design & Build,
-                  Civil Construction & Facade works.
+                  Established in 1996 as Ocean Interiors Limited, Ocean
+                  Lifespaces India Private Limited has evolved into a premier
+                  name in the industry. Under the visionary leadership of Mr.
+                  S.K. Peter, MD & CEO, the company has expanded its expertise
+                  to encompass General Contracting, including MEP, Design &
+                  Build, Civil Construction, and Façade works, delivering
+                  excellence across all sectors.
                 </p>
                 <Link href={"/about"} ref={linkRef}>
                   <button class={Styles.cta}>
@@ -176,12 +176,14 @@ function ScrollSection() {
                       <div className={Styles.circleText}>Turnkey Solutions</div>
                     </div>
                   </Link>
-                  <Link href={"/services/fit-out-services"}>
+                  <Link href={"/services/interior-fit-out-services"}>
                     <div
                       className={Styles.circle}
                       ref={(el) => (circleRefs.current[1] = el)}
                     >
-                      <div className={Styles.circleText}>Fit-Out Services</div>
+                      <div className={Styles.circleText}>
+                        Interior Fit-Out Services
+                      </div>
                     </div>
                   </Link>
                   <Link href={"/services/civil-construction"}>

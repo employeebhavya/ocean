@@ -63,8 +63,8 @@ function FitOuts() {
   return (
     <>
       <HeaderInnerServices
-        pageTitle="Fit Outs"
-        serviceTitle="Fit Outs"
+        pageTitle="Interior Fit-Out Services"
+        serviceTitle="Interior Fit-Out Services"
         mainDescription="Tailored Fit-Out Solutions to Transform Your Space."
         highlights={highlights}
         rightImage1="/services/fitout1.png"

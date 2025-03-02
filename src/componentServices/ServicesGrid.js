@@ -12,9 +12,9 @@ const ServicesItems = [
   },
   {
     image: "/services/Link-3.png",
-    title: "Fit-Out Services",
-    description: `Transform spaces into functional and aesthetically pleasing environments with our specialized fit-out services. We provide customized interior solutions that blend design innovation with practicality.`,
-    link: "/services/fit-out-services",
+    title: "Interior Fit-Out Services",
+    description: `Transform spaces into functional and aesthetically pleasing environments with our specialized Interior Fit-Out Services. We provide customized interior solutions that blend design innovation with practicality.`,
+    link: "/services/interior-fit-out-services",
   },
   {
     image: "/services/Link-1.png",

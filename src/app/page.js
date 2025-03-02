@@ -128,21 +128,24 @@ function HomeMain() {
           <div className={Styles.rowDream}>
             <div className={Styles.columnDream}>
               <h4>enhance satisfaction by transcending quality standards</h4>
-              <h2>Turning Dreams into Reality</h2>
+              <h2>Delivering Dreams</h2>
               <p>
-                Ocean Lifespaces India Private Limited, formerly Ocean Interiors
-                Limited, was found in the year 1996. Under the visionary
-                leadership of Mr. S.K. Peter, MD & CEO, today the company has
-                expanded to become one of the best in the field of General
-                Contracting Works including all MEP, Design & Build, Civil
-                Construction & Facade works.
+                With almost three decades of experience in the field of Civil
+                Construction, Interior Fitout and Infrastructure Development,
+                our efforts are always focussed on exceeding our client&apos;s
+                expectations.
               </p>
               <p>
-                We aim to achieve our goal by constantly merging our systems,
-                processes, teams & activities to ensure that we remain on top of
-                our present and future clients need at all times. To achieve
-                success in all latitudes and become the only sought-after name
-                by Business Associates in all our endeavours and beyond.
+                With our Managing Director and CEO, Mr. S.K. Peter at the helm
+                of the business, we have made strides in becoming one of the
+                most sought-after companies in the field of turnkey interior
+                fitout contracting and civil construction.
+              </p>
+              <p>
+                We focus on creating world class structures and spaces, by
+                consistently upgrading our systems, techniques, and teams, to
+                ensure that we place the present and future needs of our
+                clientele, above all else.
               </p>
               <div className={Styles.dreamCounter}>
                 <div ref={counterRef} className={Styles.counterSection}>

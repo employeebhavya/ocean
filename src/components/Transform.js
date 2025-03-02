@@ -73,7 +73,7 @@ function Transform() {
       <div className="container">
         <div className={Styles.rowTransform}>
           <div className={Styles.columnTransform}>
-            <h2 ref={headingRef}>Transform your vision into reality</h2>
+            <h2 ref={headingRef}>Real Estate and Infrastructure</h2>
             <p ref={paragraphRef}>
               Specializing in bespoke interior design and turnkey solutions, we
               excel in creating personalized sanctuaries and functional marvels.
