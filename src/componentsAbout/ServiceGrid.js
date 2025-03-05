@@ -21,9 +21,9 @@ const services = [
   },
   {
     id: 2,
-    title: "Fit-Out Services",
+    title: "Interior Fit-Out Services",
     imgSrc: "/fitOuts.png",
-    link: "/services/fit-out-services",
+    link: "/services/interior-fit-out-services",
   },
   {
     id: 3,
@@ -127,7 +127,7 @@ const ServiceGrid = () => {
         <div className={Styles.gridContainer}>
           {services.map((service, index) => (
             <div
-              key={service.id}
+              key={service.title}
               className={Styles.gridItem}
               ref={(el) => (columnRefs.current[index] = el)}
             >

@@ -19,7 +19,7 @@ const ServicesItems = [
   {
     image: "/services/Link-1.png",
     title: "Civil Construction",
-    description: `With expertise in civil construction, we deliver high-quality projects ranging from residential buildings to commercial complexes. Our team ensures robust engineering, adherence to timelines, and sustainable practices.`,
+    description: `With expertise in civil construction, we specialize in delivering high-quality projects, including commercial complexes. Our team is committed to robust engineering, strict adherence to project timelines, and sustainable construction practices.`,
     link: "/services/civil-construction",
   },
   {

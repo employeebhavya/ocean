@@ -72,7 +72,7 @@ const ProjectSlider = () => {
       <div className="container">
         <div className={Styles.rowProjectSlider}>
           <div className={Styles.columnProjectSlider}>
-            <h2>Projects</h2>
+            <h2>Our Recent Projects</h2>
             <p>
               Since its inception, Ocean Lifespaces has consistently showcased
               its expertise in Turnkey Interiors and Civil Construction. Our

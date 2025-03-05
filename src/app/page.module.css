@@ -36,10 +36,15 @@
   text-transform: uppercase;
   font-weight: normal;
 }
-.columnDream h2 {
+.columnDream h2,
+.logoScroll h2 {
   font-size: clamp(20px, 2.5vw, 2.5vw);
   color: var(--color-dark-blue);
   font-weight: normal;
+}
+.logoScroll h2 {
+  text-align: center;
+  margin-bottom: 30px;
 }
 .columnDream p {
   font-size: clamp(15px, 1vw, 1vw);

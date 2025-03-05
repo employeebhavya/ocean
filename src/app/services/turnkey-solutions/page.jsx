@@ -7,7 +7,7 @@ function TurkneySolutions() {
   const highlights = [
     { img: "/services/paintbrush.png", text: "Design and Conceptualization" },
     { img: "/services/code.png", text: "Procurement and Sourcing" },
-    { img: "/services/presentation.png", text: "Project Management" },
+    // { img: "/services/presentation.png", text: "Project Management" },
     { img: "/services/receipt-text.png", text: "General Contracting Works" },
     { img: "/services/lamp-desk.png", text: "Interior Works" },
     { img: "/services/brick-wall.png", text: "Construction & Execution" },
@@ -43,7 +43,7 @@ function TurkneySolutions() {
         leftImage2="/services/turnkey2.png"
         rightImage2="/services/design3.png"
         clientsList="Our turnkey approach takes the burden off your shoulders, managing everything from procurement to construction and final handover. This ensures that your project runs smoothly and delivers the expected results with minimal disruption to your operations. We prioritize safety, efficiency, and environmental sustainability in every project, ensuring that every detail is meticulously managed."
-        transformationText="Transform your area with our design and accessory services, which combine expert advice and carefully chosen options to create a home that reflects your own style and personality."
+        transformationText="From concept to completion, our turnkey solutions handle every aspect of your project. We deliver end-to-end services, ensuring seamless execution and timely delivery, tailored to your specific requirements."
       />
       <RecentProjects projects={page3Projects} />
       <Newsletter />

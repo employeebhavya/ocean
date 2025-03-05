@@ -190,6 +190,7 @@ function HomeMain() {
       <Transform />
       <TestimonialHome />
       <section className={Styles.logoScroll}>
+        <h2>Our Recent Clients</h2>
         <LogoScroll />
       </section>
       <Newsletter />

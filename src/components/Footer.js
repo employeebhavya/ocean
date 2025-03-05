@@ -39,7 +39,7 @@ function Footer() {
               <div className={Styles.columnFooterColumnLink}>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>
-                    <strong>Head Office (HO):</strong>
+                    <strong>Head Office (HO): Chennai</strong>
                   </p>
                   <li>
                     <FaMapMarkerAlt size={15} />{" "}
@@ -66,7 +66,7 @@ function Footer() {
                 </div>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>
-                    <strong>Karnataka, Bangalore (Branch Office):</strong>
+                    <strong>Branch Office: Karnataka, Bangalore</strong>
                   </p>
                   <li>
                     <FaMapMarkerAlt size={15} />{" "}
@@ -94,7 +94,7 @@ function Footer() {
                 </div>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>
-                    <strong>Telangana, Hyderabad (Branch Office):</strong>
+                    <strong>Branch Office: Telangana, Hyderabad</strong>
                   </p>
                   <li>
                     <FaMapMarkerAlt size={15} />{" "}

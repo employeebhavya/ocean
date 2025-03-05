@@ -13,7 +13,7 @@ function Leadership() {
           </div>
         </div>
         <div className={styles.columnLeadership}>
-          <h4>leadership</h4>
+          <h4>Leading with Excellence</h4>
           <h2>Meet our Managing Director & CEO</h2>
           <p>
             Under the visionary leadership of Mr. S.K. Peter, the organization
