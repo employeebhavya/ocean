@@ -4,7 +4,6 @@
 import React, { useEffect, useRef } from "react";
 import Styles from "./ServiceGrid.module.css";
 import Link from "next/link";
-import Button from "../components/Button";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
