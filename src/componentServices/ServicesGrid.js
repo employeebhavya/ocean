@@ -31,7 +31,7 @@ const ServicesItems = [
   {
     image: "/services/Link-4.png",
     title: "Infrastructure Development",
-    description: `We are committed to shaping the future with cutting-edge infrastructure solutions. From urban developments to rural advancements, our expertise spans roads, bridges, and large-scale public structures. With a focus on innovation, sustainability, and excellence, we build resilient foundations for generations to come.`,
+    description: `Our expertise extends to specialized facilities, including international airports, electric battery factories, sporting facilities, petroleum lube plants and nuclear power plant maintenance, where we deliver corrosion-resistant coatings, fireproofing solutions, and safety-compliant designs, to name a few.`,
     link: "/services/infrastructure-development",
   },
 ];

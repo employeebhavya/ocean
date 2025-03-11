@@ -159,7 +159,7 @@ const NewsAndEvents = ({ list = 3 }) => {
     <section className={Styles.sectionNews} ref={newsEventsRef}>
       <div className="container">
         <div className={Styles.rowNews} ref={headingRef}>
-          <h4>Latest Updates, Inspiring Achievements</h4>
+          <h4>Latest updates & Inspiring achievements</h4>
           <h2>News and Events</h2>
         </div>
         <div className={Styles.grid}>
