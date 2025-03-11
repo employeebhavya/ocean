@@ -17,19 +17,34 @@ const Members = [
     description: "Managing Director & CEO",
   },
   {
+    image: "/about/team4.png",
+    title: "Mrs. Anitha Peter",
+    description: "Director I Operations",
+  },
+  {
+    image: "/about/sankar.png",
+    title: "Sankar",
+    description: "Director I Global",
+  },
+  {
     image: "/about/team2.png",
     title: "Mr. Arul Arumugam",
-    description: "Director",
+    description: "Director I North",
   },
   {
     image: "/about/team3.png",
-    title: "Mr. T. Nandakrishnan",
-    description: "Director",
+    title: "Sabapathy",
+    description: "Director I Civil",
   },
   {
-    image: "/about/team4.png",
-    title: "Mrs. Anitha Peter",
-    description: "Director",
+    image: "/about/vinod.png",
+    title: "Vinod",
+    description: "Director I Marine",
+  },
+  {
+    image: "/about/salai.png",
+    title: "Salai Dhavamani",
+    description: "Chief Finance Officer",
   },
 ];
 
@@ -97,7 +112,7 @@ function Team() {
           <div className={styles.rowTeam}>
             {Members.map((member, index) => (
               <div
-                key={member.title}
+                key={index}
                 className={styles.teamBox}
                 ref={(el) => (memberRefs.current[index] = el)}
               >

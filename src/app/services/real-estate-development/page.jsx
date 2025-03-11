@@ -7,8 +7,8 @@ function RealEstateDevelopment() {
   const highlights = [
     { img: "/services/land-plot.png", text: "Property Development" },
     { img: "/services/coins.png", text: "Real Estate Investment" },
-    { img: "/services/square-chart-gantt.png", text: "Property Management" },
-    { img: "/services/hand-coins.png", text: "Sales & Leasing" },
+    // { img: "/services/square-chart-gantt.png", text: "Property Management" },
+    // { img: "/services/hand-coins.png", text: "Sales & Leasing" },
     {
       img: "/services/blocks.png",
       text: "Design & Build (Real Estate Projects)",
