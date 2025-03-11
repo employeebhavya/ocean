@@ -10,11 +10,11 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
-                Boardridge – 2,00,000 SQ FT Interior Works, Bangalore
+                Boardridge - 2,00,000 SQ FT Interior Works, Bangalore
               </p>
             </div>
             <h2 className="h2">
@@ -43,9 +43,6 @@ function Page() {
               </li>
               <li>
                 <strong>Area:</strong> 2,00,000 sq. ft.
-              </li>
-              <li>
-                <strong>Value:</strong> Confidential
               </li>
             </ul>
           </div>

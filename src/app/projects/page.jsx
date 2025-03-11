@@ -8,15 +8,14 @@ function Projects() {
     <section className={styles.projects}>
       <div className="container">
         <div className={styles.rowMainProjects}>
-          <h2 className="h2">Our Projects</h2>
+          <h2 className="h2">Our Recent Projects</h2>
           <div className={styles.row1Projects}>
             <div className={styles.columnProjects}>
               <img src="/projectsOcean/p1.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Dell Project, Bangalore</h3>
                 <p className="description">
-                  Bangalore | Area - 2,00,000 sq. ft. | ₹70 Crore ($8.41
-                  Million)
+                  Bangalore | Area - 2,00,000 sq. ft.
                 </p>
                 <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -51,9 +50,7 @@ function Projects() {
               <img src="/projectsOcean/p4.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Bray Controls India Pvt. Ltd</h3>
-                <p className="description">
-                  Chennai | Area - 30,000 sq. ft. | Cost: ₹9.12 Crore
-                </p>
+                <p className="description">Chennai | Area - 30,000 sq. ft.</p>
                 <Link href="/projects/bray-controls-india-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -63,9 +60,7 @@ function Projects() {
               <img src="/projectsOcean/p5.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Hindustan International School</h3>
-                <p className="description">
-                  Chennai | Area - 80,000 sq. ft. | Cost: ₹15 Crore
-                </p>
+                <p className="description">Chennai | Area - 80,000 sq. ft.</p>
                 <Link href="/projects/hindustan-international-school-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -78,7 +73,7 @@ function Projects() {
               <div className={styles.content}>
                 <h3 className="h3">Swiss RE</h3>
                 <p className="description">
-                  Bangalore | Area - 2,00,000 sq. ft. | Cost: ₹60 Crores
+                  Bangalore | Area - 2,00,000 sq. ft.
                 </p>
                 <Link href="/projects/swiss-re-200000-sq-ft-interior-works-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -91,9 +86,7 @@ function Projects() {
               <img src="/projectsOcean/p7.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Tek Systems</h3>
-                <p className="description">
-                  Bangalore | Area - 42,000 sq. ft. | Cost: ₹4 Crore
-                </p>
+                <p className="description">Bangalore | Area - 42,000 sq. ft.</p>
                 <Link href="/projects/tek-systems-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -117,9 +110,7 @@ function Projects() {
               <img src="/projectsOcean/p9.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Maersk Office</h3>
-                <p className="description">
-                  Chennai | Area - 1,65,000 sq. ft. | ₹9 Cr
-                </p>
+                <p className="description">Chennai | Area - 1,65,000 sq. ft.</p>
                 <Link href="/projects/maersk-office-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -153,9 +144,7 @@ function Projects() {
               <img src="/projectsOcean/p12.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Olam Project</h3>
-                <p className="description">
-                  Bangalore | Area - Confidential | Cost: Confidential
-                </p>
+                <p className="description">Bangalore | Area - Confidential</p>
                 <Link href="/projects/tek-systems-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -165,9 +154,7 @@ function Projects() {
               <img src="/projectsOcean/p13.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">R1RCM</h3>
-                <p className="description">
-                  Chennai | Area - 51,000 sq. ft. | Cost: ₹10 Crore
-                </p>
+                <p className="description">Chennai | Area - 51,000 sq. ft.</p>
                 <Link href="/projects/RIRCM">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -191,9 +178,7 @@ function Projects() {
               <img src="/projectsOcean/p15.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">Danfoss</h3>
-                <p className="description">
-                  Chennai | Area - 5,00,000 sq. ft. | ₹66 Crores
-                </p>
+                <p className="description">Chennai | Area - 5,00,000 sq. ft.</p>
                 <Link href="/projects/danfoss-500000-sft-civil-interior-works-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
@@ -239,10 +224,7 @@ function Projects() {
               <img src="/projectsOcean/p19.png" alt="image" />
               <div className={styles.content}>
                 <h3 className="h3">KONE Project</h3>
-                <p className="description">
-                  Chennai | Area - 7,00,000 sq. ft. | Cost: ₹400 Crore ($48.7
-                  Million)
-                </p>
+                <p className="description">Chennai | Area - 7,00,000 sq. ft.</p>
                 <Link href="/projects/kone-project-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>

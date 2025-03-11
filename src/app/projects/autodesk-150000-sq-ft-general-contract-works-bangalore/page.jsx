@@ -10,11 +10,11 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
-                Autodesk – 1,50,000 SQ FT General Contract Works, Bangalore
+                Autodesk - 1,50,000 SQ FT General Contract Works, Bangalore
               </p>
             </div>
             <h2 className="h2">
@@ -46,9 +46,6 @@ function Page() {
               </li>
               <li>
                 <strong>Area:</strong> 1,50,000 sq. ft.
-              </li>
-              <li>
-                <strong>Value:</strong> Confidential
               </li>
             </ul>
           </div>

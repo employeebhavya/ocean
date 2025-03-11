@@ -10,11 +10,11 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
-                ZOHO Estancia – 3,50,000 SQ FT Turnkey Works, Chennai
+                ZOHO Estancia - 3,50,000 SQ FT Turnkey Works, Chennai
               </p>
             </div>
             <h2 className="h2">
@@ -40,9 +40,6 @@ function Page() {
               </li>
               <li>
                 <strong>Area:</strong> 3,50,000 sq. ft.
-              </li>
-              <li>
-                <strong>Value:</strong> ₹110 Crore
               </li>
             </ul>
           </div>

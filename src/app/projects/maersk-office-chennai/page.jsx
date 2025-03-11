@@ -10,7 +10,7 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">Maersk Office, Chennai</p>
@@ -40,9 +40,6 @@ function Page() {
               <li>
                 <strong>Area:</strong> 1,65,000 sq. ft.
               </li>
-              <li>
-                <strong>Value:</strong> ₹9 Cr
-              </li>
             </ul>
           </div>
           <div className="row2ProjectsInner">
@@ -51,9 +48,9 @@ function Page() {
               Ocean Lifespaces takes pride in delivering world-class workspaces
               that seamlessly blend functionality, aesthetics, and efficiency.
               The Maersk Office in Chennai, spanning an impressive 1,65,000 sq.
-              ft., was completed with a budget of ₹9 Cr. This project was a
-              testament to our expertise in crafting modern, high-performance
-              office spaces that foster productivity and innovation.
+              ft., This project was a testament to our expertise in crafting
+              modern, high-performance office spaces that foster productivity
+              and innovation.
             </p>
           </div>
           <div className="row2ProjectsInner">

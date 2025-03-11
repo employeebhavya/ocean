@@ -64,14 +64,15 @@ function AboutVision() {
           <div className={Styles.columnVsion}>
             <h3 className="h3">Mission and Vision</h3>
             <p className="description">
-              We aim to achieve our goal by constantly merging our systems,
-              processes, teams & activities to ensure that we remain on top of
-              our present and future clients need at all times.
+              We strive for excellence by continuously evolving our systems,
+              processes, and teams to stay ahead of our clients present and
+              future needs. Through innovation and dedication, we ensure
+              unparalleled service and customer satisfaction.
             </p>
             <p className="description">
-              To achieve success in all latitudes and become the only
-              sought-after name by Business Associates in all our endeavors and
-              beyond.
+              To establish ourselves as the most trusted and sought-after name
+              across industries, building lasting partnerships and achieving
+              success that transcends boundaries.
             </p>
             <img src="/about/vision-left.png" alt="image" />
           </div>

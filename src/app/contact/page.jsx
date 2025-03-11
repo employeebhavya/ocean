@@ -36,7 +36,10 @@ function Contact() {
                 <div className={styles.content}>
                   <h5 className="h5">Call</h5>
                   <p className="description">
-                    Call Us: +91-98410 22110<br></br>Tel: +91-44-6919 9900
+                    Call Us:{" "}
+                    <Link href="tel:919841022110"> +91-98410 22110</Link>
+                    <br></br>Tel:{" "}
+                    <Link href="tel:919841022110">+91-44-6919 9900</Link>
                   </p>
                 </div>
               </div>
@@ -101,7 +104,7 @@ function Contact() {
                   </div>
                 </div>
               </div>
-              <div className={styles.columnOtherLocations}>
+              {/* <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
                   <img src="/contact/map.png" alt="image" />
                   <div className={styles.content}>
@@ -203,7 +206,7 @@ function Contact() {
                     </Link>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <ContactForm />

@@ -103,7 +103,7 @@
   left: 10%;
   color: var(--color-white);
   width: 49%;
-  text-align: justify;
+  text-align: left;
 }
 
 /* media-query-css */

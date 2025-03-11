@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import Image from "next/image";
 import Styles from "./Footer.module.css";
 import Link from "next/link";
 import {
@@ -39,7 +38,7 @@ function Footer() {
               <div className={Styles.columnFooterColumnLink}>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>
-                    <strong>Head Office (HO): Chennai</strong>
+                    <strong>Head Office : Chennai</strong>
                   </p>
                   <li>
                     <FaMapMarkerAlt size={15} />{" "}
@@ -66,7 +65,7 @@ function Footer() {
                 </div>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>
-                    <strong>Branch Office: Karnataka, Bangalore</strong>
+                    <strong>Branch Office: Bangalore</strong>
                   </p>
                   <li>
                     <FaMapMarkerAlt size={15} />{" "}
@@ -94,7 +93,7 @@ function Footer() {
                 </div>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>
-                    <strong>Branch Office: Telangana, Hyderabad</strong>
+                    <strong>Branch Office: Hyderabad</strong>
                   </p>
                   <li>
                     <FaMapMarkerAlt size={15} />{" "}
@@ -121,8 +120,8 @@ function Footer() {
             </div>
             <div className={Styles.columnFooterRow}>
               <p>
-                Copyright © 2025 Ocean Lifespaces. All Rights Reserved. Designed
-                by Tectra Technologies.
+                Copyright © 2025 Ocean Lifespaces India Private Limited.
+                Designed by Tectra Technologies.
               </p>
               <div className={Styles.social}>
                 <Link

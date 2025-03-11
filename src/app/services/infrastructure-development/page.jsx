@@ -43,7 +43,7 @@ function InfrastructureDevelopment() {
         leftImage2="/services/infra2.png"
         rightImage2="/services/design3.png"
         clientsList="Our infrastructure solutions include everything from road construction and utilities to energy distribution and urban planning. We are committed to integrating sustainable practices in every project to minimize environmental impact while ensuring that the infrastructure we build is robust and future-ready."
-        transformationText="Transform your area with our design and accessory services, which combine expert advice and carefully chosen options to create a home that reflects your own style and personality."
+        transformationText="We develop resilient infrastructure, from roads to large-scale public projects, ensuring innovation, sustainability, and excellence for a better future."
       />
       {/* <RecentProjects projects={page5Projects} /> */}
       <Newsletter />

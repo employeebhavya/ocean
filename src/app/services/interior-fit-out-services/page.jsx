@@ -73,7 +73,7 @@ function FitOuts() {
         leftImage2="/services/fitout2.png"
         rightImage2="/services/design3.png"
         clientsList="From creating modern and ergonomic office spaces to refreshing retail environments, our fit-out services prioritize both aesthetics and practicality. We combine our expertise in interior design and construction to deliver solutions that meet your needs while also promoting operational efficiency and brand alignment. Whether it's a small refurbishment or a large-scale fit-out, we deliver exceptional results."
-        transformationText="Transform your area with our design and accessory services, which combine expert advice and carefully chosen options to create a home that reflects your own style and personality."
+        transformationText="Enhance your space with our expert interior fit-out solutions, seamlessly blending style and functionality to create environments that reflect your vision and unique aesthetic."
       />
       <RecentProjects projects={page4Projects} />
       <Newsletter />

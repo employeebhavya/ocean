@@ -89,8 +89,11 @@ function Team() {
               Management Team
             </h3>
             <p className="description" ref={decRef}>
-              Explore our elite design team, celebrated for expertise,
-              professionalism, and exceeding client expectations.
+              Meet the visionary leaders behind our success. Our management team
+              brings a wealth of experience, innovation, and dedication to every
+              project, ensuring excellence in execution and client satisfaction.
+              With a commitment to integrity and expertise, they drive our
+              mission to create exceptional spaces.
             </p>
           </div>
           <div className={styles.rowTeam}>

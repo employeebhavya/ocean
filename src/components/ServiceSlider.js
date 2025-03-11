@@ -161,7 +161,7 @@ const ServiceSlider = () => {
       <div className="container">
         <div className={Styles.rowServiceSlider}>
           <div className={Styles.columnServiceSlider} ref={headingRef}>
-            <h4>Enhance satisfaction by transcending quality standards</h4>
+            <h4>Redefining Excellence, Delivering Perfection</h4>
             <h2>Our Services</h2>
           </div>
           <div className={Styles.columnServiceSlider} ref={buttonRef}>

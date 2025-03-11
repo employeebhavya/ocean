@@ -70,8 +70,11 @@ function DriveUs() {
               What Drives Us
             </h3>
             <p className="description" ref={descriptionRef}>
-              Discover the driving forces behind our interior design activities,
-              which are powered by innovation and client delight.
+              Our passion for excellence fuels every project we undertake. With
+              a commitment to innovation, quality, and client satisfaction, we
+              craft spaces that inspire and elevate experiences. By blending
+              creativity with precision, we transform visions into reality,
+              ensuring every design reflects our dedication to perfection.
             </p>
           </div>
           <div className={styles.rowDriveUs}>

@@ -10,11 +10,11 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
-                Ground Floor Lobby Works – Taramani, Chennai
+                Ground Floor Lobby Works - Taramani, Chennai
               </p>
             </div>
             <h2 className="h2">
@@ -34,7 +34,7 @@ function Page() {
                 <strong>Location:</strong> Taramani, Chennai, India
               </li>
               <li>
-                <strong>Project Type:</strong> Design & Build – Ground Floor
+                <strong>Project Type:</strong> Design & Build - Ground Floor
                 Lobby Works
               </li>
               <li>
@@ -42,9 +42,6 @@ function Page() {
               </li>
               <li>
                 <strong>Area:</strong> 30,000 sq. ft.
-              </li>
-              <li>
-                <strong>Value:</strong> Confidential
               </li>
             </ul>
           </div>
@@ -91,7 +88,7 @@ function Page() {
             <h3 className="h4 dark">Expected Results:</h3>
             <ul>
               <li>
-                A visually stunning, high-end lobby that enhances the building’s
+                A visually stunning, high-end lobby that enhances the building's
                 identity.
               </li>
               <li>

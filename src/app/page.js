@@ -91,10 +91,10 @@ function HomeMain() {
 
   const startCounting = () => {
     const targets = [
-      { id: "employees", end: 1000 },
+      { id: "employees", end: 650 },
       { id: "projects", end: 60 },
       { id: "experience", end: 28 },
-      { id: "ongoing", end: 500 },
+      { id: "ongoing", end: 550 },
     ];
 
     targets.forEach((target) => {
@@ -126,7 +126,7 @@ function HomeMain() {
         <div className="container">
           <div className={Styles.rowDream}>
             <div className={Styles.columnDream}>
-              <h4>enhance satisfaction by transcending quality standards</h4>
+              <h4>Exceeding Expectations, Building Excellence</h4>
               <h2>Delivering Dreams</h2>
               <p>
                 With almost three decades of experience in the field of Civil

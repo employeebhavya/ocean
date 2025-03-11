@@ -16,6 +16,7 @@ const MenuItems = [
   { name: "About Us", path: "/about" },
   { name: "Projects", path: "/projects" },
   { name: "Clients", path: "/clients" },
+  { name: "Our Partners", path: "/partners" },
   { name: "News", path: "/news" },
 ];
 const MobileMenuItems = [

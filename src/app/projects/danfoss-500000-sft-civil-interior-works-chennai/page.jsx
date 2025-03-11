@@ -10,7 +10,7 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
@@ -44,9 +44,6 @@ function Page() {
               <li>
                 <strong>Area:</strong> 5,00,000 sq. ft.
               </li>
-              <li>
-                <strong>Value:</strong> ₹66 Crores
-              </li>
             </ul>
           </div>
           <div className="row2ProjectsInner">
@@ -54,10 +51,9 @@ function Page() {
             <p className="description">
               The Danfoss project in Chennai, covering a Built-Up Area (BUA) of
               5,00,000 sq. ft., involved civil and interior works for a
-              large-scale industrial and commercial facility. With a total
-              project value of ₹66 Crores, this project required a
-              well-coordinated approach to deliver high-quality infrastructure
-              while maintaining efficiency and sustainability.
+              large-scale industrial and commercial facility. This project
+              required a well-coordinated approach to deliver high-quality
+              infrastructure while maintaining efficiency and sustainability.
             </p>
           </div>
           <div className="row2ProjectsInner">

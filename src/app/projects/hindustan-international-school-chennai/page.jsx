@@ -10,7 +10,7 @@ function HindustanInternationalSchool() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
@@ -41,9 +41,6 @@ function HindustanInternationalSchool() {
               </li>
               <li>
                 <strong>Area:</strong> 80,000 sq. ft.
-              </li>
-              <li>
-                <strong>Value:</strong> ₹15 Crore
               </li>
             </ul>
           </div>

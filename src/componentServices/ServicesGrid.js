@@ -31,7 +31,7 @@ const ServicesItems = [
   {
     image: "/services/Link-4.png",
     title: "Infrastructure Development",
-    description: `We contribute to infrastructure development with state-of-the-art solutions for urban and rural projects. From roads and bridges to large-scale public structures, we focus on building a better future.`,
+    description: `We are committed to shaping the future with cutting-edge infrastructure solutions. From urban developments to rural advancements, our expertise spans roads, bridges, and large-scale public structures. With a focus on innovation, sustainability, and excellence, we build resilient foundations for generations to come.`,
     link: "/services/infrastructure-development",
   },
 ];

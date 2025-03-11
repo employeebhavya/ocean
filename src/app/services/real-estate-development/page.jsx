@@ -44,7 +44,7 @@ function RealEstateDevelopment() {
         leftImage2="/services/re2.png"
         rightImage2="/services/row3-right.png"
         clientsList="We also specialize in property management services, ensuring your assets are well-maintained, tenants are satisfied, and your investment provides long-term value. Our team of professionals is committed to helping you achieve your real estate goals, whether you're looking to buy, sell, lease, or invest in properties."
-        transformationText="Transform your area with our design and accessory services, which combine expert advice and carefully chosen options to create a home that reflects your own style and personality."
+        transformationText="We create exceptional residential and commercial spaces with strategic planning, innovative design, and superior construction."
       />
       {/* <RecentProjects projects={page1Projects} /> */}
       <Newsletter />

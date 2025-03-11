@@ -105,7 +105,7 @@ const ServiceGrid = () => {
         <div className={Styles.rowServiceGrid}>
           <div className={Styles.columnServiceGrid}>
             <h4 ref={heading1Ref}>
-              Enhance satisfaction by transcending quality standards
+              Redefining Excellence, Delivering Perfection
             </h4>
             <h2 ref={headingRef}>Our Services</h2>
           </div>

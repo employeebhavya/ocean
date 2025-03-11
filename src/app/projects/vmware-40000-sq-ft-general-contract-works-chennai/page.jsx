@@ -10,7 +10,7 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
@@ -46,9 +46,6 @@ function Page() {
               </li>
               <li>
                 <strong>Area:</strong> 40,000 sq. ft.
-              </li>
-              <li>
-                <strong>Value:</strong> ₹13 Crores
               </li>
             </ul>
           </div>

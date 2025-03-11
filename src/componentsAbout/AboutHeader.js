@@ -60,8 +60,8 @@ function AboutHeader() {
 
   const startCounting = () => {
     const targets = [
-      { id: "employees", end: 1000 },
-      { id: "projects", end: 500 },
+      { id: "employees", end: 650 },
+      { id: "projects", end: 550 },
       { id: "experience", end: 28 },
     ];
 

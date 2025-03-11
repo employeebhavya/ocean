@@ -11,8 +11,7 @@ function News() {
             <div className={styles.columnNews}>
               <h2 className="h3">News & Events</h2>
               <p className="description">
-                Discover our most recent insights and updates on interior design
-                trends.
+                Stay updated with our latest trends, projects, and achievements.
               </p>
               <div className={styles.innerColumnNews}>
                 <img
@@ -27,13 +26,12 @@ function News() {
             <div className={styles.columnNews}>
               <img src="/news/Link.png" alt="image" />
               <h4 className="h4">
-                Ocean Lifespaces Wins Prestigious Contract to Redesign Tech
-                Giants Headquarters
+                Ocean Lifespaces Secures Landmark Headquarters Redesign Project
               </h4>
               <p className="description">
-                Ocean Lifespaces secures a major project to transform the
-                interior of a prominent tech companys headquarters, emphasizing
-                innovative design and functionality.
+                We are proud to transform a leading tech giant’s headquarters
+                with innovative design and seamless functionality, setting new
+                benchmarks in workspace excellence.
               </p>
             </div>
           </div>

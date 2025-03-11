@@ -10,7 +10,7 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
@@ -47,9 +47,6 @@ function Page() {
               <li>
                 <strong>Area:</strong> 60,000 sq. ft.
               </li>
-              <li>
-                <strong>Value:</strong> ₹13 Crores
-              </li>
             </ul>
           </div>
           <div className="row2ProjectsInner">
@@ -58,10 +55,9 @@ function Page() {
               The Expeditors project in Chennai, spanning 60,000 sq. ft.,
               involved design and build works to create a state-of-the-art
               workspace that reflects innovation, functionality, and efficiency.
-              The project, valued at ₹13 Crores, required an integrated
-              approach, combining architecture, engineering, and construction to
-              deliver a turnkey solution that aligns with modern corporate
-              requirements.
+              The project, required an integrated approach, combining
+              architecture, engineering, and construction to deliver a turnkey
+              solution that aligns with modern corporate requirements.
             </p>
           </div>
           <div className="row2ProjectsInner">

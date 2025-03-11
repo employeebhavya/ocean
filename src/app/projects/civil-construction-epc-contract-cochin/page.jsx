@@ -10,7 +10,7 @@ function Page() {
           <div className="rowProjectsInner">
             <div className="headerProjectsInner">
               <Link href="/projects">
-                <span className="description">Our Projects</span>
+                <span className="description">Our Recent Projects</span>
               </Link>
               <LuChevronRight />
               <p className="description">
@@ -43,21 +43,17 @@ function Page() {
               <li>
                 <strong>Area:</strong> Confidential
               </li>
-              <li>
-                <strong>Value:</strong> ₹450 Cr ($54.8M)
-              </li>
             </ul>
           </div>
           <div className="row2ProjectsInner">
             <h3 className="h4 dark">Project Overview:</h3>
             <p className="description">
-              The 450 Cr ($54.8M) Civil Construction Project in Cochin was an
-              extensive EPC (Engineering, Procurement, and Construction)
-              contract, executed in three phases (Phase I, II, III). This
-              large-scale development focused on delivering robust
-              infrastructure with world-class construction standards, ensuring
-              efficiency, safety, and sustainability throughout the project
-              lifecycle.
+              The Civil Construction Project in Cochin was an extensive EPC
+              (Engineering, Procurement, and Construction) contract, executed in
+              three phases (Phase I, II, III). This large-scale development
+              focused on delivering robust infrastructure with world-class
+              construction standards, ensuring efficiency, safety, and
+              sustainability throughout the project lifecycle.
             </p>
           </div>
           <div className="row2ProjectsInner">
