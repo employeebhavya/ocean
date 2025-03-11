@@ -41,7 +41,7 @@ function InfrastructureDevelopment() {
         companyDescription1="Ocean leads the way in infrastructure development, offering cutting-edge solutions for both urban and rural projects. Our focus is on building sustainable, long-lasting infrastructure that supports growth, improves quality of life, and enhances economic development. We specialize in transportation, utilities, and energy infrastructure, ensuring that all projects contribute to a better future."
         // companyDescription2="Having achieved a dominant position in the industry and having won the heart of numerous clients, Ocean has gathered all its expertise and grabbed opportunities for innovation and faster project delivery as one unified flow of work from initial concept through completion."
         leftImage2="/services/infra2.png"
-        rightImage2="/services/design3.png"
+        rightImage2="/services/Infra-float.png"
         clientsList="Our infrastructure solutions include everything from road construction and utilities to energy distribution and urban planning. We are committed to integrating sustainable practices in every project to minimize environmental impact while ensuring that the infrastructure we build is robust and future-ready."
         transformationText="We develop resilient infrastructure, from roads to large-scale public projects, ensuring innovation, sustainability, and excellence for a better future."
       />

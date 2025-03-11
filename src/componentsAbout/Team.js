@@ -92,8 +92,6 @@ function Team() {
               Meet the visionary leaders behind our success. Our management team
               brings a wealth of experience, innovation, and dedication to every
               project, ensuring excellence in execution and client satisfaction.
-              With a commitment to integrity and expertise, they drive our
-              mission to create exceptional spaces.
             </p>
           </div>
           <div className={styles.rowTeam}>

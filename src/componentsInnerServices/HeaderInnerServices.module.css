@@ -99,7 +99,7 @@
 }
 .row3HeaderInnerServices .columnRow3Is:nth-child(2) p {
   position: absolute;
-  top: 30%;
+  top: 25%;
   left: 10%;
   color: var(--color-white);
   width: 49%;
