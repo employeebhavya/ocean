@@ -19,7 +19,7 @@
 .mainRowTeam .rowTeam:nth-child(2) {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 2vw;
+  gap: 3vw;
 }
 .mainRowTeam .rowTeam:nth-child(2) img {
   width: 100%;
