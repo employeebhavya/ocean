@@ -41,7 +41,13 @@
     border-right: none;
   }
 
-  .rowClients > div:nth-last-child(-n + 4) {
+  .rowClients > div:nth-last-child(-n + 5) {
+    border-bottom: none;
+  }
+  .rowClientsOngoing > div:nth-last-child(-n + 5) {
+    border-bottom: 1px solid #ccc;
+  }
+  .rowClientsOngoing > div:nth-last-child(-n + 4) {
     border-bottom: none;
   }
 }
@@ -67,7 +73,13 @@
     border-right: none;
   }
 
-  .rowClients > div:nth-last-child(-n + 3) {
+  .rowClients > div:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
+  .rowClientsOngoing > div:nth-last-child(-n + 2) {
+    border-bottom: 1px solid #ccc;
+  }
+  .rowClientsOngoing > div:nth-last-child(-n + 1) {
     border-bottom: none;
   }
 }
