@@ -5,18 +5,26 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 
 const images = [
-  "/logos/logo1.png",
-  "/logos/logo2.png",
-  "/logos/logo3.png",
-  "/logos/logo4.png",
-  "/logos/logo5.png",
-  "/logos/logo6.png",
-  "/logos/logo7.png",
-  "/logos/logo8.png",
-  "/logos/logo1.png",
-  "/logos/logo2.png",
-  "/logos/logo3.png",
-  "/logos/logo4.png",
+  "/clients/1.png",
+  "/clients/2.png",
+  "/clients/3.png",
+  "/clients/4.png",
+  "/clients/5.png",
+  "/clients/6.png",
+  "/clients/7.png",
+  "/clients/8.png",
+  "/clients/9.png",
+  "/clients/10.png",
+  "/clients/11.png",
+  "/clients/12.png",
+  "/clients/13.png",
+  "/clients/14.png",
+  "/clients/15.png",
+  "/clients/1.png",
+  "/clients/2.png",
+  "/clients/3.png",
+  "/clients/4.png",
+  "/clients/5.png",
 ];
 
 export default function LogoScroll() {
