@@ -15,21 +15,75 @@ function TurkneySolutions() {
   ];
   const page3Projects = [
     {
-      imgSrc: "/serviceinner/t1.png",
-      title: "Hindustan International School",
-      location: "Chennai, India",
+      imgSrc: "/services/danfoss.jpg",
+      title: "Danfoss",
     },
     {
-      imgSrc: "/serviceinner/t2.png",
-      title: "Kone Project",
-      location: "Chennai, India",
+      imgSrc: "/services/zoho.jpg",
+      title: "Zoho Estancia",
     },
     {
-      imgSrc: "/serviceinner/t3.png",
-      title: "Bray Controls",
-      location: "Chennai, India",
+      imgSrc: "/services/ford.jpg",
+      title: "Ford",
+    },
+    {
+      imgSrc: "/services/gecapital.jpg",
+      title: "GE Capital",
+    },
+    {
+      imgSrc: "/services/hp.jpg",
+      title: "HP",
+    },
+    {
+      imgSrc: "/services/hsbc.jpg",
+      title: "HSBC",
+    },
+    {
+      imgSrc: "/services/kbr.jpg",
+      title: "KBR",
+    },
+    {
+      imgSrc: "/services/kmpg.jpg",
+      title: "KPMG",
+    },
+    {
+      imgSrc: "/services/nvidia.jpg",
+      title: "Nvidia",
+    },
+    {
+      imgSrc: "/services/pharmed.jpg",
+      title: "Pharmed",
+    },
+    {
+      imgSrc: "/services/pwc.jpg",
+      title: "PWC",
+    },
+    {
+      imgSrc: "/services/shell.jpg",
+      title: "Shell",
+    },
+    {
+      imgSrc: "/services/siliconlab.jpg",
+      title: "Silicon Lab",
+    },
+    {
+      imgSrc: "/services/simpliworks.jpg",
+      title: "Simpliworks",
+    },
+    {
+      imgSrc: "/services/247.jpg",
+      title: "24/7",
+    },
+    {
+      imgSrc: "/services/dell.jpg",
+      title: "Dell",
+    },
+    {
+      imgSrc: "/services/hdfc.jpg",
+      title: "HDFC",
     },
   ];
+
   return (
     <>
       <HeaderInnerServices

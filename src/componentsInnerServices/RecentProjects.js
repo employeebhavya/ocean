@@ -1,72 +1,84 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import React, { useRef, useEffect } from "react";
-import styles from "./RecentProjects.module.css";
+import React, { useRef, useEffect, useState } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { gsap } from "gsap";
+import styles from "./RecentProjects.module.css";
 
 const RecentProjects = ({ projects }) => {
   const sliderRef = useRef(null);
-  const slideRef = useRef(null);
-  const currentSlide = useRef(0);
-  const totalSlides = projects.length;
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [slidesToShow, setSlidesToShow] = useState(3); // Default for desktop
+
+  const updateSlidesToShow = () => {
+    if (window.innerWidth < 768) {
+      setSlidesToShow(1); // Mobile
+    } else if (window.innerWidth < 1024) {
+      setSlidesToShow(2); // Tablet
+    } else {
+      setSlidesToShow(3); // Desktop
+    }
+  };
 
   useEffect(() => {
-    gsap.set(sliderRef.current, { x: 0 });
+    updateSlidesToShow();
+    window.addEventListener("resize", updateSlidesToShow);
+    return () => window.removeEventListener("resize", updateSlidesToShow);
   }, []);
 
   const handleNext = () => {
-    const slideWidth = slideRef.current.offsetWidth + window.innerWidth * 0.01;
-    currentSlide.current = (currentSlide.current + 1) % totalSlides;
-    gsap.to(sliderRef.current, {
-      x: -(slideWidth * currentSlide.current),
-      duration: 0.7,
-      ease: "power2.inOut",
-    });
+    setCurrentSlide(
+      (prev) => (prev + 1) % (projects.length - slidesToShow + 1)
+    );
   };
 
   const handlePrev = () => {
-    const slideWidth = slideRef.current.offsetWidth + window.innerWidth * 0.01;
-    currentSlide.current =
-      (currentSlide.current - 1 + totalSlides) % totalSlides;
+    setCurrentSlide(
+      (prev) =>
+        (prev - 1 + (projects.length - slidesToShow + 1)) %
+        (projects.length - slidesToShow + 1)
+    );
+  };
+
+  useEffect(() => {
+    const slideWidth =
+      sliderRef.current.children[0].offsetWidth +
+      parseFloat(window.getComputedStyle(sliderRef.current).gap);
     gsap.to(sliderRef.current, {
-      x: -(slideWidth * currentSlide.current),
+      x: -currentSlide * slideWidth,
       duration: 0.7,
       ease: "power2.inOut",
     });
-  };
+  }, [currentSlide, slidesToShow]);
 
   return (
     <section className={styles.recentProjects}>
       <div className="container">
         <div className={styles.container}>
           <div className={styles.leftColumn}>
-            <h2 className="h2">Recent Projects</h2>
-            <p className="description">
+            <h2>Recent Projects</h2>
+            <p>
               Ever since inception, Ocean Lifespaces has taken pride in its
               portfolio of completed Turnkey Interiors & Civil Construction.
             </p>
             <div className={styles.arrowContainer}>
               <div className={styles.arrow} onClick={handlePrev}>
-                ←
+                <FaArrowLeft />
               </div>
               <div className={styles.arrow} onClick={handleNext}>
-                →
+                <FaArrowRight />
               </div>
             </div>
           </div>
           <div className={styles.rightColumn}>
             <div className={styles.slider} ref={sliderRef}>
               {projects.map((project, index) => (
-                <div key={index} className={styles.slide} ref={slideRef}>
-                  <img
-                    src={project.imgSrc}
-                    alt={project.title}
-                    className={styles.carouselImage}
-                  />
+                <div key={index} className={styles.slide}>
+                  <img src={project.imgSrc} alt={project.title} />
                   <div className={styles.projectInfo}>
-                    <h4 className="h4">{project.title}</h4>
-                    <p className="description">{project.location}</p>
+                    <h4>{project.title}</h4>
+                    <p>{project.location}</p>
                   </div>
                 </div>
               ))}

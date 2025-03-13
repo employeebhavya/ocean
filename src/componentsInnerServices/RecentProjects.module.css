@@ -1,13 +1,14 @@
 .recentProjects {
-  padding: clamp(40px, 5vh, 5vh) 0;
+  padding: 50px 0;
   position: relative;
+  padding-bottom: 0;
 }
 
 .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 5vw;
+  gap: 5vw;
 }
 
 .leftColumn {
@@ -29,7 +30,7 @@
 .arrowContainer {
   display: flex;
   gap: 1rem;
-  margin-top: clamp(15px, 5vh, 5vh);
+  margin-top: 15px;
 }
 
 .arrow {
@@ -57,14 +58,17 @@
   display: flex;
   flex-direction: column;
 }
-
+.slide img {
+  width: 100%;
+  border-radius: 10px;
+}
 .carouselImage {
   width: 100%;
-  border-radius: clamp(10px, 1vw, 1vw);
+  border-radius: 10px;
 }
 
 .projectInfo {
-  margin-top: clamp(12px, 2vh, 2vh);
+  margin-top: 12px;
   text-align: left;
 }
 
@@ -72,12 +76,11 @@
   color: #707070;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 1024px) {
   .container {
-    flex-direction: column; /* Stack on smaller screens */
+    flex-direction: column;
     align-items: flex-start;
-    row-gap: 5vw; /* Add space between the columns */
+    row-gap: 5vw;
   }
 
   .rightColumn {
@@ -85,11 +88,11 @@
   }
 
   .slider {
-    gap: 2vw; /* Slightly larger gap on smaller screens for better spacing */
+    gap: 2vw;
   }
 
   .slide {
-    min-width: calc(100% / 2.2 - 2vw); /* Adjust for 2 slides on tablet */
+    min-width: calc(100% / 2.2 - 2vw);
   }
 
   .arrow {
@@ -104,11 +107,11 @@
 
 @media (max-width: 768px) {
   .leftColumn h2 {
-    font-size: 1.75rem; /* Slightly reduce the heading size */
+    font-size: 1.75rem;
   }
 
   .description {
-    font-size: 0.9rem; /* Adjust font size for readability */
+    font-size: 0.9rem;
   }
 
   .arrow {
@@ -117,11 +120,11 @@
   }
 
   .slider {
-    gap: 3vw; /* Larger gap for smaller screens */
+    gap: 3vw;
   }
 
   .slide {
-    min-width: calc(100% / 1.5 - 3vw); /* Show 1.5 slides on mobile */
+    min-width: calc(100% / 1.5 - 3vw);
   }
 
   .carouselImage {
@@ -152,9 +155,7 @@
   }
 
   .slide {
-    min-width: calc(
-      100% / 1.2 - 3vw
-    ); /* Show 1.2 slides on very small screens */
+    min-width: calc(100% / 1.2 - 3vw);
   }
 
   .carouselImage {

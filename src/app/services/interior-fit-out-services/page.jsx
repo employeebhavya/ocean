@@ -14,49 +14,20 @@ function FitOuts() {
 
   const page4Projects = [
     {
-      imgSrc: "/serviceinner/HDFC.png",
-      title: "HDFC",
-      location: "Chennai, India",
+      imgSrc: "/services/genysis.jpg",
+      title: "Genysis",
     },
     {
-      imgSrc: "/serviceinner/Ajuba.png",
-      title: "Ajuba",
-      location: "Chennai, India",
+      imgSrc: "/services/tafe.jpg",
+      title: "Tafe",
     },
     {
-      imgSrc: "/serviceinner/Bray-Controls.png",
-      title: "Bray Control",
-      location: "Chennai, India",
+      imgSrc: "/services/daimler.jpg",
+      title: "Daimler",
     },
     {
-      imgSrc: "/serviceinner/olam.png",
-      title: "Olam",
-      location: "Chennai, India",
-    },
-    {
-      imgSrc: "/serviceinner/Maesrk.png",
-      title: "Maesrk",
-      location: "Chennai, India",
-    },
-    {
-      imgSrc: "/serviceinner/Swiss-Re.png",
-      title: "Swiss Re",
-      location: "Chennai, India",
-    },
-    {
-      imgSrc: "/serviceinner/PWC.png",
-      title: "PWC",
-      location: "Chennai, India",
-    },
-    {
-      imgSrc: "/serviceinner/Pharmed.png",
-      title: "Pharmed",
-      location: "Chennai, India",
-    },
-    {
-      imgSrc: "/serviceinner/Shell.png",
-      title: "Shell",
-      location: "Chennai, India",
+      imgSrc: "/services/swissre.jpg",
+      title: "SwissRe",
     },
   ];
 

@@ -14,19 +14,44 @@ function CivilConstruction() {
 
   const page2Projects = [
     {
-      imgSrc: "/services/civil-slide-1.png",
-      title: "Project One",
-      location: "Chennai, India",
+      imgSrc: "/services/alf.jpg",
+      title: "Alf",
     },
     {
-      imgSrc: "/services/civil-slide-2.png",
-      title: "Project Two",
-      location: "Chennai, India",
+      imgSrc: "/services/braycontrols.jpg",
+      title: "Bray Controls",
     },
     {
-      imgSrc: "/services/civil-slide-1.png",
-      title: "Project Three",
-      location: "Chennai, India",
+      imgSrc: "/services/colgatepalmolive.jpg",
+      title: "Colgate Palmolive",
+    },
+    {
+      imgSrc: "/services/hindustaninternationalschool.jpg",
+      title: "Hindustan International School",
+    },
+    {
+      imgSrc: "/services/hotelgreysuit.jpg",
+      title: "Hotel Grey Suit",
+    },
+    {
+      imgSrc: "/services/iocl.jpg",
+      title: "IOCL",
+    },
+    {
+      imgSrc: "/services/kone.jpg",
+      title: "KONE",
+    },
+    {
+      imgSrc: "/services/pacques.jpg",
+      title: "Pacques",
+    },
+    {
+      imgSrc: "/services/parksonspackaging.jpg",
+      title: "Parksons Packaging",
+    },
+    {
+      imgSrc: "/services/emerson.jpg",
+      title: "Emerson",
     },
   ];
 
@@ -45,7 +70,7 @@ function CivilConstruction() {
         clientsList="Whether it’s building homes, offices, or specialized industrial facilities, we ensure that each project is completed to the highest standards. Our civil construction services extend to site preparation, foundation work, and beyond, ensuring that every phase of the construction process is completed with precision. We also provide tailored solutions for unique project requirements."
         transformationText="We bring excellence to civil construction, delivering durable and innovative structures, from commercial complexes to large-scale developments. Our commitment to precision engineering, timely execution, and sustainability ensures superior quality in every project."
       />
-      {/* <RecentProjects projects={page2Projects} /> */}
+      <RecentProjects projects={page2Projects} />
       <Newsletter />
     </>
   );
