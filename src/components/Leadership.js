@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import styles from "./Leadership.module.css";
 
 function Leadership() {
@@ -6,7 +6,7 @@ function Leadership() {
     <section className={styles.Leadership}>
       <div className={styles.mainRowLeadership}>
         <div className={styles.columnLeadership}>
-          <img src="/leader.png" alt="Leader" />
+          <Image width={500} height={200} src="/leader.png" alt="Leader" />
           <div className={styles.floatRow}>
             <h3 className="h4">Mr S.K. Peter</h3>
             <p className="description">Managing Director & CEO</p>

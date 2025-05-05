@@ -1,11 +1,10 @@
-"use client";
-/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect, useLayoutEffect, useRef } from "react";
 import Styles from "./InnerNews.module.css";
 import Link from "next/link";
 import { BsArrowUpRight } from "react-icons/bs";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -176,7 +175,12 @@ const InnerNews = () => {
               className={Styles.card}
               ref={(el) => (cardsRef.current[index] = el)}
             >
-              <img src={news.image} alt={news.title} />
+              <Image
+                width={500}
+                height={200}
+                src={news.image}
+                alt={news.title}
+              />
               <div className={Styles.dateBarNews}>
                 <p>{timeAgo(news.date)}</p>
                 <p>{news.date.slice(0, 10)}</p>

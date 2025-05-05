@@ -1,9 +1,11 @@
-"use client";
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
 import { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
 import Link from "next/link";
+import Image from "next/image";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(Draggable);

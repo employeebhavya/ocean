@@ -1,6 +1,14 @@
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-Image width={500} height={200}-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "KONE Office Chennai – Ocean Lifespaces Pvt Ltd",
+  description:
+    "Explore quality! kone project in chennai was executed with precision by Ocean Lifespaces India Pvt Ltd.",
+  keywords: "KONE project in Chennai",
+};
 
 function Page() {
   return (
@@ -21,7 +29,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/kone/p1.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -133,16 +141,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/kone/p2.png" alt="image" />
-            <img src="/kone/p3.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p2.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/kone/p4.png" alt="image" />
-            <img src="/kone/p5.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p4.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/kone/p6.png" alt="image" />
-            <img src="/kone/p7.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p6.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p7.png" alt="image" />
           </div>
         </div>
       </div>

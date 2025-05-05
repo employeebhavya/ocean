@@ -1,11 +1,11 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
+
 import React, { useState, useEffect, useLayoutEffect, useRef } from "react";
 import Styles from "./NewsAndEvents.module.css";
 import Link from "next/link";
-import { BsArrowUpRight } from "react-icons/bs";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -170,7 +170,12 @@ const NewsAndEvents = ({ list = 3 }) => {
               ref={(el) => (cardsRef.current[index] = el)}
             >
               <div className={Styles.imageDiv}>
-                <img src={news.image} alt={news.title} />
+                <Image
+                  width={480}
+                  height={282}
+                  src={news.image}
+                  alt={news.title}
+                />
               </div>
               <div className={Styles.contentDiv}>
                 <div className={Styles.dateBarNews}>

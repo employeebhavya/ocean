@@ -1,10 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import Styles from "./AboutVision.module.css";
+import Image from "next/image";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -52,7 +52,7 @@ function AboutVision() {
     <>
       <section ref={visionTopRef} className={Styles.visionTop}>
         <div className={Styles.rowVisionTop}>
-          <img src="/about/quote.png" alt="image" />
+          <Image width={54} height={33} src="/about/quote.png" alt="image" />
           <p className="h4">
             We have collaborated with some of the leading Architects and Project
             Management Consultants (PMCs) in India, on one-of-a-kind projects.
@@ -74,10 +74,20 @@ function AboutVision() {
               across industries, building lasting partnerships and achieving
               success that transcends boundaries.
             </p>
-            <img src="/about/vision-left.png" alt="image" />
+            <Image
+              width={300}
+              height={100}
+              src="/about/vision-left.png"
+              alt="image"
+            />
           </div>
           <div className={Styles.columnVsion}>
-            <img src="/about/vision-right.png" alt="image" />
+            <Image
+              width={300}
+              height={100}
+              src="/about/vision-right.png"
+              alt="image"
+            />
           </div>
         </div>
       </section>

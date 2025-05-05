@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import React, { useState } from "react";
 import styles from "./Slider.module.css";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import Image from "next/image";
 
 const Slider = () => {
   const images = [
@@ -47,12 +47,16 @@ const Slider = () => {
       </button>
       <div className={styles.slider}>
         <div className={styles.imageWrapper}>
-          <img
+          <Image
+            width={500}
+            height={300}
             src={images[currentIndex]}
             alt="Slide"
             className={styles.sliderImage}
           />
-          <img
+          <Image
+            width={500}
+            height={300}
             src={images[(currentIndex + 1) % images.length]}
             alt="Next Slide"
             className={styles.sliderImage}

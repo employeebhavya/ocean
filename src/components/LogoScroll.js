@@ -1,8 +1,8 @@
 "use client";
-/* eslint-disable @next/next/no-img-element */
 
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
+import Image from "next/image";
 
 const images = [
   "/clients/1.png",
@@ -93,7 +93,9 @@ export default function LogoScroll() {
       }}
     >
       {images.concat(images).map((src, index) => (
-        <img
+        <Image
+          width={184}
+          height={104}
           key={index}
           alt={`logo-${index}`}
           src={src}

@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "HDFC Office Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "See success! hdfc in chennai office was delivered with efficiency and excellence by Ocean Lifespaces.",
+  keywords: "HDFC in Chennai",
+};
 
 function Page() {
   return (
@@ -21,7 +28,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/hdfc/p1.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -89,16 +96,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/hdfc/p2.png" alt="image" />
-            <img src="/hdfc/p3.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p2.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/hdfc/p4.png" alt="image" />
-            <img src="/hdfc/p5.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p4.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/hdfc/p6.png" alt="image" />
-            <img src="/hdfc/p7.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p6.png" alt="image" />
+            <Image width={500} height={200} src="/hdfc/p7.png" alt="image" />
           </div>
         </div>
       </div>

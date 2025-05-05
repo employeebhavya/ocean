@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Simpliworks in Hyderabad - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Tour innovation! simpliworks in hyderabad office reflects agile and functional design by Ocean.",
+  keywords: "Simpliworks in Hyderabad",
+};
 
 function Page() {
   return (
@@ -25,7 +32,9 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/simpli/p1.png"
               alt="Simpliworks Civil & Interior Works"
             />
@@ -113,16 +122,46 @@ function Page() {
             </ul>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/simpli/p2.png" alt="Simpliworks Interior Works" />
-            <img src="/simpli/p3.png" alt="Simpliworks Civil Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/simpli/p2.png"
+              alt="Simpliworks Interior Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/simpli/p3.png"
+              alt="Simpliworks Civil Works"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/simpli/p4.png" alt="Simpliworks Project" />
-            <img src="/simpli/p5.png" alt="Simpliworks Office Space" />
+            <Image
+              width={500}
+              height={200}
+              src="/simpli/p4.png"
+              alt="Simpliworks Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/simpli/p5.png"
+              alt="Simpliworks Office Space"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/simpli/p6.png" alt="Simpliworks Project Interior" />
-            <img src="/simpli/p7.png" alt="Simpliworks Workspace" />
+            <Image
+              width={500}
+              height={200}
+              src="/simpli/p6.png"
+              alt="Simpliworks Project Interior"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/simpli/p7.png"
+              alt="Simpliworks Workspace"
+            />
           </div>
           <div className="row2ProjectsInner">
             <h3 className="h4 dark">Result:</h3>

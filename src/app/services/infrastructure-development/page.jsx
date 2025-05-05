@@ -2,6 +2,13 @@ import RecentProjects from "../../../componentsInnerServices/RecentProjects";
 import HeaderInnerServices from "../../../componentsInnerServices/HeaderInnerServices";
 import Newsletter from "../../../components/Newsletter";
 
+export const metadata = {
+  title: "Infrastructure Development in Chennai – Ocean Lifespaces Pvt Ltd",
+  description:
+    "Develop with us! infrastructure development in chennai powered by Ocean's innovative vision.",
+  keywords: "Infrastructure Development in Chennai",
+};
+
 function InfrastructureDevelopment() {
   // Define the dynamic content here
   const highlights = [

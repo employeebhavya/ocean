@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Dell Office Bangalore - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Check it out! dell bangalore facility built with modern workplace solutions by Ocean Lifespaces.",
+  keywords: "dell bangalore",
+};
 
 function Page() {
   return (
@@ -21,7 +28,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/dell/p1.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -128,16 +135,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/dell/p2.png" alt="image" />
-            <img src="/dell/p3.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p2.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/dell/p4.png" alt="image" />
-            <img src="/dell/p5.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p4.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/dell/p6.png" alt="image" />
-            <img src="/dell/p7.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p6.png" alt="image" />
+            <Image width={500} height={200} src="/dell/p7.png" alt="image" />
           </div>
         </div>
       </div>

@@ -2,6 +2,13 @@ import RecentProjects from "../../../componentsInnerServices/RecentProjects";
 import HeaderInnerServices from "../../../componentsInnerServices/HeaderInnerServices";
 import Newsletter from "../../../components/Newsletter";
 
+export const metadata = {
+  title: "Interior Fit-Out Services in Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Design smart! interior fit-out services in chennai crafted for productivity and brand presence.",
+  keywords: "Interior Fit-Out Services in Chennai",
+};
+
 function FitOuts() {
   // Define the dynamic content here
   const highlights = [

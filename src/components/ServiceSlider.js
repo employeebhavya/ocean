@@ -6,7 +6,6 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import Styles from "./ServiceSlider.module.css";
 import Link from "next/link";
-import { BsArrowUpRight } from "react-icons/bs";
 
 // Register GSAP Plugins only on the client-side
 if (typeof window !== "undefined") {

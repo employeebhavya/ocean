@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 // Slider.js
 "use client";
 import { useEffect, useRef, useState } from "react";
@@ -14,7 +13,7 @@ import Image from "next/image";
 const images = [
   {
     id: 1,
-    testiImage: "testimonial1.png",
+    testiImage: "/testimonial1.png",
     quoteImage: "/quote.png",
     name: "Mr. C.K. Narayanan",
     designation: "CEO, Caterpillar",
@@ -23,7 +22,7 @@ const images = [
   },
   {
     id: 2,
-    testiImage: "testimonial2.png",
+    testiImage: "/testimonial2.png",
     quoteImage: "/quote.png",
     name: "Mr. Suresh Aldrin",
     designation: "Manager Facility",
@@ -32,7 +31,7 @@ const images = [
   },
   {
     id: 3,
-    testiImage: "testimonial3.png",
+    testiImage: "/testimonial3.png",
     quoteImage: "/quote.png",
     name: "Ms. Anitha Vaidhyanathan",
     designation: "Manager Administration, Standard Chartered",
@@ -41,7 +40,7 @@ const images = [
   },
   {
     id: 4,
-    testiImage: "testimonial4.png",
+    testiImage: "/testimonial4.png",
     quoteImage: "/quote.png",
     name: "Inautix",
     designation: "",
@@ -50,7 +49,7 @@ const images = [
   },
   {
     id: 5,
-    testiImage: "testimonial5.png",
+    testiImage: "/testimonial5.png",
     quoteImage: "/quote.png",
     name: "Royal Sundaram",
     designation: "",
@@ -59,7 +58,7 @@ const images = [
   },
   {
     id: 6,
-    testiImage: "testimonial6.png",
+    testiImage: "/testimonial6.png",
     quoteImage: "/quote.png",
     name: "Daimler",
     designation: "",
@@ -68,7 +67,7 @@ const images = [
   },
   {
     id: 7,
-    testiImage: "testimonial7.png",
+    testiImage: "/testimonial7.png",
     quoteImage: "/quote.png",
     name: "HCL",
     designation: "",
@@ -77,7 +76,7 @@ const images = [
   },
   {
     id: 8,
-    testiImage: "testimonial8.png",
+    testiImage: "/testimonial8.png",
     quoteImage: "/quote.png",
     name: "Parksons",
     designation: "",
@@ -86,7 +85,7 @@ const images = [
   },
   {
     id: 9,
-    testiImage: "testimonial9.png",
+    testiImage: "/testimonial9.png",
     quoteImage: "/quote.png",
     name: "Panimalar Medical College Hospital & Research Institute",
     designation: "Secretary & Correspondent",
@@ -95,7 +94,7 @@ const images = [
   },
   {
     id: 10,
-    testiImage: "testimonial10.png",
+    testiImage: "/testimonial10.png",
     quoteImage: "/quote.png",
     name: "B. Ayyapan",
     designation: "President",
@@ -104,7 +103,7 @@ const images = [
   },
   {
     id: 11,
-    testiImage: "testimonial11.png",
+    testiImage: "/testimonial11.png",
     quoteImage: "/quote.png",
     name: "Sitna Abraham",
     designation: "Chief Manager",
@@ -113,7 +112,7 @@ const images = [
   },
   {
     id: 12,
-    testiImage: "testimonial12.png",
+    testiImage: "/testimonial12.png",
     quoteImage: "/quote.png",
     name: "Hari Krishnan Pratap",
     designation: "Director",
@@ -122,7 +121,7 @@ const images = [
   },
   {
     id: 13,
-    testiImage: "testimonial13.png",
+    testiImage: "/testimonial13.png",
     quoteImage: "/quote.png",
     name: "A. S. Anantha Padmanabhan",
     designation: "Director",
@@ -131,7 +130,7 @@ const images = [
   },
   {
     id: 14,
-    testiImage: "testimonial14.png",
+    testiImage: "/testimonial14.png",
     quoteImage: "/quote.png",
     name: "Sathavalli G. Gopinath",
     designation: "Country Director",
@@ -140,7 +139,7 @@ const images = [
   },
   {
     id: 15,
-    testiImage: "testimonial15.png",
+    testiImage: "/testimonial15.png",
     quoteImage: "/quote.png",
     name: "R. Narasimhan",
     designation: "Vice President & Branch Head",
@@ -212,12 +211,16 @@ const TestimonialHome = () => {
               <div className={Styles.slider} ref={sliderRef}>
                 {images.map((image, index) => (
                   <div className={Styles.slide} key={index}>
-                    <img
+                    <Image
+                      width={200}
+                      height={100}
                       className={Styles.testiImage}
                       src={image.testiImage}
                       alt={`Slide ${index}`}
                     />
-                    <img
+                    <Image
+                      width={200}
+                      height={100}
                       className={Styles.quoteImage}
                       src={image.quoteImage}
                       alt={`Slide ${index}`}

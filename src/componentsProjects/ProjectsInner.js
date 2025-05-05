@@ -1,8 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./ProjectsInner.module.css";
 import { LuChevronRight } from "react-icons/lu";
 import PropTypes from "prop-types";
+import Image from "next/image";
 
 function ProjectsInner({
   projectTitle,
@@ -29,7 +29,7 @@ function ProjectsInner({
             <p className="description">{descriptionMain}</p>
           </div>
           <div className={styles.row1ProjectsInner}>
-            <img src={images[0]} alt="image" />
+            <Image width={500} height={200} src={images[0]} alt="image" />
           </div>
           <div className={styles.row2ProjectsInner}>
             {descriptionAdditional.map((desc, index) => (
@@ -39,16 +39,16 @@ function ProjectsInner({
             ))}
           </div>
           <div className={styles.row3ProjectsInner}>
-            <img src={images[1]} alt="image" />
-            <img src={images[2]} alt="image" />
+            <Image width={500} height={200} src={images[1]} alt="image" />
+            <Image width={500} height={200} src={images[2]} alt="image" />
           </div>
           <div className={styles.row4ProjectsInner}>
-            <img src={images[3]} alt="image" />
-            <img src={images[4]} alt="image" />
+            <Image width={500} height={200} src={images[3]} alt="image" />
+            <Image width={500} height={200} src={images[4]} alt="image" />
           </div>
           <div className={styles.row5ProjectsInner}>
-            <img src={images[5]} alt="image" />
-            <img src={images[6]} alt="image" />
+            <Image width={500} height={200} src={images[5]} alt="image" />
+            <Image width={500} height={200} src={images[6]} alt="image" />
           </div>
         </div>
       </div>

@@ -2,6 +2,13 @@ import RecentProjects from "../../../componentsInnerServices/RecentProjects";
 import HeaderInnerServices from "../../../componentsInnerServices/HeaderInnerServices";
 import Newsletter from "../../../components/Newsletter";
 
+export const metadata = {
+  title: "Turnkey Construction Solutions in Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Go turnkey! turnkey solutions in chennai by Ocean Lifespaces deliver full-cycle project success.",
+  keywords: "Turnkey Solutions in Chennai",
+};
+
 function TurkneySolutions() {
   // Define the dynamic content here
   const highlights = [

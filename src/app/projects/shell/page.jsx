@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Shell Office in Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Visit now! shell in chennai office space blends corporate needs with high-quality construction.",
+  keywords: "Shell in Chennai",
+};
 
 function Page() {
   return (
@@ -23,7 +30,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/shell/p1.png" alt="VMware General Contract Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/shell/p1.png"
+              alt="VMware General Contract Works"
+            />
           </div>
           <div className="row2ProjectsInner">
             <h3 className="h4 dark">Project Overview:</h3>
@@ -65,16 +77,26 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/shell/p2.png" alt="image" />
-            <img src="/shell/p3.png" alt="image" />
+            <Image width={500} height={200} src="/shell/p2.png" alt="image" />
+            <Image width={500} height={200} src="/shell/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/shell/p4.png" alt="image" />
-            <img src="/shell/p5.png" alt="image" />
+            <Image width={500} height={200} src="/shell/p4.png" alt="image" />
+            <Image width={500} height={200} src="/shell/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/shell/p6.png" alt="Simpliworks Project Interior" />
-            <img src="/shell/p7.png" alt="Simpliworks Workspace" />
+            <Image
+              width={500}
+              height={200}
+              src="/shell/p6.png"
+              alt="Simpliworks Project Interior"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/shell/p7.png"
+              alt="Simpliworks Workspace"
+            />
           </div>
         </div>
       </div>

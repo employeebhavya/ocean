@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 import GoToTopButton from "@/components/GoToTopButton";
 import Script from "next/script"; // ✅ Import Script
+import { getMetadata } from "@/app/metadata-config";
 
 const roboto = Roboto({
   variable: "--font-roboto-sans",
@@ -12,10 +13,11 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "Ocean",
-  description: "Ocean Turning Dreams into Reality",
+  title: "Ocean Lifespaces | Civil Construction Company in Chennai",
+  description:
+    "Build with confidence! Ocean Lifespaces India Pvt Ltd delivers Civil Construction Company in Chennai with innovation and trust.",
+  keywords: "Ocean Lifespaces India Pvt Ltd",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">

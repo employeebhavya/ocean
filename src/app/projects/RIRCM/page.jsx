@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "R1 RCM Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Take a tour! r1 rcm in chennai workspace was delivered with functional design and detail.",
+  keywords: "R1 RCM in Chennai",
+};
 
 function Page() {
   return (
@@ -25,7 +32,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/rircm/p1.png" alt="R1 RCM Design & Build Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p1.png"
+              alt="R1 RCM Design & Build Works"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -133,16 +145,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/rircm/p2.png" alt="R1 RCM Design & Build Works" />
-            <img src="/rircm/p3.png" alt="R1 RCM Design & Build Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p2.png"
+              alt="R1 RCM Design & Build Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p3.png"
+              alt="R1 RCM Design & Build Works"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/rircm/p4.png" alt="R1 RCM Design & Build Works" />
-            <img src="/rircm/p5.png" alt="R1 RCM Design & Build Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p4.png"
+              alt="R1 RCM Design & Build Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p5.png"
+              alt="R1 RCM Design & Build Works"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/rircm/p6.png" alt="R1 RCM Design & Build Works" />
-            <img src="/rircm/p7.png" alt="R1 RCM Design & Build Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p6.png"
+              alt="R1 RCM Design & Build Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/rircm/p7.png"
+              alt="R1 RCM Design & Build Works"
+            />
           </div>
         </div>
       </div>

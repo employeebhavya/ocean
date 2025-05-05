@@ -2,6 +2,13 @@ import RecentProjects from "../../../componentsInnerServices/RecentProjects";
 import HeaderInnerServices from "../../../componentsInnerServices/HeaderInnerServices";
 import Newsletter from "../../../components/Newsletter";
 
+export const metadata = {
+  title: "Real Estate Development in Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Invest in value! real estate development in chennai with Ocean Lifespaces brings quality and returns.",
+  keywords: "Real Estate Development in Chennai",
+};
+
 function RealEstateDevelopment() {
   // Define the dynamic content here
   const highlights = [

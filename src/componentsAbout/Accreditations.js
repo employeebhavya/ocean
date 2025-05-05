@@ -1,10 +1,10 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useRef } from "react";
 import styles from "./Accreditations.module.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 
 if (typeof window !== "undefined") {
   gsap.registerPlugin(ScrollTrigger);
@@ -106,11 +106,11 @@ function Accreditations() {
           <div className={styles.rowAccred}>
             {AccredItems.map((item, index) => (
               <div
-                key={item.title}
+                key={index}
                 className={styles.accredBox}
                 ref={(el) => (accredRefs.current[index] = el)}
               >
-                <img src={item.image} alt="image" />
+                <Image width={200} height={100} src={item.image} alt="image" />
                 <h4 className="h4">{item.title}</h4>
                 <p dangerouslySetInnerHTML={{ __html: item.description }} />
               </div>

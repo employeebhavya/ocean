@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "PWC Office Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "View excellence! pwc office chennai features modern interiors crafted by Ocean Lifespaces.",
+  keywords: "PWC office Chennai",
+};
 
 function Page() {
   return (
@@ -25,7 +32,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/pwc/p1.png" alt="PWC General Contract" />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p1.png"
+              alt="PWC General Contract"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -138,16 +150,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/pwc/p2.png" alt="PWC General Contract" />
-            <img src="/pwc/p3.png" alt="PWC General Contract" />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p2.png"
+              alt="PWC General Contract"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p3.png"
+              alt="PWC General Contract"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/pwc/p4.png" alt="PWC General Contract" />
-            <img src="/pwc/p5.png" alt="PWC General Contract" />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p4.png"
+              alt="PWC General Contract"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p5.png"
+              alt="PWC General Contract"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/pwc/p6.png" alt="PWC General Contract" />
-            <img src="/pwc/p7.png" alt="PWC General Contract" />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p6.png"
+              alt="PWC General Contract"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pwc/p7.png"
+              alt="PWC General Contract"
+            />
           </div>
         </div>
       </div>

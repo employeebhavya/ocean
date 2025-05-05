@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Hindustan International School chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Build for learning! hindustan international school chennai project reflects quality educational construction.",
+  keywords: "Hindustan International School chennai",
+};
 
 function HindustanInternationalSchool() {
   return (
@@ -23,7 +30,12 @@ function HindustanInternationalSchool() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/hindustan/p1.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p1.png"
+              alt="image"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -125,16 +137,46 @@ function HindustanInternationalSchool() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/hindustan/p2.png" alt="image" />
-            <img src="/hindustan/p3.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p2.png"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p3.png"
+              alt="image"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/hindustan/p4.png" alt="image" />
-            <img src="/hindustan/p5.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p4.png"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p5.png"
+              alt="image"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/hindustan/p6.png" alt="image" />
-            <img src="/hindustan/p7.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p6.png"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/hindustan/p7.png"
+              alt="image"
+            />
           </div>
         </div>
       </div>

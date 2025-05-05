@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Swiss RE interior project in Bangalore - Ocean Lifespaces Pvt Ltd",
+  description:
+    "See design! swiss re interior works project in bangalore features elegant execution by Ocean Lifespaces.",
+  keywords: "Swiss RE interior works project in Bangalore",
+};
 
 function Page() {
   return (
@@ -25,7 +32,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/swiss/p1.png" alt="Swiss RE Interior Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p1.png"
+              alt="Swiss RE Interior Works"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -157,16 +169,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/swiss/p2.png" alt="Swiss RE Interior" />
-            <img src="/swiss/p3.png" alt="Swiss RE Workspace" />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p2.png"
+              alt="Swiss RE Interior"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p3.png"
+              alt="Swiss RE Workspace"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/swiss/p4.png" alt="Office Interiors" />
-            <img src="/swiss/p5.png" alt="Interior Workspaces" />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p4.png"
+              alt="Office Interiors"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p5.png"
+              alt="Interior Workspaces"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/swiss/p6.png" alt="Workspace Design" />
-            <img src="/swiss/p7.png" alt="Modern Office Interiors" />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p6.png"
+              alt="Workspace Design"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/swiss/p7.png"
+              alt="Modern Office Interiors"
+            />
           </div>
         </div>
       </div>

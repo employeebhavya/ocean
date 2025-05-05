@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Ground Floor Lobby Works – Ocean Lifespaces Pvt Ltd",
+  description:
+    "Step inside! ground floor lobby works built for impression and flow, designed by Ocean Lifespaces.",
+  keywords: "Ground Floor Lobby Works",
+};
 
 function Page() {
   return (
@@ -23,7 +30,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/ground/p1.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -129,16 +136,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/ground/p2.png" alt="image" />
-            <img src="/ground/p3.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p2.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/ground/p4.png" alt="image" />
-            <img src="/ground/p5.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p4.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/ground/p6.png" alt="image" />
-            <img src="/ground/p7.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p6.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p7.png" alt="image" />
           </div>
         </div>
       </div>

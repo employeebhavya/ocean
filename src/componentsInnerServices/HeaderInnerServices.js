@@ -1,7 +1,7 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./HeaderInnerServices.module.css";
 import { LuChevronRight } from "react-icons/lu";
+import Image from "next/image";
 
 function HeaderInnerServices({
   pageTitle,
@@ -37,14 +37,19 @@ function HeaderInnerServices({
               <ul>
                 {highlights.map((highlight, index) => (
                   <li key={index}>
-                    <img src={highlight.img} alt="image" />
+                    <Image
+                      width={20}
+                      height={20}
+                      src={highlight.img}
+                      alt="image"
+                    />
                     <span>{highlight.text}</span>
                   </li>
                 ))}
               </ul>
             </div>
             <div className={styles.columnRow1Is}>
-              <img src={rightImage1} alt="image" />
+              <Image width={500} height={200} src={rightImage1} alt="image" />
             </div>
           </div>
           <div className={styles.row2HeaderInnerServices}>
@@ -53,11 +58,11 @@ function HeaderInnerServices({
           </div>
           <div className={styles.row3HeaderInnerServices}>
             <div className={styles.columnRow3Is}>
-              <img src={leftImage2} alt="image" />
+              <Image width={500} height={200} src={leftImage2} alt="image" />
               <p className="description">{clientsList}</p>
             </div>
             <div className={styles.columnRow3Is}>
-              <img src={rightImage2} alt="image" />
+              <Image width={500} height={200} src={rightImage2} alt="image" />
               <p className="description">{transformationText}</p>
             </div>
           </div>

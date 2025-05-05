@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import styles from "./clients.module.css";
 
 const Logos = [
@@ -57,6 +57,13 @@ const OngoingLogos = [
   "/clients/on16.png",
 ];
 
+export const metadata = {
+  title: "Clients | Ocean Lifespaces India Pvt Ltd",
+  description:
+    "See who trusts us! Discover the clients behind Ocean Lifespaces India Pvt Ltd's success in construction and infrastructure delivery.",
+  keywords: "Ocean Lifespaces India Pvt Ltd",
+};
+
 function Clients() {
   return (
     <section className={styles.clients}>
@@ -66,7 +73,7 @@ function Clients() {
           <div className={styles.rowClients}>
             {Logos.map((logo) => (
               <div key={logo} className={styles.columnClients}>
-                <img src={logo} alt="image" />
+                <Image width={184} height={104} src={logo} alt="image" />
               </div>
             ))}
           </div>
@@ -76,7 +83,7 @@ function Clients() {
           <div className={`${styles.rowClients} ${styles.rowClientsOngoing}`}>
             {OngoingLogos.map((logo) => (
               <div key={logo} className={styles.columnClients}>
-                <img src={logo} alt="image" />
+                <Image width={184} height={104} src={logo} alt="image" />
               </div>
             ))}
           </div>

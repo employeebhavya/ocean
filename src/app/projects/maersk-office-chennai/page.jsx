@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Maersk Chennai Facility - Civil Works by Ocean Lifespaces",
+  description:
+    "Built to last! maersk chennai corporate facility completed with solid civil works by Ocean Lifespaces.",
+  keywords: "maersk chennai",
+};
 
 function Page() {
   return (
@@ -21,7 +28,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/maersk/p1.png" alt="Maersk Office Interior" />
+            <Image
+              width={500}
+              height={200}
+              src="/maersk/p1.png"
+              alt="Maersk Office Interior"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -128,16 +140,16 @@ function Page() {
 
           {/* Image Rows */}
           <div className="row3ProjectsInner">
-            <img src="/maersk/p2.png" alt="image" />
-            <img src="/maersk/p3.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p2.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/maersk/p4.png" alt="image" />
-            <img src="/maersk/p5.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p4.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/maersk/p6.png" alt="image" />
-            <img src="/maersk/p7.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p6.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p7.png" alt="image" />
           </div>
 
           <div className="row2ProjectsInner">

@@ -1,8 +1,8 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./NewsLayoutInner.module.css";
 import { LuChevronRight } from "react-icons/lu";
 import SocialShare from "./SocialShare";
+import Image from "next/image";
 
 function NewsLayoutInner({
   breadcrumbLink,
@@ -35,7 +35,7 @@ function NewsLayoutInner({
           </div>
           <div className={styles.row2NewsLayoutInnerInner}>
             <div className={styles.author}>
-              <img src={authorImage} alt="author" />
+              <Image width={500} height={200} src={authorImage} alt="author" />
               <div className={styles.contentAuthor}>
                 <p className="description">
                   <strong>{authorName}</strong>
@@ -43,7 +43,9 @@ function NewsLayoutInner({
                 <p className="description">{date}</p>
               </div>
             </div>
-            <img
+            <Image
+              width={500}
+              height={200}
               className={styles.divider}
               src="/news/divider.png"
               alt="divider"
@@ -51,7 +53,7 @@ function NewsLayoutInner({
             <SocialShare />
           </div>
           <div className={styles.row3NewsLayoutInnerInner}>
-            <img src={mainImage} alt="main image" />
+            <Image width={500} height={200} src={mainImage} alt="main image" />
           </div>
           <div className={styles.row4NewsLayoutInnerInner}>
             <p className="description">{content}</p>

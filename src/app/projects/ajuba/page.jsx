@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Coronis Ajuba Project – Ocean Lifespaces Pvt Ltd",
+  description:
+    "Take a look! coronis ajuba chennai office project reflects Ocean's excellence in construction and timely project execution.",
+  keywords: "coronis ajuba chennai",
+};
 
 function Page() {
   return (
@@ -25,7 +32,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/ajuba/p1.png" alt="AJUBA Design & Build Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p1.png"
+              alt="AJUBA Design & Build Project"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -92,16 +104,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/ajuba/p2.png" alt="Emerson Industrial Project" />
-            <img src="/ajuba/p3.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p2.png"
+              alt="Emerson Industrial Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p3.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/ajuba/p4.png" alt="Emerson Industrial Project" />
-            <img src="/ajuba/p5.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p4.png"
+              alt="Emerson Industrial Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p5.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/ajuba/p6.png" alt="Emerson Industrial Project" />
-            <img src="/ajuba/p7.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p6.png"
+              alt="Emerson Industrial Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/ajuba/p7.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
         </div>
       </div>

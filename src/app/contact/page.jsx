@@ -1,9 +1,16 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./contact.module.css";
 import ContactForm from "../../components/ContactForm";
 import FAQ from "../../components/FAQ";
 import MapComponent from "@/components/MapComponent";
+import Image from "next/image";
+
+export const metadata = {
+  title: "Contact Us | Ocean Lifespaces India Pvt Ltd",
+  description:
+    "Let's connect! Contact Ocean Lifespaces India Pvt Ltd for expert civil construction and project consultation across Chennai.",
+  keywords: "Ocean Lifespaces India Pvt Ltd",
+};
 
 function Contact() {
   return (
@@ -14,7 +21,12 @@ function Contact() {
             <div className={styles.rowContact}>
               <Link href={"#map"}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image
+                    width={200}
+                    height={100}
+                    src="/contact/map.png"
+                    alt="image"
+                  />
                   <div className={styles.content}>
                     <h5 className="h5">Address</h5>
                     <p className="description">
@@ -25,14 +37,24 @@ function Contact() {
                 </div>
               </Link>
               <div className={styles.columnContact}>
-                <img src="/contact/mail.png" alt="image" />
+                <Image
+                  width={200}
+                  height={100}
+                  src="/contact/mail.png"
+                  alt="image"
+                />
                 <div className={styles.content}>
                   <h5 className="h5">Email</h5>
                   <p className="description">info@ocean.net.in</p>
                 </div>
               </div>
               <div className={styles.columnContact}>
-                <img src="/contact/phone.png" alt="image" />
+                <Image
+                  width={200}
+                  height={100}
+                  src="/contact/phone.png"
+                  alt="image"
+                />
                 <div className={styles.content}>
                   <h5 className="h5">Call</h5>
                   <p className="description">
@@ -54,7 +76,12 @@ function Contact() {
             <div className={styles.rowOtherLocations}>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image
+                    width={200}
+                    height={100}
+                    src="/contact/map.png"
+                    alt="image"
+                  />
                   <div className={styles.content}>
                     <h5 className="h5">Telangana</h5>
                     <p className="description">
@@ -80,7 +107,12 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image
+                    width={200}
+                    height={100}
+                    src="/contact/map.png"
+                    alt="image"
+                  />
                   <div className={styles.content}>
                     <h5 className="h5">Karnataka</h5>
                     <p className="description">
@@ -106,7 +138,7 @@ function Contact() {
               </div>
               {/* <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Andhra Pradesh</h5>
                     <p className="description">
@@ -132,7 +164,7 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Pondicherry</h5>
                     <p className="description">
@@ -158,7 +190,7 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Kerala</h5>
                     <p className="description">
@@ -183,7 +215,7 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <img src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Ahmedabad</h5>
                     <p className="description">

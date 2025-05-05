@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Tek Systems in Bangalore - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Discover workspace! tek systems in bangalore interiors crafted for tech and team synergy.",
+  keywords: "Tek Systems in Bangalore",
+};
 
 function Page() {
   return (
@@ -21,7 +28,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/tek/p1.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -130,16 +137,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/tek/p2.png" alt="image" />
-            <img src="/tek/p3.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p2.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/tek/p4.png" alt="image" />
-            <img src="/tek/p5.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p4.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/tek/p6.png" alt="image" />
-            <img src="/tek/p7.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p6.png" alt="image" />
+            <Image width={500} height={200} src="/tek/p7.png" alt="image" />
           </div>
         </div>
       </div>

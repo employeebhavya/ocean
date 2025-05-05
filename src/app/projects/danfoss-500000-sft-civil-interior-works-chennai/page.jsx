@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Danfoss India - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Discover quality! danfoss chennai office combines architectural function and design by Ocean Lifespaces India Pvt Ltd.",
+  keywords: "danfoss chennai",
+};
 
 function Page() {
   return (
@@ -25,7 +32,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/danfoss/p1.png" alt="Danfoss Civil & Interior Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p1.png"
+              alt="Danfoss Civil & Interior Works"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -162,16 +174,26 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/danfoss/p2.png" alt="image" />
-            <img src="/danfoss/p3.png" alt="image" />
+            <Image width={500} height={200} src="/danfoss/p2.png" alt="image" />
+            <Image width={500} height={200} src="/danfoss/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/danfoss/p4.png" alt="image" />
-            <img src="/danfoss/p5.png" alt="image" />
+            <Image width={500} height={200} src="/danfoss/p4.png" alt="image" />
+            <Image width={500} height={200} src="/danfoss/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/danfoss/p6.png" alt="Simpliworks Project Interior" />
-            <img src="/danfoss/p7.png" alt="Simpliworks Workspace" />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p6.png"
+              alt="Simpliworks Project Interior"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p7.png"
+              alt="Simpliworks Workspace"
+            />
           </div>
         </div>
       </div>

@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Silicon Labs in Hyderabad - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Explore space! silicon lab in hyderabad interiors were executed with cutting-edge quality and care.",
+  keywords: "Silicon Lab in Hyderabad",
+};
 
 function Page() {
   return (
@@ -21,7 +28,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/silicon/p1.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -95,16 +102,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/silicon/p2.png" alt="image" />
-            <img src="/silicon/p3.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p2.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/silicon/p4.png" alt="image" />
-            <img src="/silicon/p5.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p4.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/silicon/p6.png" alt="image" />
-            <img src="/silicon/p7.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p6.png" alt="image" />
+            <Image width={500} height={200} src="/silicon/p7.png" alt="image" />
           </div>
         </div>
       </div>

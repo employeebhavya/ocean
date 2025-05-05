@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Emerson Office Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "View project! emerson chennai workspace created by Ocean Lifespaces, blending function and design.",
+  keywords: "Emerson chennai",
+};
 
 function Page() {
   return (
@@ -25,7 +32,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/emersion/p1.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p1.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -204,16 +216,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/emersion/p2.png" alt="Emerson Industrial Project" />
-            <img src="/emersion/p3.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p2.png"
+              alt="Emerson Industrial Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p3.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/emersion/p4.png" alt="Emerson Industrial Project" />
-            <img src="/emersion/p5.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p4.png"
+              alt="Emerson Industrial Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p5.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/emersion/p6.png" alt="Emerson Industrial Project" />
-            <img src="/emersion/p7.png" alt="Emerson Industrial Project" />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p6.png"
+              alt="Emerson Industrial Project"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/emersion/p7.png"
+              alt="Emerson Industrial Project"
+            />
           </div>
         </div>
       </div>

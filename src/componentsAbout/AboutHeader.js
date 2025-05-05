@@ -1,9 +1,9 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import Styles from "./AboutHeader.module.css";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -123,7 +123,9 @@ function AboutHeader() {
           </div>
         </div>
         <div className={Styles.columnAboutHeader}>
-          <img
+          <Image
+            width={300}
+            height={200}
             ref={(el) => (imageRefs.current[1] = el)}
             src="/about/header-right.png"
             alt="image"

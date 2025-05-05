@@ -1,10 +1,10 @@
-/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React, { useRef, useEffect, useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { gsap } from "gsap";
 import styles from "./RecentProjects.module.css";
+import Image from "next/image";
 
 const RecentProjects = ({ projects }) => {
   const sliderRef = useRef(null);
@@ -75,7 +75,12 @@ const RecentProjects = ({ projects }) => {
             <div className={styles.slider} ref={sliderRef}>
               {projects.map((project, index) => (
                 <div key={index} className={styles.slide}>
-                  <img src={project.imgSrc} alt={project.title} />
+                  <Image
+                    width={500}
+                    height={200}
+                    src={project.imgSrc}
+                    alt={project.title}
+                  />
                   <div className={styles.projectInfo}>
                     <h4>{project.title}</h4>
                     <p>{project.location}</p>

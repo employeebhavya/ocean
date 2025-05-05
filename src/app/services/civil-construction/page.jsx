@@ -2,6 +2,13 @@ import RecentProjects from "../../../componentsInnerServices/RecentProjects";
 import HeaderInnerServices from "../../../componentsInnerServices/HeaderInnerServices";
 import Newsletter from "../../../components/Newsletter";
 
+export const metadata = {
+  title: "Civil Construction Company in Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Build better! civil construction in chennai with Ocean Lifespaces ensures lasting strength and value.",
+  keywords: "Civil Construction in Chennai",
+};
+
 function CivilConstruction() {
   // Define the dynamic content here
   const highlights = [

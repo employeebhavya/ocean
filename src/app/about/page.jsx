@@ -6,6 +6,13 @@ import Team from "../../componentsAbout/Team";
 import Accreditations from "../../componentsAbout/Accreditations";
 import Newsletter from "../../components/Newsletter";
 
+export const metadata = {
+  title: "About Us | Ocean Lifespaces India Pvt Ltd",
+  description:
+    "Meet the team! Learn how Ocean Lifespaces India Pvt Ltd leads in civil construction with integrity, experience, and a future-focused vision.",
+  keywords: "Ocean Lifespaces India Pvt Ltd",
+};
+
 function About() {
   return (
     <>

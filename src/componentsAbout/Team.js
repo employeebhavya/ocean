@@ -1,8 +1,8 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
 import React, { useRef } from "react";
 import styles from "./Team.module.css";
+import Image from "next/image";
 
 const Members = [
   {
@@ -69,7 +69,12 @@ function Team() {
                 className={styles.teamBox}
                 ref={(el) => (memberRefs.current[index] = el)}
               >
-                <img src={member.image} alt={member.title} />
+                <Image
+                  width={500}
+                  height={200}
+                  src={member.image}
+                  alt={member.title}
+                />
                 <div className={styles.contentTeamBox}>
                   <h3 className="h4">{member.title}</h3>
                   <p className="description">{member.description}</p>

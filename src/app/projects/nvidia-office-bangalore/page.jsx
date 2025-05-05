@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Nvidia Bangalore - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Discover now! nvidia bangalore workspace built with smart infrastructure and aesthetic value.",
+  keywords: "Nvidia Bangalore",
+};
 
 function Page() {
   return (
@@ -21,7 +28,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/nvidia/p1.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -132,16 +139,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/nvidia/p2.png" alt="image" />
-            <img src="/nvidia/p3.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p2.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/nvidia/p4.png" alt="image" />
-            <img src="/nvidia/p5.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p4.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/nvidia/p6.png" alt="image" />
-            <img src="/nvidia/p7.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p6.png" alt="image" />
+            <Image width={500} height={200} src="/nvidia/p7.png" alt="image" />
           </div>
         </div>
       </div>

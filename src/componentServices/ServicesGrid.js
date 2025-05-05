@@ -1,7 +1,6 @@
-/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./ServicesGrid.module.css";
-import Button from "../components/Button";
+import Image from "next/image";
 
 const ServicesItems = [
   {
@@ -44,7 +43,7 @@ function ServicesGrid() {
           <div className={styles.rowServicesGrid}>
             {ServicesItems.map((item) => (
               <div key={item.title} className={styles.columnServicesGrid}>
-                <img src={item.image} alt="image" />
+                <Image width={500} height={200} src={item.image} alt="image" />
                 <div className={styles.contentBoxSg}>
                   <h3 className="h4">{item.title}</h3>
                   <p className="description">{item.description}</p>

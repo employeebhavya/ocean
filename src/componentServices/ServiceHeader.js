@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import LogoScroll from "../components/LogoScroll";
 import DraggableSlider from "./DraggableSlider";
 import styles from "./ServiceHeader.module.css";
@@ -11,7 +11,12 @@ function ServiceHeader() {
           <div className={styles.mainRowServiceHead}>
             <div className={styles.rowServiceHead}>
               <h3 className="h3">Our Services</h3>
-              <img src="/services/head-inner.png" alt="image" />
+              <Image
+                width={500}
+                height={200}
+                src="/services/head-inner.png"
+                alt="image"
+              />
               <p className="description">
                 We excel in innovation and problem-solving, transforming
                 challenges that get into boundless possibilities.

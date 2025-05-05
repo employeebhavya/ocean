@@ -1,6 +1,13 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Bray Controls India - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Explore now! bray controls india chennai was delivered with superior planning and construction finesse by Ocean Lifespaces.",
+  keywords: "bray controls india chennai",
+};
 
 function Page() {
   return (
@@ -23,7 +30,7 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/bray/p1.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p1.png" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -126,16 +133,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/bray/p2.png" alt="image" />
-            <img src="/bray/p3.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p2.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/bray/p4.png" alt="image" />
-            <img src="/bray/p5.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p4.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/bray/p6.png" alt="image" />
-            <img src="/bray/p7.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p6.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p7.png" alt="image" />
           </div>
         </div>
       </div>
