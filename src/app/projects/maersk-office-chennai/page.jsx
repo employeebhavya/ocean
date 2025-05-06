@@ -22,10 +22,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">Maersk Office, Chennai</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Maersk Office
               {/* <span className="description">Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -55,7 +55,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
               Ocean Lifespaces takes pride in delivering world-class workspaces
               that seamlessly blend functionality, aesthetics, and efficiency.
@@ -66,11 +66,17 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
-              The primary goal of the Maersk Office project was to create a
-              dynamic and efficient workspace that aligns with the brand’s
-              global standards. The key objectives included:
+              The primary goal of the{" "}
+              <Link
+                href={"https://www.olipl.com/projects/maersk-office-chennai"}
+              >
+                Maersk Office
+              </Link>{" "}
+              project was to create a dynamic and efficient workspace that
+              aligns with the brand’s global standards. The key objectives
+              included:
             </p>
             <ul>
               <li>
@@ -92,7 +98,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Concept & Planning:</strong> Conducted in-depth
@@ -118,7 +124,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 A state-of-the-art workspace that reflects Maersk’s brand
@@ -153,7 +159,7 @@ function Page() {
           </div>
 
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Strategic planning and execution are crucial for large-scale
@@ -175,13 +181,14 @@ function Page() {
           </div>
 
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Maersk Office in Chennai is a prime example of Ocean
-              Lifespaces’ ability to deliver high-end corporate environments
-              with precision and excellence. This project reaffirms our
-              expertise in crafting workspaces that inspire innovation, enhance
-              productivity, and set new benchmarks in the industry.
+              The Maersk Office in Chennai is a prime example of{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              ability to deliver high-end corporate environments with precision
+              and excellence. This project reaffirms our expertise in crafting
+              workspaces that inspire innovation, enhance productivity, and set
+              new benchmarks in the industry.
             </p>
           </div>
         </div>

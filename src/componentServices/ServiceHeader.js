@@ -10,7 +10,7 @@ function ServiceHeader() {
         <div className="container">
           <div className={styles.mainRowServiceHead}>
             <div className={styles.rowServiceHead}>
-              <h3 className="h3">Our Services</h3>
+              <h2 className="h3">Our Services</h2>
               <Image
                 width={500}
                 height={200}

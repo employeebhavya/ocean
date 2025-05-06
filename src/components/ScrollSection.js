@@ -141,7 +141,7 @@ function ScrollSection() {
             <div className={Styles.sectionAbout}>
               <div className={Styles.aboutContent} ref={contentRef}>
                 <h2 className={Styles.aboutHeading} ref={headingRef}>
-                  About Us
+                  <Link href={"https://www.olipl.com/"}>About Us</Link>
                 </h2>
                 <p className={Styles.aboutDescription} ref={descriptionRef}>
                   Established in 1996 as Ocean Interiors Limited, Ocean
@@ -173,7 +173,7 @@ function ScrollSection() {
                       className={Styles.circle}
                       ref={(el) => (circleRefs.current[0] = el)}
                     >
-                      <div className={Styles.circleText}>Turnkey Solutions</div>
+                      <h3 className={Styles.circleText}>Turnkey Solutions</h3>
                     </div>
                   </Link>
                   <Link href={"/services/interior-fit-out-services"}>
@@ -181,9 +181,9 @@ function ScrollSection() {
                       className={Styles.circle}
                       ref={(el) => (circleRefs.current[1] = el)}
                     >
-                      <div className={Styles.circleText}>
+                      <h3 className={Styles.circleText}>
                         Interior Fit-Out Services
-                      </div>
+                      </h3>
                     </div>
                   </Link>
                   <Link href={"/services/civil-construction"}>
@@ -191,9 +191,7 @@ function ScrollSection() {
                       className={Styles.circle}
                       ref={(el) => (circleRefs.current[2] = el)}
                     >
-                      <div className={Styles.circleText}>
-                        Civil Construction
-                      </div>
+                      <h3 className={Styles.circleText}>Civil Construction</h3>
                     </div>
                   </Link>
                 </div>
@@ -206,9 +204,9 @@ function ScrollSection() {
                       className={Styles.circle}
                       ref={(el) => (circleRefs.current[3] = el)}
                     >
-                      <div className={Styles.circleText}>
+                      <h3 className={Styles.circleText}>
                         Real Estate <br></br>Development
-                      </div>
+                      </h3>
                     </div>
                   </Link>
                   <Link href={"/services/infrastructure-development"}>
@@ -216,9 +214,9 @@ function ScrollSection() {
                       className={Styles.circle}
                       ref={(el) => (circleRefs.current[4] = el)}
                     >
-                      <div className={Styles.circleText}>
+                      <h3 className={Styles.circleText}>
                         Infrastructure<br></br> Development
-                      </div>
+                      </h3>
                     </div>
                   </Link>
                 </div>

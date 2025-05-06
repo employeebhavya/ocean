@@ -37,7 +37,7 @@
   grid-template-columns: 2.5fr 1fr 1fr;
   grid-gap: clamp(8px, 0.5vw, 0.5vw);
 }
-.columnNews h2,
+.columnNews h1,
 .columnNews h4 {
   color: var(--color-dark-blue);
 }

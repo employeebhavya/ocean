@@ -22,10 +22,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">Tek Systems, Bangalore</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Tek Systems
               {/* <span className="description">Bangalore</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/tek/p1.png" alt="image" />
@@ -50,17 +50,23 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
               Ocean Lifespaces successfully delivered a high-end corporate
-              workspace for Tek Systems in Bangalore. Designed to inspire
-              productivity and collaboration, this 42,000 sq. ft. project was
-              meticulously planned and executed to reflect the client’s vision
-              for a modern, functional, and dynamic office environment.
+              workspace for{" "}
+              <Link
+                href={"https://www.olipl.com/projects/tek-systems-bangalore"}
+              >
+                Tek Systems in Bangalore.
+              </Link>{" "}
+              Designed to inspire productivity and collaboration, this 42,000
+              sq. ft. project was meticulously planned and executed to reflect
+              the client’s vision for a modern, functional, and dynamic office
+              environment.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               The goal was to create a sophisticated and efficient workspace
               that enhances employee well-being and operational efficiency while
@@ -69,7 +75,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Client Collaboration: Worked closely with Tek Systems to align
@@ -90,7 +96,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 A modern, efficient, and aesthetically appealing office space.
@@ -110,7 +116,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Strategic Planning ensures quality execution within defined
@@ -127,9 +133,10 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Tek Systems project stands as a testament to Ocean Lifespaces’
+              The Tek Systems project stands as a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
               expertise in delivering premium office interiors that enhance
               productivity and innovation. We take pride in shaping workspaces
               that drive success and look forward to more transformative

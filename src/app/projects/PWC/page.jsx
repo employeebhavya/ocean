@@ -24,12 +24,12 @@ function Page() {
                 PWC 30,000 SQ FT General Contract, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               PWC
               {/* <span className="description">
                 30,000 SQ FT General Contract, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -56,19 +56,21 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully delivered the PWC office space
-              project in Chennai, focused on providing a modern and functional
-              workplace. As a general contractor, the scope included managing
-              all aspects of construction, ensuring a streamlined process from
-              start to finish. The objective was to create a space that
-              encourages productivity while aligning with PWCs global brand
-              standards.
+              Ocean Lifespaces successfully delivered the{" "}
+              <Link href={"https://www.olipl.com/projects/PWC"}>
+                PWC office space project in Chennai
+              </Link>
+              , focused on providing a modern and functional workplace. As a
+              general contractor, the scope included managing all aspects of
+              construction, ensuring a streamlined process from start to finish.
+              The objective was to create a space that encourages productivity
+              while aligning with PWCs global brand standards.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 Design and build an office space that enhances employee
@@ -81,7 +83,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Client Collaboration:</strong> Close collaboration with
@@ -106,7 +108,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 <strong>Functional Workspaces:</strong> The facility features a
@@ -126,7 +128,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Successfully delivered a high-quality office space as a general
@@ -142,11 +144,13 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project highlights Ocean Lifespaces expertise in managing
-              general contracting projects and delivering functional, modern
-              workspaces that align with client needs and global standards.
+              This project highlights{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in managing general contracting projects and delivering
+              functional, modern workspaces that align with client needs and
+              global standards.
             </p>
           </div>
           <div className="row3ProjectsInner">

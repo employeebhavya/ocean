@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -25,7 +25,9 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi1.png"
               alt="Expeditors Design & Build Works"
             />
@@ -160,31 +162,43 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi2.png"
               alt="Expeditors Design & Build Works"
             />
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi3.png"
               alt="Expeditors Design & Build Works"
             />
           </div>
           <div className="row4ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi4.png"
               alt="Expeditors Design & Build Works"
             />
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi5.png"
               alt="Expeditors Design & Build Works"
             />
           </div>
           <div className="row5ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi6.png"
               alt="Expeditors Design & Build Works"
             />
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi7.png"
               alt="Expeditors Design & Build Works"
             />

@@ -24,12 +24,12 @@ function Page() {
                 Danfoss - 5,00,000 SFT Civil & Interior Works, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Danfoss
               {/* <span className="description">
                 5,00,000 SFT Civil & Interior Works, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -59,17 +59,25 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              The Danfoss project in Chennai, covering a Built-Up Area (BUA) of
-              5,00,000 sq. ft., involved civil and interior works for a
-              large-scale industrial and commercial facility. This project
-              required a well-coordinated approach to deliver high-quality
-              infrastructure while maintaining efficiency and sustainability.
+              The{" "}
+              <Link
+                href={
+                  "https://www.olipl.com/projects/danfoss-500000-sft-civil-interior-works-chennai"
+                }
+              >
+                project for Danfoss project in Chennai
+              </Link>
+              , covering a Built-Up Area (BUA) of 5,00,000 sq. ft., involved
+              civil and interior works for a large-scale industrial and
+              commercial facility. This project required a well-coordinated
+              approach to deliver high-quality infrastructure while maintaining
+              efficiency and sustainability.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 To construct and furnish a large-scale facility that aligns with
@@ -90,7 +98,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <p className="description">
               <strong>Strategic Planning & Execution:</strong> Developed a
               detailed project roadmap for efficient resource allocation and
@@ -122,7 +130,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 Successfully delivered a state-of-the-art 5,00,000 sq. ft.
@@ -143,7 +151,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Meticulous planning and execution are essential for large-scale
@@ -164,13 +172,14 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Danfoss project in Chennai stands as a testament to Ocean
-              Lifespaces’ expertise in large-scale civil and interior works. The
-              successful completion of this ₹66 Crore project highlights our
-              commitment to precision, quality, and sustainability in
-              infrastructure development.
+              The Danfoss project in Chennai stands as a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in large-scale civil and interior works. The successful
+              completion of this ₹66 Crore project highlights our commitment to
+              precision, quality, and sustainability in infrastructure
+              development.
             </p>
           </div>
           <div className="row3ProjectsInner">

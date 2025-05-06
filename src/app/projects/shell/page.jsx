@@ -22,12 +22,12 @@ function Page() {
               <LuChevronRight />
               <p className="description">Shell</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Shell
               {/* <span className="description">
                 40,000 SQ FT General Contract Works, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -38,7 +38,7 @@ function Page() {
             />
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
               Having accumulated an expertise that is incomparable to any other
               player in the industry under the strong guidance and leadership of
@@ -57,15 +57,16 @@ function Page() {
               bear testimony to this.
             </p>
             <p>
-              Ocean has effectively contributed its expertise in providing
-              exceptional interior turnkey solutions to plentiful commercial IT
-              offices, property developers and many other projects for some of
-              the top brasses in the clientele including Kone, Dell, TCS,
-              Cognizant, FORD, Royal Bank of Scotland, HSBC, Franklin Templeton,
-              eBay, iNautix, Logica, HP, Mahindra & Mahindra, Scope
-              International, Tata Communications, First Source Ltd, IBM, Depuy -
-              a Johnson & Johnson company, Nokia, Chrysler, Renault, TCS, MTS,
-              Danfoss, Bridge i2i, Bharat Benz, Sutherland, ABN Amro, Elsevier,
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link> has
+              effectively contributed its expertise in providing exceptional
+              interior turnkey solutions to plentiful commercial IT offices,
+              property developers and many other projects for some of the top
+              brasses in the clientele including Kone, Dell, TCS, Cognizant,
+              FORD, Royal Bank of Scotland, HSBC, Franklin Templeton, eBay,
+              iNautix, Logica, HP, Mahindra & Mahindra, Scope International,
+              Tata Communications, First Source Ltd, IBM, Depuy - a Johnson &
+              Johnson company, Nokia, Chrysler, Renault, TCS, MTS, Danfoss,
+              Bridge i2i, Bharat Benz, Sutherland, ABN Amro, Elsevier,
               Australian Consulate, Convert team, Pfizer, MindTree, Foster
               Wheeler, Robert Bosch, Deutsche Bank, HCL, Cisco, Ajuba, Maersk,
               Fidelity, GE, Nokia Siemens, JFS, Estancia IT Parks, Hexaware,

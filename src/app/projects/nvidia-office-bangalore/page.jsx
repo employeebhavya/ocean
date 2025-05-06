@@ -22,10 +22,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">Nvidia Office, Bangalore</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Nvidia Office
               {/* <span className="description">Bangalore</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/nvidia/p1.png" alt="image" />
@@ -50,18 +50,23 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
               Ocean Lifespaces successfully executed the interior fit-out of
-              five floors at Nvidia’s Bangalore office, each designed with a
-              unique concept. The project featured a stunning double-height
-              reception, customized cladding, flooring, and ceiling materials
-              for every level, making this workspace a visual and functional
-              masterpiece.
+              five floors at{" "}
+              <Link
+                href={"https://www.olipl.com/projects/nvidia-office-bangalore"}
+              >
+                Nvidia’s Bangalore office,
+              </Link>{" "}
+              each designed with a unique concept. The project featured a
+              stunning double-height reception, customized cladding, flooring,
+              and ceiling materials for every level, making this workspace a
+              visual and functional masterpiece.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               The goal was to create a cutting-edge corporate space that
               reflects Nvidia’s innovation-driven culture, integrating high-end
@@ -70,7 +75,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Bespoke Design Concepts: Each floor was crafted with a unique
@@ -91,7 +96,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 A visually stunning and functionally superior corporate
@@ -112,7 +117,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Customization at Scale – Delivering distinct themes across
@@ -129,9 +134,10 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Nvidia Bangalore office project highlights Ocean Lifespaces’
+              The Nvidia Bangalore office project highlights{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
               ability to execute large-scale corporate interiors with
               innovation, precision, and creativity. This project sets a new
               benchmark in workspace design, proving that visionary ideas, when

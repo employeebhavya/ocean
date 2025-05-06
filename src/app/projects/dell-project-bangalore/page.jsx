@@ -22,10 +22,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">Dell Project, Bangalore</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Dell Project
               {/* <span className="description">Bangalore</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/dell/p1.png" alt="image" />
@@ -50,17 +50,21 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully executed a 2 lakh sq. ft. project
-              for Dell in Bangalore, handling general contracting
-              responsibilities. This fast-track project required seamless
-              coordination and execution to create a high-performance workspace
-              that meets Dell’s global standards.
+              Ocean Lifespaces successfully executed a 2 lakh sq. ft.{" "}
+              <Link
+                href={"https://www.olipl.com/projects/dell-project-bangalore"}
+              >
+                project for Dell in Bangalore
+              </Link>
+              , handling general contracting responsibilities. This fast-track
+              project required seamless coordination and execution to create a
+              high-performance workspace that meets Dell’s global standards.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               The primary goal was to deliver a world-class office space within
               a strict 6-month timeline, ensuring optimal functionality, modern
@@ -69,7 +73,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Strategic Project Planning: Efficient resource allocation to
@@ -90,7 +94,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 A state-of-the-art corporate facility delivered on time and
@@ -108,7 +112,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Efficient Project Management – Delivered a large-scale workspace
@@ -125,13 +129,14 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Dell Bangalore project highlights Ocean Lifespaces ability to
-              deliver complex corporate projects within tight deadlines while
-              ensuring exceptional quality and innovation. This project stands
-              as a benchmark for fast-track execution and high-performance
-              workspace solutions.
+              The Dell Bangalore project highlights{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              ability to deliver complex corporate projects within tight
+              deadlines while ensuring exceptional quality and innovation. This
+              project stands as a benchmark for fast-track execution and
+              high-performance workspace solutions.
             </p>
           </div>
           <div className="row3ProjectsInner">

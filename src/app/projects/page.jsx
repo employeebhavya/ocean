@@ -15,7 +15,7 @@ function Projects() {
     <section className={styles.projects}>
       <div className="container">
         <div className={styles.rowMainProjects}>
-          <h2 className="h2">Our Recent Projects</h2>
+          <h1 className="h2">Our Recent Projects</h1>
           <div className={styles.row1Projects}>
             <div className={styles.columnProjects}>
               <Image
@@ -25,7 +25,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Dell Project, Bangalore</h3>
+                <h2 className="h3">Dell Project, Bangalore</h2>
                 <p className="description">
                   Bangalore | Area - 2,00,000 sq. ft.
                 </p>
@@ -42,7 +42,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">HDFC Office, Chennai</h3>
+                <h2 className="h3">HDFC Office, Chennai</h2>
                 <p className="description">Chennai | Area - 2,50,000 sq. ft.</p>
                 <Link href="/projects/hdfc-office-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -59,7 +59,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Nvidia Office, Bangalore</h3>
+                <h2 className="h3">Nvidia Office, Bangalore</h2>
                 <p className="description">
                   Bangalore | Area - 2,50,000 sq. ft.
                 </p>
@@ -76,7 +76,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Bray Controls India Pvt. Ltd</h3>
+                <h2 className="h3">Bray Controls India Pvt. Ltd</h2>
                 <p className="description">Chennai | Area - 30,000 sq. ft.</p>
                 <Link href="/projects/bray-controls-india-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -91,7 +91,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Hindustan International School</h3>
+                <h2 className="h3">Hindustan International School</h2>
                 <p className="description">Chennai | Area - 80,000 sq. ft.</p>
                 <Link href="/projects/hindustan-international-school-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -108,7 +108,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Swiss RE</h3>
+                <h2 className="h3">Swiss RE</h2>
                 <p className="description">
                   Bangalore | Area - 2,00,000 sq. ft.
                 </p>
@@ -127,7 +127,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Tek Systems</h3>
+                <h2 className="h3">Tek Systems</h2>
                 <p className="description">Bangalore | Area - 42,000 sq. ft.</p>
                 <Link href="/projects/tek-systems-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -142,7 +142,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Silicon Lab</h3>
+                <h2 className="h3">Silicon Lab</h2>
                 <p className="description">
                   Hyderabad | Area - 1,00,000 sq. ft.
                 </p>
@@ -161,7 +161,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Maersk Office</h3>
+                <h2 className="h3">Maersk Office</h2>
                 <p className="description">Chennai | Area - 1,65,000 sq. ft.</p>
                 <Link href="/projects/maersk-office-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -176,7 +176,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Ajuba</h3>
+                <h2 className="h3">Ajuba</h2>
                 <p className="description">Chennai | Area - 40,000 sq. ft.</p>
                 <Link href="/projects/ajuba">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -193,7 +193,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Shell</h3>
+                <h2 className="h3">Shell</h2>
                 <p className="description">
                   Bangalore | Area - 2,50,000 sq. ft.
                 </p>
@@ -210,7 +210,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Olam Project</h3>
+                <h2 className="h3">Olam Project</h2>
                 <p className="description">Bangalore | Area - Confidential</p>
                 <Link href="/projects/tek-systems-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -225,7 +225,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">R1RCM</h3>
+                <h2 className="h3">R1RCM</h2>
                 <p className="description">Chennai | Area - 51,000 sq. ft.</p>
                 <Link href="/projects/RIRCM">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -242,7 +242,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">PWC</h3>
+                <h2 className="h3">PWC</h2>
                 <p className="description">Chennai | Area - 30,000 sq. ft.</p>
                 <Link href="/projects/PWC">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -259,7 +259,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Danfoss</h3>
+                <h2 className="h3">Danfoss</h2>
                 <p className="description">Chennai | Area - 5,00,000 sq. ft.</p>
                 <Link href="/projects/danfoss-500000-sft-civil-interior-works-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -274,7 +274,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Simpliworks</h3>
+                <h2 className="h3">Simpliworks</h2>
                 <p className="description">
                   Hyderabad | Area - 3,84,000 sq. ft.
                 </p>
@@ -293,7 +293,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Emerson</h3>
+                <h2 className="h3">Emerson</h2>
                 <p className="description">
                   Bangalore | Area - 2,50,000 sq. ft.
                 </p>
@@ -310,7 +310,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">Taramani</h3>
+                <h2 className="h3">Taramani</h2>
                 <p className="description">Chennai | Area - 30,000 sq. ft.</p>
                 <Link href="/projects/ground-floor-lobby-works-taramani-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
@@ -325,7 +325,7 @@ function Projects() {
                 alt="image"
               />
               <div className={styles.content}>
-                <h3 className="h3">KONE Project</h3>
+                <h2 className="h3">KONE Project</h2>
                 <p className="description">Chennai | Area - 7,00,000 sq. ft.</p>
                 <Link href="/projects/kone-project-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />

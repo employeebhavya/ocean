@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -23,7 +23,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/pharmed/p1.png" alt="VMware General Contract Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p1.png"
+              alt="VMware General Contract Works"
+            />
           </div>
           <div className="row2ProjectsInner">
             <h3 className="h4 dark">Project Overview:</h3>
@@ -65,16 +70,26 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/pharmed/p2.png" alt="image" />
-            <img src="/pharmed/p3.png" alt="image" />
+            <Image width={500} height={200} src="/pharmed/p2.png" alt="image" />
+            <Image width={500} height={200} src="/pharmed/p3.png" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/pharmed/p4.png" alt="image" />
-            <img src="/pharmed/p5.png" alt="image" />
+            <Image width={500} height={200} src="/pharmed/p4.png" alt="image" />
+            <Image width={500} height={200} src="/pharmed/p5.png" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/pharmed/p6.png" alt="Simpliworks Project Interior" />
-            <img src="/pharmed/p7.png" alt="Simpliworks Workspace" />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p6.png"
+              alt="Simpliworks Project Interior"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p7.png"
+              alt="Simpliworks Workspace"
+            />
           </div>
         </div>
       </div>

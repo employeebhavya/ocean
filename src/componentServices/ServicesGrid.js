@@ -45,7 +45,7 @@ function ServicesGrid() {
               <div key={item.title} className={styles.columnServicesGrid}>
                 <Image width={500} height={200} src={item.image} alt="image" />
                 <div className={styles.contentBoxSg}>
-                  <h3 className="h4">{item.title}</h3>
+                  <h2 className="h3">{item.title}</h2>
                   <p className="description">{item.description}</p>
                   <Link href={item.link}>
                     <button class="inner-blue-button">

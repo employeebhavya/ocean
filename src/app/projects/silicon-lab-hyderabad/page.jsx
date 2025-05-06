@@ -22,10 +22,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">Silicon Lab, Hyderabad</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Silicon Lab
               {/* <span className="description">Hyderabad</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/silicon/p1.png" alt="image" />
@@ -48,16 +48,20 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Overview:</h3>
+            <h2 className="h4 dark">Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully delivered a modern, high-tech
-              workspace for Silicon Lab, featuring advanced labs, superior
-              acoustic solutions, and a stunning spiral staircase crafted from
-              steel and teak wood.
+              Ocean Lifespaces successfully delivered a modern,{" "}
+              <Link
+                href={"https://www.olipl.com/projects/silicon-lab-hyderabad"}
+              >
+                high-tech workspace for Silicon Lab
+              </Link>
+              , featuring advanced labs, superior acoustic solutions, and a
+              stunning spiral staircase crafted from steel and teak wood.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               To create a cutting-edge corporate facility that blends
               architectural excellence with functionality, optimizing space for
@@ -65,7 +69,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Designed a visually striking steel and teak wood spiral
@@ -85,7 +89,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>An iconic, high-performance corporate space.</li>
               <li>Enhanced functionality with optimized acoustics.</li>
@@ -94,11 +98,12 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project highlights Ocean Lifespaces&apos; expertise in
-              delivering world-class corporate environments. Stay tuned for more
-              transformative projects!
+              This project highlights{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in delivering world-class corporate environments. Stay
+              tuned for more transformative projects!
             </p>
           </div>
           <div className="row3ProjectsInner">

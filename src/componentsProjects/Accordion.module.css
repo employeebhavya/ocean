@@ -23,7 +23,7 @@
   align-self: center;
   text-align: center;
 }
-.rowHeader h2 {
+.rowHeader h1 {
   color: var(--color-dark-blue);
 }
 .rowAccordion {
@@ -34,7 +34,7 @@
   width: 90%;
   align-self: center;
 }
-.rowMainAccordion h3 {
+.rowMainAccordion h2 {
   color: var(--color-dark-blue);
   text-align: center;
   align-self: center;

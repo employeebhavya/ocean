@@ -51,9 +51,9 @@ export default function Home() {
 
         {/* Overlay content */}
         <div className={Styles.content}>
-          <h1 className={Styles.heading} ref={headingRef}>
+          <h2 className={Styles.heading} ref={headingRef}>
             Revolutionizing Spaces Through Innovation
-          </h1>
+          </h2>
           <p className={Styles.description} ref={descriptionRef}>
             Dive Into A World Of Possibilities Where Ideas Turn Into Reality
           </p>

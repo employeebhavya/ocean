@@ -24,10 +24,10 @@ function Page() {
                 Ground Floor Lobby Works - Taramani, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Ground Floor Lobby Works
               {/* <span className="description">Taramani, Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/ground/p1.png" alt="image" />
@@ -53,17 +53,24 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces is proud to undertake the design and build of a
-              premium ground floor lobby for a prestigious Grade A developer in
-              Taramani, Chennai. This project exemplifies our expertise in
-              combining architectural creativity with precise execution to craft
-              an inviting and sophisticated lobby space.
+              Ocean Lifespaces is proud to undertake the design and build of a{" "}
+              <Link
+                href={
+                  "https://www.olipl.com/projects/ground-floor-lobby-works-taramani-chennai"
+                }
+              >
+                project for premium ground floor lobby for a prestigious Grade A
+                developer in Taramani, Chennai
+              </Link>
+              . This project exemplifies our expertise in combining
+              architectural creativity with precise execution to craft an
+              inviting and sophisticated lobby space.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               To design and construct a world-class lobby that reflects
               elegance, functionality, and innovation, setting a new benchmark
@@ -71,7 +78,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Innovative Design: Aesthetically driven concept balancing
@@ -92,7 +99,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Expected Results:</h3>
+            <h2 className="h4 dark">Expected Results:</h2>
             <ul>
               <li>
                 A visually stunning, high-end lobby that enhances the building's
@@ -112,7 +119,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 A landmark project combining innovation, functionality, and
@@ -128,11 +135,13 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project is a testament to Ocean Lifespaces ability to
-              redefine corporate interiors with cutting-edge design and flawless
-              execution. Stay tuned as we bring this vision to life!
+              This project is a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              ability to redefine corporate interiors with cutting-edge design
+              and flawless execution. Stay tuned as we bring this vision to
+              life!
             </p>
           </div>
           <div className="row3ProjectsInner">

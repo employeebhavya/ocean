@@ -82,7 +82,7 @@ const RecentProjects = ({ projects }) => {
                     alt={project.title}
                   />
                   <div className={styles.projectInfo}>
-                    <h4>{project.title}</h4>
+                    <h3>{project.title}</h3>
                     <p>{project.location}</p>
                   </div>
                 </div>

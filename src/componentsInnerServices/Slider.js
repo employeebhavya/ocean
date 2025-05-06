@@ -48,15 +48,15 @@ const Slider = () => {
       <div className={styles.slider}>
         <div className={styles.imageWrapper}>
           <Image
-            width={500}
-            height={300}
+            width={1000}
+            height={1000}
             src={images[currentIndex]}
             alt="Slide"
             className={styles.sliderImage}
           />
           <Image
-            width={500}
-            height={300}
+            width={1000}
+            height={1000}
             src={images[(currentIndex + 1) % images.length]}
             alt="Next Slide"
             className={styles.sliderImage}

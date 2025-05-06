@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -25,7 +25,9 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi1.png"
               alt="Autodesk General Contract Works"
             />
@@ -111,31 +113,43 @@ function Page() {
             </ul>
           </div>
           <div className="row3ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi2.png"
               alt="Autodesk General Contract Works Image 1"
             />
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi3.png"
               alt="Autodesk General Contract Works Image 2"
             />
           </div>
           <div className="row4ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi4.png"
               alt="Autodesk General Contract Works Image 3"
             />
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi5.png"
               alt="Autodesk General Contract Works Image 4"
             />
           </div>
           <div className="row5ProjectsInner">
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi6.png"
               alt="Autodesk General Contract Works Image 5"
             />
-            <img
+            <Image
+              width={500}
+              height={200}
               src="/projectsOcean/pi7.png"
               alt="Autodesk General Contract Works Image 6"
             />

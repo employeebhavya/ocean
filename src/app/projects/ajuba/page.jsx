@@ -24,12 +24,12 @@ function Page() {
                 AJUBA - Design & Build Project, 40,000 SQ FT, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               AJUBA
               {/* <span className="description">
                 Design & Build Project, 40,000 SQ FT, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -53,15 +53,18 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              The AJUBA project aimed to create a modern, functional, and
-              sustainable workspace, blending aesthetics with efficiency to
-              enhance productivity.
+              The{" "}
+              <Link href={"https://www.olipl.com/projects/ajuba"}>
+                AJUBA project
+              </Link>{" "}
+              aimed to create a modern, functional, and sustainable workspace,
+              blending aesthetics with efficiency to enhance productivity.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>Develop a smart, ergonomic, and eco-friendly workspace.</li>
               <li>
@@ -70,7 +73,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Design Innovation:</strong> Modern layouts with optimal
@@ -87,7 +90,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results & Key Takeaways:</h3>
+            <h2 className="h4 dark">Results & Key Takeaways:</h2>
             <ul>
               <li>Enhanced work environment & employee productivity.</li>
               <li>Sustainable & energy-efficient design.</li>
@@ -97,10 +100,12 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              AJUBA stands as a testament to Ocean Lifespaces commitment to
-              innovation, functionality, and quality in design & build projects.
+              AJUBA stands as a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              commitment to innovation, functionality, and quality in design &
+              build projects.
             </p>
           </div>
           <div className="row3ProjectsInner">

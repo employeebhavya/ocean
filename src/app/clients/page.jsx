@@ -69,6 +69,7 @@ function Clients() {
     <section className={styles.clients}>
       <div className="container">
         <div className={styles.rowMainClients}>
+          <h1 className="h1">Our Clients</h1>
           <h2 className="h2">Fitout Corporate Clients</h2>
           <div className={styles.rowClients}>
             {Logos.map((logo) => (

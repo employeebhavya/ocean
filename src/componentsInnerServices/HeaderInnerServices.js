@@ -28,12 +28,12 @@ function HeaderInnerServices({
               <LuChevronRight />
               <p className="description">{pageTitle}</p>
             </div>
-            <h2 className="h2">{serviceTitle}</h2>
+            <h1 className="h2">{serviceTitle}</h1>
             <p className="description">{mainDescription}</p>
           </div>
           <div className={styles.row1HeaderInnerServices}>
             <div className={styles.columnRow1Is}>
-              <h3 className="h3">Sub Services: {pageTitle}</h3>
+              <h2 className="h3">Sub Services: {pageTitle}</h2>
               <ul>
                 {highlights.map((highlight, index) => (
                   <li key={index}>

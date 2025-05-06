@@ -25,7 +25,8 @@
 .breadcrumbInnerServices p {
   color: var(--color-orange);
 }
-.rowHeaderInnerServices h2 {
+.rowHeaderInnerServices h1,
+.row1HeaderInnerServices h2 {
   color: var(--color-dark-blue);
 }
 .row1HeaderInnerServices {

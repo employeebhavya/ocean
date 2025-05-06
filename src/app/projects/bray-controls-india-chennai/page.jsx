@@ -24,10 +24,10 @@ function Page() {
                 Bray Controls India Pvt. Ltd., Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Bray Controls India Pvt. Ltd.,
               {/* <span className="description">Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/bray/p1.png" alt="image" />
@@ -52,17 +52,23 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Overview:</h3>
+            <h2 className="h4 dark">Overview:</h2>
             <p className="description">
               Ocean Lifespaces takes pride in the successful completion of the
-              Bray Controls India Pvt. Ltd. facility in Chennai. This project
-              aimed to develop a cutting-edge industrial space that enhances
-              operational efficiency and fosters innovation in manufacturing and
-              business processes.
+              <Link
+                href={
+                  "https://www.olipl.com/projects/bray-controls-india-chennai"
+                }
+              >
+                Bray Controls India Pvt. Ltd.
+              </Link>{" "}
+              facility in Chennai. This project aimed to develop a cutting-edge
+              industrial space that enhances operational efficiency and fosters
+              innovation in manufacturing and business processes.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               The primary goal was to design and execute a modern, functional
               workspace that supports productivity while integrating efficient
@@ -70,7 +76,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Strategic Planning: Collaborated with Bray Controls India to
@@ -89,7 +95,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 State-of-the-Art Infrastructure: The facility now features
@@ -108,7 +114,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Successfully executed a high-value industrial project within 6
@@ -125,9 +131,10 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project stands as a testament to Ocean Lifespaces&apos;
+              This project stands as a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
               expertise in delivering high-quality industrial spaces that drive
               productivity and innovation.
             </p>

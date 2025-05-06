@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+/* eslint-disable @next/next/no-Image width={500} height={200}-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -23,7 +24,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/projectsOcean/pi1.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi1.png"
+              alt="image"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -128,16 +134,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/projectsOcean/pi2.png" alt="image" />
-            <img src="/projectsOcean/pi3.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi2.png"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi3.png"
+              alt="image"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/projectsOcean/pi4.png" alt="image" />
-            <img src="/projectsOcean/pi5.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi4.png"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi5.png"
+              alt="image"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/projectsOcean/pi6.png" alt="image" />
-            <img src="/projectsOcean/pi7.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi6.png"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/projectsOcean/pi7.png"
+              alt="image"
+            />
           </div>
         </div>
       </div>

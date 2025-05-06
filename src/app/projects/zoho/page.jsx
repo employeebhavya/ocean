@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
 
@@ -25,7 +25,12 @@ function Page() {
             </h2>
           </div>
           <div className="row1ProjectsInner">
-            <img src="/zoho/p1.png" alt="ZOHO Estancia Turnkey Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p1.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -153,16 +158,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <img src="/zoho/p2.png" alt="ZOHO Estancia Turnkey Works" />
-            <img src="/zoho/p3.png" alt="ZOHO Estancia Turnkey Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p2.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p3.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <img src="/zoho/p4.png" alt="ZOHO Estancia Turnkey Works" />
-            <img src="/zoho/p5.png" alt="ZOHO Estancia Turnkey Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p4.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p5.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <img src="/zoho/p6.png" alt="ZOHO Estancia Turnkey Works" />
-            <img src="/zoho/p7.png" alt="ZOHO Estancia Turnkey Works" />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p6.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/zoho/p7.png"
+              alt="ZOHO Estancia Turnkey Works"
+            />
           </div>
         </div>
       </div>

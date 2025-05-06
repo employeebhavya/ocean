@@ -23,10 +23,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">KONE Project, Chennai</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               KONE Project
               {/* <span className="description">Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/kone/p1.png" alt="image" />
@@ -52,19 +52,23 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces undertook the massive execution of the KONE
-              project in Chennai, covering 7 lakh sq. ft. This large-scale
-              development encompassed civil works, interiors, pre-engineered
-              buildings (PEB), HVAC, and fire & life safety (FAPA) solutions.
-              The project required precise coordination and advanced engineering
-              techniques to create a world-class facility that aligns with
-              KONE’s global standards.
+              Ocean Lifespaces undertook the massive execution of the{" "}
+              <Link
+                href={"https://www.olipl.com/projects/kone-project-chennai"}
+              >
+                KONE project in Chennai
+              </Link>
+              , covering 7 lakh sq. ft. This large-scale development encompassed
+              civil works, interiors, pre-engineered buildings (PEB), HVAC, and
+              fire & life safety (FAPA) solutions. The project required precise
+              coordination and advanced engineering techniques to create a
+              world-class facility that aligns with KONE’s global standards.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               The aim was to deliver a highly functional and technologically
               advanced facility with an emphasis on structural excellence,
@@ -73,7 +77,7 @@ function Page() {
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Integrated Project Management: A coordinated execution plan
@@ -94,7 +98,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 A state-of-the-art facility equipped with world-class
@@ -114,7 +118,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Large-Scale Execution Expertise – Delivering a multi-faceted
@@ -131,9 +135,10 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The KONE project in Chennai is a testament to Ocean Lifespaces’
+              The KONE project in Chennai is a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
               expertise in delivering complex, large-scale developments with
               precision and excellence. This project reflects our ability to
               integrate engineering, technology, and innovation to create

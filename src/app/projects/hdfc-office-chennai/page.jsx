@@ -22,10 +22,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">HDFC Office, Chennai</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               HDFC Office
               {/* <span className="description">Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image width={500} height={200} src="/hdfc/p1.png" alt="image" />
@@ -48,23 +48,25 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Overview:</h3>
+            <h2 className="h4 dark">Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully delivered a modern, high-tech
-              workspace for HDFC in Chennai, integrating advanced interiors,
-              electrical systems, and smart IBMS solutions to enhance efficiency
-              and functionality.
+              Ocean Lifespaces successfully delivered a modern,{" "}
+              <Link href={"https://www.olipl.com/projects/hdfc-office-chennai"}>
+                high-tech workspace for HDFC in Chennai,
+              </Link>{" "}
+              integrating advanced interiors, electrical systems, and smart IBMS
+              solutions to enhance efficiency and functionality.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               To create a seamless, technology-driven workspace that boosts
               productivity and aligns with HDFC’s corporate vision.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Designed optimized interiors for collaboration and efficiency.
@@ -77,7 +79,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>A cutting-edge, future-ready corporate office.</li>
               <li>Enhanced energy efficiency and reliability.</li>
@@ -88,11 +90,12 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This milestone project reflects Ocean Lifespaces expertise in
-              delivering high-performance corporate environments. Stay tuned for
-              more transformative projects!
+              This milestone project reflects{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in delivering high-performance corporate environments.
+              Stay tuned for more transformative projects!
             </p>
           </div>
           <div className="row3ProjectsInner">

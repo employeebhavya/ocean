@@ -24,12 +24,12 @@ function Page() {
                 Emerson – 300,000 SQ FT Industrial Project, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Emerson
               {/* <span className="description">
                 300,000 SQ FT Industrial Project, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -57,18 +57,21 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully completed the Emerson industrial
-              facility in Chennai, which includes the design and execution of
-              complex MEP (Mechanical, Electrical, and Plumbing) systems. The
-              project involved developing a cutting-edge manufacturing unit for
-              Emerson, focusing on optimizing operational efficiency while
-              integrating sustainable and high-performance systems.
+              Ocean Lifespaces successfully completed the{" "}
+              <Link href={"https://www.olipl.com/projects/emersion"}>
+                project for Emerson industrial facility in Chennai
+              </Link>
+              , which includes the design and execution of complex MEP
+              (Mechanical, Electrical, and Plumbing) systems. The project
+              involved developing a cutting-edge manufacturing unit for Emerson,
+              focusing on optimizing operational efficiency while integrating
+              sustainable and high-performance systems.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 Create an industrial facility for Emersons regulators and ATS
@@ -82,7 +85,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Scope of Work:</h3>
+            <h2 className="h4 dark">Scope of Work:</h2>
             <ul>
               <li>
                 <strong>Electrical Works:</strong>
@@ -135,7 +138,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Comprehensive MEP Integration:</strong> The project
@@ -163,7 +166,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 <strong>Energy Efficiency:</strong> The incorporation of the
@@ -185,7 +188,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Successfully executed a complex industrial project with advanced
@@ -205,14 +208,15 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project showcases Ocean Lifespaces’ expertise in delivering
-              large-scale industrial facilities with integrated MEP systems that
-              enhance operational efficiency, safety, and sustainability. The
-              Emerson manufacturing unit stands as a testament to the teams
-              ability to manage complex, high-value projects with precision and
-              excellence.
+              This project showcases{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>’
+              expertise in delivering large-scale industrial facilities with
+              integrated MEP systems that enhance operational efficiency,
+              safety, and sustainability. The Emerson manufacturing unit stands
+              as a testament to the teams ability to manage complex, high-value
+              projects with precision and excellence.
             </p>
           </div>
           <div className="row3ProjectsInner">

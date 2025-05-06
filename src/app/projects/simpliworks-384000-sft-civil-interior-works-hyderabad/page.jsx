@@ -24,12 +24,12 @@ function Page() {
                 Simpliworks – 3,84,000 SFT Civil & Interior Works, Hyderabad
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Simpliworks
               {/* <span className="description">
                 3,84,000 SFT Civil & Interior Works, Hyderabad
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -59,18 +59,25 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              The Simpliworks project in Hyderabad, covering 3,84,000 sq. ft.,
-              was a large-scale civil and interior works project aimed at
-              creating a cutting-edge workspace. The project demanded meticulous
-              planning, seamless execution, and the highest standards of quality
-              to deliver a modern, efficient, and aesthetically refined
-              environment.
+              The{" "}
+              <Link
+                href={
+                  "https://www.olipl.com/projects/simpliworks-384000-sft-civil-interior-works-hyderabad"
+                }
+              >
+                project for Simpliworks project in Hyderabad
+              </Link>
+              , covering 3,84,000 sq. ft., was a large-scale civil and interior
+              works project aimed at creating a cutting-edge workspace. The
+              project demanded meticulous planning, seamless execution, and the
+              highest standards of quality to deliver a modern, efficient, and
+              aesthetically refined environment.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 Construct a world-class workspace that aligns with modern
@@ -91,7 +98,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Strategic Planning & Design:</strong> Conducted a
@@ -164,7 +171,7 @@ function Page() {
             />
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 Successfully constructed and designed a 3,84,000 sq. ft.
@@ -185,7 +192,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Strategic planning and phased execution are critical for
@@ -206,13 +213,14 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Simpliworks project in Hyderabad is a testament to Ocean
-              Lifespaces expertise in civil and interior construction. By
-              delivering a high-quality, functional, and sustainable workspace,
-              this project reaffirms our commitment to excellence in commercial
-              construction and interior design.
+              The Simpliworks project in Hyderabad is a testament to{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in civil and interior construction. By delivering a
+              high-quality, functional, and sustainable workspace, this project
+              reaffirms our commitment to excellence in commercial construction
+              and interior design.
             </p>
           </div>
         </div>

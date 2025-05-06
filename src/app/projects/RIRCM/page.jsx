@@ -24,12 +24,12 @@ function Page() {
                 R1 RCM - 51,000 SQ FT Design & Build Works, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               R1 RCM
               {/* <span className="description">
                 51,000 SQ FT Design & Build Works, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -56,17 +56,20 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully completed the R1 RCM facility in
-              Chennai, a project that focused on creating a dynamic and
-              collaborative workspace. The goal was to design and build a modern
-              office environment that fosters productivity, collaboration, and
+              Ocean Lifespaces successfully completed the{" "}
+              <Link href={"https://www.olipl.com/projects/RIRCM"}>
+                project for R1 RCM facility in Chennai
+              </Link>
+              , a project that focused on creating a dynamic and collaborative
+              workspace. The goal was to design and build a modern office
+              environment that fosters productivity, collaboration, and
               innovation, aligned with R1 RCMs business needs and vision.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 Create an office that enhances employee efficiency and supports
@@ -76,7 +79,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Client Collaboration:</strong> Worked closely with R1
@@ -101,7 +104,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 <strong>Modern Workspace:</strong> The facility now boasts a
@@ -122,7 +125,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Successful execution of a large-scale office design & build
@@ -136,12 +139,13 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project underscores Ocean Lifespaces expertise in delivering
-              innovative and functional office spaces that align with client
-              goals, fostering creativity, collaboration, and operational
-              efficiency.
+              This project underscores{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in delivering innovative and functional office spaces
+              that align with client goals, fostering creativity, collaboration,
+              and operational efficiency.
             </p>
           </div>
           <div className="row3ProjectsInner">

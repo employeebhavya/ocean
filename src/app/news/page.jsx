@@ -16,7 +16,7 @@ function News() {
         <div className="container">
           <div className={styles.rowNews}>
             <div className={styles.columnNews}>
-              <h2 className="h3">News & Events</h2>
+              <h1 className="h3">News & Events</h1>
               <p className="description">
                 Stay updated with our latest trends, projects, and achievements.
               </p>

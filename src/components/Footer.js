@@ -16,7 +16,14 @@ function Footer() {
       <div className="container">
         <div className={Styles.rowFooter}>
           <div className={Styles.columnFooter}>
-            <Image width={200} height={100} src="/foot-logo.png" alt="image" />
+            <Link href={"https://www.olipl.com/"}>
+              <Image
+                width={200}
+                height={100}
+                src="/foot-logo.png"
+                alt="image"
+              />
+            </Link>
           </div>
           <div className={Styles.columnFooter}>
             <div className={Styles.columnFooterRow}>

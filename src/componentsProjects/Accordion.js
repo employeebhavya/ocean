@@ -72,14 +72,14 @@ const Accordion = () => {
       <div className="container">
         <div className={styles.rowMainAccordion}>
           <div className={styles.rowHeader}>
-            <h2 className="h2">Our Partners</h2>
+            <h1 className="h2">Our Partners</h1>
             <p className="description">
               We have collaborated with some of the leading Architects and
               Project Management Consultants (PMCs) in India, on one-of-a-kind
               projects.
             </p>
           </div>
-          <h3 className="h3">Leading Architects Collaborated with</h3>
+          <h2 className="h3">Leading Architects Collaborated with</h2>
           <div className={styles.rowAccordion}>
             {architects.map((section, index) => (
               <div key={index} className={styles.accordionSection}>
@@ -91,7 +91,7 @@ const Accordion = () => {
               </div>
             ))}
           </div>
-          <h3 className="h3">Leading PMC&apos;S we WORKED with</h3>
+          <h2 className="h3">Leading PMC&apos;S we WORKED with</h2>
           <div className={styles.rowAccordion}>
             {pmcs.map((section, index) => (
               <div

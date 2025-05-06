@@ -24,12 +24,12 @@ function Page() {
                 Swiss RE – 2,00,000 SQ FT Interior Works, Bangalore
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Swiss RE
               {/* <span className="description">
                 2,00,000 SQ FT Interior Works, Bangalore
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -59,17 +59,24 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              The Swiss RE interior works project in Bangalore, valued at ₹60
-              Crores, focused on delivering a high-end workspace covering
-              2,00,000 sq. ft. The project aimed to create a functional,
-              aesthetically appealing, and sustainable environment that enhances
-              productivity and reflects modern design excellence.
+              The{" "}
+              <Link
+                href={
+                  "https://www.olipl.com/projects/swiss-re-200000-sq-ft-interior-works-bangalore"
+                }
+              >
+                Swiss RE interior works project in Bangalore,
+              </Link>{" "}
+              valued at ₹60 Crores, focused on delivering a high-end workspace
+              covering 2,00,000 sq. ft. The project aimed to create a
+              functional, aesthetically appealing, and sustainable environment
+              that enhances productivity and reflects modern design excellence.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 Design and execute a world-class interior space with a seamless
@@ -90,7 +97,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Strategic Planning & Concept Development:</strong>{" "}
@@ -117,7 +124,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 Successfully completed a state-of-the-art 2,00,000 sq. ft.
@@ -138,7 +145,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Strategic planning and execution are essential for large-scale
@@ -159,13 +166,14 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
               The Swiss RE interior project in Bangalore stands as a testament
-              to Ocean Lifespaces’ expertise in creating world-class work
-              environments. With a focus on design, efficiency, and
-              sustainability, this project redefines modern workspace interiors,
-              setting a new benchmark for future developments.
+              to <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in creating world-class work environments. With a focus
+              on design, efficiency, and sustainability, this project redefines
+              modern workspace interiors, setting a new benchmark for future
+              developments.
             </p>
           </div>
           <div className="row3ProjectsInner">

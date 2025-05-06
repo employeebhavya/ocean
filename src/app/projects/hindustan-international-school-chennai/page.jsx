@@ -24,10 +24,10 @@ function HindustanInternationalSchool() {
                 Hindustan International School, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Hindustan International School
               {/* <span className="description">Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -57,23 +57,29 @@ function HindustanInternationalSchool() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Overview:</h3>
+            <h2 className="h4 dark">Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully completed the Hindustan
-              International School project, creating a state-of-the-art
-              educational facility that fosters innovation and future-ready
-              learning.
+              Ocean Lifespaces successfully completed the{" "}
+              <Link
+                href={
+                  "https://www.olipl.com/projects/hindustan-international-school-chennai"
+                }
+              >
+                Hindustan International School project,
+              </Link>{" "}
+              creating a state-of-the-art educational facility that fosters
+              innovation and future-ready learning.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               Design a modern, sustainable, and functional learning space with
               efficient infrastructure.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Challenges:</h3>
+            <h2 className="h4 dark">Challenges:</h2>
             <ul>
               <li>Strict 6-month timeline</li>
               <li>
@@ -87,7 +93,7 @@ function HindustanInternationalSchool() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 Collaboration: Worked closely with stakeholders to align with
@@ -101,7 +107,7 @@ function HindustanInternationalSchool() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>
                 Modern infrastructure with advanced labs, classrooms, and
@@ -117,7 +123,7 @@ function HindustanInternationalSchool() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Delivered high-quality results within time and budget
@@ -130,10 +136,12 @@ function HindustanInternationalSchool() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              This project showcases Ocean Lifespaces’ expertise in transforming
-              educational environments. Stay tuned for more impactful projects!
+              This project showcases{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
+              expertise in transforming educational environments. Stay tuned for
+              more impactful projects!
             </p>
           </div>
           <div className="row3ProjectsInner">
