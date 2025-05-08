@@ -30,7 +30,6 @@
   color: var(--color-white);
   font-size: clamp(15px, 1vw, 1vw);
   text-decoration: none;
-  font-weight: normal;
 }
 .columnFooter p {
   color: var(--color-white);
@@ -94,11 +93,18 @@
   color: var(--color-white);
   font-size: clamp(15px, 1vw, 1vw);
   text-decoration: none;
-  font-weight: normal;
   transition: all 0.3s ease;
 }
 .social a:hover {
   transform: scale(1.2);
+}
+.fwBold {
+  font-weight: bold;
+}
+.hr {
+  width: 100%;
+  height: 1px;
+  color: var(--color-white);
 }
 /* responsive-css-starts-here */
 @media only screen and (max-width: 1024px) {

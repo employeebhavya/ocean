@@ -35,7 +35,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/simpli/p1.png"
+              src="/simpli/p1.webp"
               alt="Simpliworks Civil & Interior Works"
             />
           </div>
@@ -132,13 +132,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/simpli/p2.png"
+              src="/simpli/p2.webp"
               alt="Simpliworks Interior Works"
             />
             <Image
               width={500}
               height={200}
-              src="/simpli/p3.png"
+              src="/simpli/p3.webp"
               alt="Simpliworks Civil Works"
             />
           </div>
@@ -146,13 +146,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/simpli/p4.png"
+              src="/simpli/p4.webp"
               alt="Simpliworks Project"
             />
             <Image
               width={500}
               height={200}
-              src="/simpli/p5.png"
+              src="/simpli/p5.webp"
               alt="Simpliworks Office Space"
             />
           </div>
@@ -160,13 +160,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/simpli/p6.png"
+              src="/simpli/p6.webp"
               alt="Simpliworks Project Interior"
             />
             <Image
               width={500}
               height={200}
-              src="/simpli/p7.png"
+              src="/simpli/p7.webp"
               alt="Simpliworks Workspace"
             />
           </div>

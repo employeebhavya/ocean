@@ -15,31 +15,31 @@ const services = [
   {
     id: 1,
     title: "Turnkey Solutions",
-    imgSrc: "/interior.png",
+    imgSrc: "/interior.webp",
     link: "/services/turnkey-solutions",
   },
   {
     id: 2,
     title: "Interior Fit-Out Services",
-    imgSrc: "/fitOuts.png",
+    imgSrc: "/fitOuts.webp",
     link: "/services/interior-fit-out-services",
   },
   {
     id: 3,
     title: "Civil Construction",
-    imgSrc: "/civil.png",
+    imgSrc: "/civil.webp",
     link: "/services/civil-construction",
   },
   {
     id: 4,
     title: "Real Estate Development",
-    imgSrc: "/designBuild.png",
+    imgSrc: "/designBuild.webp",
     link: "/services/real-estate-development",
   },
   {
     id: 5,
     title: "Infrastructure Development",
-    imgSrc: "/marine.png",
+    imgSrc: "/marine.webp",
     link: "/services/infrastructure-development",
   },
 ];

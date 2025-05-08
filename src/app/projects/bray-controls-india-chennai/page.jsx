@@ -30,7 +30,7 @@ function Page() {
             </h1>
           </div>
           <div className="row1ProjectsInner">
-            <Image width={500} height={200} src="/bray/p1.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p1.webp" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -54,7 +54,7 @@ function Page() {
           <div className="row2ProjectsInner">
             <h2 className="h4 dark">Overview:</h2>
             <p className="description">
-              Ocean Lifespaces takes pride in the successful completion of the
+              Ocean Lifespaces takes pride in the successful completion of the{" "}
               <Link
                 href={
                   "https://www.olipl.com/projects/bray-controls-india-chennai"
@@ -140,16 +140,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/bray/p2.png" alt="image" />
-            <Image width={500} height={200} src="/bray/p3.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p2.webp" alt="image" />
+            <Image width={500} height={200} src="/bray/p3.webp" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/bray/p4.png" alt="image" />
-            <Image width={500} height={200} src="/bray/p5.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p4.webp" alt="image" />
+            <Image width={500} height={200} src="/bray/p5.webp" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <Image width={500} height={200} src="/bray/p6.png" alt="image" />
-            <Image width={500} height={200} src="/bray/p7.png" alt="image" />
+            <Image width={500} height={200} src="/bray/p6.webp" alt="image" />
+            <Image width={500} height={200} src="/bray/p7.webp" alt="image" />
           </div>
         </div>
       </div>

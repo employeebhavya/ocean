@@ -6,37 +6,37 @@ import Image from "next/image";
 
 const Members = [
   {
-    image: "/about/team1.png",
+    image: "/about/team1.webp",
     title: "Mr. S. K. Peter",
     description: "Managing Director & CEO",
   },
   {
-    image: "/about/team4.png",
+    image: "/about/team4.webp",
     title: "Mrs. Anitha Peter",
     description: "Director I Operations",
   },
   {
-    image: "/about/sankar.png",
+    image: "/about/sankar.webp",
     title: "Sankar",
     description: "Director I Global",
   },
   {
-    image: "/about/team2.png",
+    image: "/about/team2.webp",
     title: "Mr. Arul Arumugam",
     description: "Director I North",
   },
   {
-    image: "/about/team3.png",
+    image: "/about/team3.webp",
     title: "Sabapathy",
     description: "Director I Civil",
   },
   {
-    image: "/about/vinod.png",
+    image: "/about/vinod.webp",
     title: "Vinod",
     description: "Director I Marine",
   },
   {
-    image: "/about/salai.png",
+    image: "/about/salai.webp",
     title: "Salai Dhavamani",
     description: "Chief Finance Officer",
   },

@@ -25,19 +25,19 @@ function News() {
                   width={200}
                   height={100}
                   style={{ borderRadius: "15px" }}
-                  src="/news/Background.png"
+                  src="/news/Background.webp"
                   alt="image"
                 />
                 <Image
                   width={200}
                   height={100}
-                  src="/news/Link-1.png"
+                  src="/news/Link-1.webp"
                   alt="image"
                 />
                 <Image
                   width={200}
                   height={100}
-                  src="/news/Link-2.png"
+                  src="/news/Link-2.webp"
                   alt="image"
                 />
               </div>
@@ -46,7 +46,7 @@ function News() {
               <Image
                 width={200}
                 height={100}
-                src="/news/Link.png"
+                src="/news/Link.webp"
                 alt="image"
               />
               <h4 className="h4">

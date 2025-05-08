@@ -12,52 +12,52 @@ export const metadata = {
 function CivilConstruction() {
   // Define the dynamic content here
   const highlights = [
-    { img: "/services/house.png", text: "Residential Construction" },
-    { img: "/services/hotel.png", text: "Commercial Construction" },
-    { img: "/services/factory.png", text: "Industrial Construction" },
-    { img: "/services/pickaxe.png", text: "Earthworks & Excavation" },
-    { img: "/services/ship.png", text: "Marine Infrastructure Construction" },
+    { img: "/services/house.webp", text: "Residential Construction" },
+    { img: "/services/hotel.webp", text: "Commercial Construction" },
+    { img: "/services/factory.webp", text: "Industrial Construction" },
+    { img: "/services/pickaxe.webp", text: "Earthworks & Excavation" },
+    { img: "/services/ship.webp", text: "Marine Infrastructure Construction" },
   ];
 
   const page2Projects = [
     {
-      imgSrc: "/services/alf.jpg",
+      imgSrc: "/services/alf.webp",
       title: "Alf",
     },
     {
-      imgSrc: "/services/braycontrols.jpg",
+      imgSrc: "/services/braycontrols.webp",
       title: "Bray Controls",
     },
     {
-      imgSrc: "/services/colgatepalmolive.jpg",
+      imgSrc: "/services/colgatepalmolive.webp",
       title: "Colgate Palmolive",
     },
     {
-      imgSrc: "/services/hindustaninternationalschool.jpg",
+      imgSrc: "/services/hindustaninternationalschool.webp",
       title: "Hindustan International School",
     },
     {
-      imgSrc: "/services/hotelgreysuit.jpg",
+      imgSrc: "/services/hotelgreysuit.webp",
       title: "Hotel Grey Suit",
     },
     {
-      imgSrc: "/services/iocl.jpg",
+      imgSrc: "/services/iocl.webp",
       title: "IOCL",
     },
     {
-      imgSrc: "/services/kone.jpg",
+      imgSrc: "/services/kone.webp",
       title: "KONE",
     },
     {
-      imgSrc: "/services/pacques.jpg",
+      imgSrc: "/services/pacques.webp",
       title: "Pacques",
     },
     {
-      imgSrc: "/services/parksonspackaging.jpg",
+      imgSrc: "/services/parksonspackaging.webp",
       title: "Parksons Packaging",
     },
     {
-      imgSrc: "/services/emerson.jpg",
+      imgSrc: "/services/emerson.webp",
       title: "Emerson",
     },
   ];
@@ -69,11 +69,11 @@ function CivilConstruction() {
         serviceTitle="Civil Construction"
         mainDescription="Reliable Civil Construction Services for Every Project."
         highlights={highlights}
-        rightImage1="/services/civilinner1.png"
+        rightImage1="/services/civilinner1.webp"
         companyDescription1="Ocean’s civil construction services cover a wide range of projects, from residential buildings to commercial and industrial developments. Our team combines technical expertise with innovative solutions to deliver high-quality infrastructure that stands the test of time. We manage each project with a focus on safety, sustainability, and adherence to all regulatory standards."
         // companyDescription2="Having achieved a dominant position in the industry and having won the heart of numerous clients, Ocean has gathered all its expertise and grabbed opportunities for innovation and faster project delivery as one unified flow of work from initial concept through completion."
-        leftImage2="/services/civilinner2.png"
-        rightImage2="/services/design3.png"
+        leftImage2="/services/civilinner2.webp"
+        rightImage2="/services/design3.webp"
         clientsList="Whether it’s building homes, offices, or specialized industrial facilities, we ensure that each project is completed to the highest standards. Our civil construction services extend to site preparation, foundation work, and beyond, ensuring that every phase of the construction process is completed with precision. We also provide tailored solutions for unique project requirements."
         transformationText="We bring excellence to civil construction, delivering durable and innovative structures, from commercial complexes to large-scale developments. Our commitment to precision engineering, timely execution, and sustainability ensures superior quality in every project."
       />

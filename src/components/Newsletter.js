@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import styles from "./Newsletter.module.css";
 import gsap from "gsap";
@@ -13,6 +13,10 @@ if (typeof window !== "undefined") {
 export default function Newsletter() {
   const sectionRef = useRef(null);
   const headingRef = useRef(null);
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [emailError, setEmailError] = useState("");
 
   useEffect(() => {
     const context = gsap.context(() => {
@@ -36,6 +40,65 @@ export default function Newsletter() {
       context.revert();
     };
   }, []);
+
+  const validateEmail = (email) => {
+    // Basic email regex validation
+    const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return re.test(email);
+  };
+
+  const handleEmailChange = (e) => {
+    const value = e.target.value;
+    setEmail(value);
+
+    // Clear error when user starts typing
+    if (emailError && value) {
+      setEmailError("");
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setMessage("");
+    setEmailError("");
+
+    // Client-side validation
+    if (!email) {
+      setEmailError("Email is required");
+      setIsSubmitting(false);
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      setEmailError("Please enter a valid email address");
+      setIsSubmitting(false);
+      return;
+    }
+
+    try {
+      const response = await fetch("/api/newsletter", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      const data = await response.json();
+      if (response.ok) {
+        setMessage(data.message);
+        setEmail("");
+      } else {
+        setMessage(data.message || "Something went wrong");
+      }
+    } catch (error) {
+      setMessage("Failed to submit. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
     <section ref={sectionRef} className={styles.sectionNewsLetter}>
       <div className={styles.container}>
@@ -43,16 +106,44 @@ export default function Newsletter() {
           Get The Latest Ocean Updates <br></br> By Subscribing To Our
           Newsletter!
         </h2>
-        <div className={styles.inputWrapper}>
-          <input
-            type="email"
-            placeholder="Enter email address"
-            className={styles.input}
-          />
-          <button className={styles.button}>
-            <AiOutlineArrowRight className={styles.icon} />
+        <form onSubmit={handleSubmit} className={styles.inputWrapper}>
+          <div className={styles.inputContainer}>
+            <input
+              type="email"
+              placeholder="Enter email address"
+              className={`${styles.input} ${
+                emailError ? styles.inputError : ""
+              }`}
+              value={email}
+              onChange={handleEmailChange}
+              required
+            />
+            {emailError && <p className={styles.errorMessage}>{emailError}</p>}
+          </div>
+          <button
+            type="submit"
+            className={styles.button}
+            disabled={isSubmitting || !!emailError}
+            aria-label="Subscribe to newsletter"
+          >
+            {isSubmitting ? (
+              "Sending..."
+            ) : (
+              <AiOutlineArrowRight className={styles.icon} />
+            )}
           </button>
-        </div>
+        </form>
+        {message && (
+          <p
+            className={`${styles.message} ${
+              message.includes("success")
+                ? styles.successMessage
+                : styles.errorMessage
+            }`}
+          >
+            {message}
+          </p>
+        )}
       </div>
     </section>
   );

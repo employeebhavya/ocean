@@ -90,7 +90,7 @@ function AboutHeader() {
           <img
             ref={(el) => (imageRefs.current[0] = el)}
             className={Styles.imageOneAbout}
-            src="/about/header-left.png"
+            src="/about/header-left.webp"
             alt="image"
           />
         </div>
@@ -127,7 +127,7 @@ function AboutHeader() {
             width={300}
             height={200}
             ref={(el) => (imageRefs.current[1] = el)}
-            src="/about/header-right.png"
+            src="/about/header-right.webp"
             alt="image"
           />
         </div>

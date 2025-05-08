@@ -21,7 +21,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p1.png"
+                src="/projectsOcean/p1.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -38,7 +38,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p2.png"
+                src="/projectsOcean/p2.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -55,7 +55,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p3.png"
+                src="/projectsOcean/p3.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -72,7 +72,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p4.png"
+                src="/projectsOcean/p4.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -87,7 +87,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p5.png"
+                src="/projectsOcean/p5.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -104,7 +104,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p6.png"
+                src="/projectsOcean/p6.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -123,7 +123,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p7.png"
+                src="/projectsOcean/p7.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -138,7 +138,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p8.png"
+                src="/projectsOcean/p8.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -157,7 +157,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p9.png"
+                src="/projectsOcean/p9.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -172,7 +172,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p10.png"
+                src="/projectsOcean/p10.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -189,7 +189,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p11.png"
+                src="/projectsOcean/p11.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -206,7 +206,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p12.png"
+                src="/projectsOcean/p12.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -221,7 +221,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p13.png"
+                src="/projectsOcean/p13.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -238,7 +238,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p14.png"
+                src="/projectsOcean/p14.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -255,7 +255,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p15.png"
+                src="/projectsOcean/p15.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -270,7 +270,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p16.png"
+                src="/projectsOcean/p16.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -289,7 +289,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p17.png"
+                src="/projectsOcean/p17.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -306,7 +306,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p18.png"
+                src="/projectsOcean/p18.webp"
                 alt="image"
               />
               <div className={styles.content}>
@@ -321,7 +321,7 @@ function Projects() {
               <Image
                 width={200}
                 height={100}
-                src="/projectsOcean/p19.png"
+                src="/projectsOcean/p19.webp"
                 alt="image"
               />
               <div className={styles.content}>

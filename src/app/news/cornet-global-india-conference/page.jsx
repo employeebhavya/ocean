@@ -31,7 +31,7 @@ function CoreNetConference2024() {
             </div>
             {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
-                <img className="authorImage" src="/news/in1.png" alt="author" />
+                <img className="authorImage" src="/news/in1.webp" alt="author" />
                 <div className="contentAuthor">
                   <p className="description">
                     <strong>Nettie Stanton</strong>
@@ -39,7 +39,7 @@ function CoreNetConference2024() {
                   <p className="description">Nov 27, 2024</p>
                 </div>
               </div>
-              <img className="divider" src="/news/divider.png" alt="divider" />
+              <img className="divider" src="/news/divider.webp" alt="divider" />
               <div className="socialShare">
                 <SocialShare />
               </div>
@@ -47,7 +47,7 @@ function CoreNetConference2024() {
             <div className="row3NewsLayoutInnerInner">
               <img
                 className="mainImage half"
-                src="/news/cornet1.png"
+                src="/news/cornet1.webp"
                 alt="main image"
               />
             </div>

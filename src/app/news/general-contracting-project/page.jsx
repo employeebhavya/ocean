@@ -31,7 +31,7 @@ function GeneralContractingProject() {
             </div>
             {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
-                <img className="authorImage" src="/news/in1.png" alt="author" />
+                <img className="authorImage" src="/news/in1.webp" alt="author" />
                 <div className="contentAuthor">
                   <p className="description">
                     <strong>Nettie Stanton</strong>
@@ -39,13 +39,13 @@ function GeneralContractingProject() {
                   <p className="description">Dec 20, 2024</p>
                 </div>
               </div>
-              <img className="divider" src="/news/divider.png" alt="divider" />
+              <img className="divider" src="/news/divider.webp" alt="divider" />
               <div className="socialShare">
                 <SocialShare />
               </div>
             </div> */}
             {/* <div className="row3NewsLayoutInnerInner">
-              <img className="mainImage" src="/news/in2.png" alt="main image" />
+              <img className="mainImage" src="/news/in2.webp" alt="main image" />
             </div> */}
             <div className="row4NewsLayoutInnerInner">
               <p className="description">

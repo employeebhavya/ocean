@@ -15,7 +15,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: clamp(390px, 55vw, 55vw);
   margin: auto;
-  background-image: url("../../public/news-letter.png");
+  background-image: url("../../public/news-letter.webp");
   background-position: center;
   background-size: cover;
 }
@@ -75,4 +75,34 @@
   .container {
     background-position: initial;
   }
+}
+.inputContainer {
+  position: relative;
+  flex-grow: 1;
+}
+
+.inputError {
+  border-color: #ff4444 !important;
+}
+
+.errorMessage {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  color: #ff4444;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}
+
+.message {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.successMessage {
+  color: #00c851;
+}
+
+.errorMessage {
+  color: #ff4444;
 }

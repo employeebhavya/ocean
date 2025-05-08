@@ -29,7 +29,7 @@ function ChristmasCelebration() {
             </div>
             {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
-                <img className="authorImage" src="/news/in1.png" alt="author" />
+                <img className="authorImage" src="/news/in1.webp" alt="author" />
                 <div className="contentAuthor">
                   <p className="description">
                     <strong>Nettie Stanton</strong>
@@ -37,7 +37,7 @@ function ChristmasCelebration() {
                   <p className="description">Dec 25, 2024</p>
                 </div>
               </div>
-              <img className="divider" src="/news/divider.png" alt="divider" />
+              <img className="divider" src="/news/divider.webp" alt="divider" />
               <div className="socialShare">
                 <SocialShare />
               </div>
@@ -45,22 +45,22 @@ function ChristmasCelebration() {
             <div className="row3NewsLayoutInnerInner two">
               <img
                 className="mainImage"
-                src="/news/christmas1.png"
+                src="/news/christmas1.webp"
                 alt="main image"
               />
               <img
                 className="mainImage"
-                src="/news/christmas2.png"
+                src="/news/christmas2.webp"
                 alt="main image"
               />
               <img
                 className="mainImage"
-                src="/news/christmas3.png"
+                src="/news/christmas3.webp"
                 alt="main image"
               />
               <img
                 className="mainImage"
-                src="/news/christmas4.png"
+                src="/news/christmas4.webp"
                 alt="main image"
               />
             </div>

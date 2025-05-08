@@ -29,7 +29,7 @@ function Page() {
             </h1>
           </div>
           <div className="row1ProjectsInner">
-            <Image width={500} height={200} src="/kone/p1.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p1.webp" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -146,16 +146,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/kone/p2.png" alt="image" />
-            <Image width={500} height={200} src="/kone/p3.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p2.webp" alt="image" />
+            <Image width={500} height={200} src="/kone/p3.webp" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/kone/p4.png" alt="image" />
-            <Image width={500} height={200} src="/kone/p5.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p4.webp" alt="image" />
+            <Image width={500} height={200} src="/kone/p5.webp" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <Image width={500} height={200} src="/kone/p6.png" alt="image" />
-            <Image width={500} height={200} src="/kone/p7.png" alt="image" />
+            <Image width={500} height={200} src="/kone/p6.webp" alt="image" />
+            <Image width={500} height={200} src="/kone/p7.webp" alt="image" />
           </div>
         </div>
       </div>

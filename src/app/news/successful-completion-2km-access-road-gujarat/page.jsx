@@ -29,7 +29,7 @@ function Gujarat() {
             </div>
             {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
-                <img className="authorImage" src="/news/in1.png" alt="author" />
+                <img className="authorImage" src="/news/in1.webp" alt="author" />
                 <div className="contentAuthor">
                   <p className="description">
                     <strong>Nettie Stanton</strong>
@@ -37,7 +37,7 @@ function Gujarat() {
                   <p className="description">Dec 25, 2024</p>
                 </div>
               </div>
-              <img className="divider" src="/news/divider.png" alt="divider" />
+              <img className="divider" src="/news/divider.webp" alt="divider" />
               <div className="socialShare">
                 <SocialShare />
               </div>
@@ -45,19 +45,19 @@ function Gujarat() {
             <div className="row3NewsLayoutInnerInner two">
               <img
                 className="mainImage"
-                src="/news/gujarat1.jpeg"
+                src="/news/gujarat1.webp"
                 alt="main image"
               />
               <img
                 className="mainImage"
-                src="/news/gujarat2.jpeg"
+                src="/news/gujarat2.webp"
                 alt="main image"
               />
             </div>
             <div className="row3NewsLayoutInnerInner">
               <img
                 className="mainImage"
-                src="/news/gujarat3.jpeg"
+                src="/news/gujarat3.webp"
                 alt="main image"
               />
             </div>

@@ -26,7 +26,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/pharmed/p1.png"
+              src="/pharmed/p1.webp"
               alt="VMware General Contract Works"
             />
           </div>
@@ -70,24 +70,44 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/pharmed/p2.png" alt="image" />
-            <Image width={500} height={200} src="/pharmed/p3.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p2.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p3.webp"
+              alt="image"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/pharmed/p4.png" alt="image" />
-            <Image width={500} height={200} src="/pharmed/p5.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p4.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pharmed/p5.webp"
+              alt="image"
+            />
           </div>
           <div className="row5ProjectsInner">
             <Image
               width={500}
               height={200}
-              src="/pharmed/p6.png"
+              src="/pharmed/p6.webp"
               alt="Simpliworks Project Interior"
             />
             <Image
               width={500}
               height={200}
-              src="/pharmed/p7.png"
+              src="/pharmed/p7.webp"
               alt="Simpliworks Workspace"
             />
           </div>

@@ -52,7 +52,7 @@ function AboutVision() {
     <>
       <section ref={visionTopRef} className={Styles.visionTop}>
         <div className={Styles.rowVisionTop}>
-          <Image width={54} height={33} src="/about/quote.png" alt="image" />
+          <Image width={54} height={33} src="/about/quote.webp" alt="image" />
           <p className="h4">
             We have collaborated with some of the leading Architects and Project
             Management Consultants (PMCs) in India, on one-of-a-kind projects.
@@ -77,7 +77,7 @@ function AboutVision() {
             <Image
               width={300}
               height={100}
-              src="/about/vision-left.png"
+              src="/about/vision-left.webp"
               alt="image"
             />
           </div>
@@ -85,7 +85,7 @@ function AboutVision() {
             <Image
               width={300}
               height={100}
-              src="/about/vision-right.png"
+              src="/about/vision-right.webp"
               alt="image"
             />
           </div>

@@ -9,7 +9,7 @@
   background-color: var(--color-dark-blue);
   padding: clamp(80px, 7vh, 7vh) 0;
   color: var(--color-white);
-  background-image: url("../../public/homeServiceBg.png");
+  background-image: url("../../public/homeServiceBg.webp");
   background-repeat: no-repeat;
   background-position: left bottom;
 }

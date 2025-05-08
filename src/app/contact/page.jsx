@@ -24,7 +24,7 @@ function Contact() {
                   <Image
                     width={200}
                     height={100}
-                    src="/contact/map.png"
+                    src="/contact/map.webp"
                     alt="image"
                   />
                   <div className={styles.content}>
@@ -40,7 +40,7 @@ function Contact() {
                 <Image
                   width={200}
                   height={100}
-                  src="/contact/mail.png"
+                  src="/contact/mail.webp"
                   alt="image"
                 />
                 <div className={styles.content}>
@@ -52,7 +52,7 @@ function Contact() {
                 <Image
                   width={200}
                   height={100}
-                  src="/contact/phone.png"
+                  src="/contact/phone.webp"
                   alt="image"
                 />
                 <div className={styles.content}>
@@ -79,7 +79,7 @@ function Contact() {
                   <Image
                     width={200}
                     height={100}
-                    src="/contact/map.png"
+                    src="/contact/map.webp"
                     alt="image"
                   />
                   <div className={styles.content}>
@@ -110,7 +110,7 @@ function Contact() {
                   <Image
                     width={200}
                     height={100}
-                    src="/contact/map.png"
+                    src="/contact/map.webp"
                     alt="image"
                   />
                   <div className={styles.content}>
@@ -138,7 +138,7 @@ function Contact() {
               </div>
               {/* <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.webp" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Andhra Pradesh</h5>
                     <p className="description">
@@ -164,7 +164,7 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.webp" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Pondicherry</h5>
                     <p className="description">
@@ -190,7 +190,7 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.webp" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Kerala</h5>
                     <p className="description">
@@ -215,7 +215,7 @@ function Contact() {
               </div>
               <div className={styles.columnOtherLocations}>
                 <div className={styles.columnContact}>
-                  <Image width={200} height={100} src="/contact/map.png" alt="image" />
+                  <Image width={200} height={100} src="/contact/map.webp" alt="image" />
                   <div className={styles.content}>
                     <h5 className="h5">Ahmedabad</h5>
                     <p className="description">

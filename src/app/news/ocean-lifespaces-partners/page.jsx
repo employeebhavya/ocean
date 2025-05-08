@@ -31,7 +31,7 @@ function OceanLifespacesPartners() {
             </div>
             {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
-                <img className="authorImage" src="/news/in1.png" alt="author" />
+                <img className="authorImage" src="/news/in1.webp" alt="author" />
                 <div className="contentAuthor">
                   <p className="description">
                     <strong>Nettie Stanton</strong>
@@ -39,7 +39,7 @@ function OceanLifespacesPartners() {
                   <p className="description">Jun 10, 2024</p>
                 </div>
               </div>
-              <img className="divider" src="/news/divider.png" alt="divider" />
+              <img className="divider" src="/news/divider.webp" alt="divider" />
               <div className="socialShare">
                 <SocialShare />
               </div>
@@ -47,12 +47,12 @@ function OceanLifespacesPartners() {
             <div className="row3NewsLayoutInnerInner two">
               <img
                 className="mainImage"
-                src="/news/vstian1.png"
+                src="/news/vstian1.webp"
                 alt="main image"
               />
               <img
                 className="mainImage"
-                src="/news/vstian2.png"
+                src="/news/vstian2.webp"
                 alt="main image 2"
               />
             </div>

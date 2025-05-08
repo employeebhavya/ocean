@@ -94,7 +94,7 @@ function Transform() {
           </div>
           <div className={Styles.columnTransform}>
             <Image
-              src="/transform.png"
+              src="/transform.webp"
               alt="transform"
               width={516}
               height={514}

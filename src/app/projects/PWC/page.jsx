@@ -35,7 +35,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/pwc/p1.png"
+              src="/pwc/p1.webp"
               alt="PWC General Contract"
             />
           </div>
@@ -157,13 +157,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/pwc/p2.png"
+              src="/pwc/p2.webp"
               alt="PWC General Contract"
             />
             <Image
               width={500}
               height={200}
-              src="/pwc/p3.png"
+              src="/pwc/p3.webp"
               alt="PWC General Contract"
             />
           </div>
@@ -171,13 +171,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/pwc/p4.png"
+              src="/pwc/p4.webp"
               alt="PWC General Contract"
             />
             <Image
               width={500}
               height={200}
-              src="/pwc/p5.png"
+              src="/pwc/p5.webp"
               alt="PWC General Contract"
             />
           </div>
@@ -185,13 +185,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/pwc/p6.png"
+              src="/pwc/p6.webp"
               alt="PWC General Contract"
             />
             <Image
               width={500}
               height={200}
-              src="/pwc/p7.png"
+              src="/pwc/p7.webp"
               alt="PWC General Contract"
             />
           </div>

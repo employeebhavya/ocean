@@ -153,7 +153,7 @@ function ScrollSection() {
                   excellence across all sectors.
                 </p>
                 <Link href={"/about"} ref={linkRef}>
-                  <button class={Styles.cta}>
+                  <button className={Styles.cta}>
                     <span>Learn More</span>
                     <svg width="15px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>

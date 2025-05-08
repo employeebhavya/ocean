@@ -29,7 +29,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi1.png"
+              src="/projectsOcean/pi1.webp"
               alt="VMware General Contract Works"
             />
           </div>
@@ -168,13 +168,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi2.png"
+              src="/projectsOcean/pi2.webp"
               alt="image"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi3.png"
+              src="/projectsOcean/pi3.webp"
               alt="image"
             />
           </div>
@@ -182,13 +182,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi4.png"
+              src="/projectsOcean/pi4.webp"
               alt="image"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi5.png"
+              src="/projectsOcean/pi5.webp"
               alt="image"
             />
           </div>
@@ -196,13 +196,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi6.png"
+              src="/projectsOcean/pi6.webp"
               alt="Simpliworks Project Interior"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi7.png"
+              src="/projectsOcean/pi7.webp"
               alt="Simpliworks Workspace"
             />
           </div>

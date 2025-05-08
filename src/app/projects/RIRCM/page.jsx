@@ -35,7 +35,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/rircm/p1.png"
+              src="/rircm/p1.webp"
               alt="R1 RCM Design & Build Works"
             />
           </div>
@@ -152,13 +152,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/rircm/p2.png"
+              src="/rircm/p2.webp"
               alt="R1 RCM Design & Build Works"
             />
             <Image
               width={500}
               height={200}
-              src="/rircm/p3.png"
+              src="/rircm/p3.webp"
               alt="R1 RCM Design & Build Works"
             />
           </div>
@@ -166,13 +166,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/rircm/p4.png"
+              src="/rircm/p4.webp"
               alt="R1 RCM Design & Build Works"
             />
             <Image
               width={500}
               height={200}
-              src="/rircm/p5.png"
+              src="/rircm/p5.webp"
               alt="R1 RCM Design & Build Works"
             />
           </div>
@@ -180,13 +180,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/rircm/p6.png"
+              src="/rircm/p6.webp"
               alt="R1 RCM Design & Build Works"
             />
             <Image
               width={500}
               height={200}
-              src="/rircm/p7.png"
+              src="/rircm/p7.webp"
               alt="R1 RCM Design & Build Works"
             />
           </div>

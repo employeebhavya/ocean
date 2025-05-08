@@ -20,7 +20,7 @@ function Footer() {
               <Image
                 width={200}
                 height={100}
-                src="/foot-logo.png"
+                src="/foot-logo.webp"
                 alt="image"
               />
             </Link>
@@ -28,20 +28,17 @@ function Footer() {
           <div className={Styles.columnFooter}>
             <div className={Styles.columnFooterRow}>
               <div className={Styles.columnFooterColumn}>
-                <Link style={{ fontWeight: "bold" }} href="/">
-                  General Information
-                </Link>
-                <Link style={{ fontWeight: "bold" }} href="/">
+                <Link className={Styles.fwBold} href="/privacy-policy">
                   Privacy Policy
                 </Link>
-                <Link style={{ fontWeight: "bold" }} href="/">
-                  Legal Advisory
+                <Link className={Styles.fwBold} href="/terms-conditions">
+                  Terms & Conditions
                 </Link>
-                <Link style={{ fontWeight: "bold" }} href="/">
-                  Company Overview
+                <Link className={Styles.fwBold} href="/disclaimer">
+                  Disclaimer
                 </Link>
               </div>
-              <hr style={{ height: "1px", color: "white" }} />
+              <hr className={Styles.hr} />
               <div className={Styles.columnFooterColumnLink}>
                 <div className={Styles.columnFooterColumnInner}>
                   <p>

@@ -33,7 +33,7 @@ function HindustanInternationalSchool() {
             <Image
               width={500}
               height={200}
-              src="/hindustan/p1.png"
+              src="/hindustan/p1.webp"
               alt="image"
             />
           </div>
@@ -148,13 +148,13 @@ function HindustanInternationalSchool() {
             <Image
               width={500}
               height={200}
-              src="/hindustan/p2.png"
+              src="/hindustan/p2.webp"
               alt="image"
             />
             <Image
               width={500}
               height={200}
-              src="/hindustan/p3.png"
+              src="/hindustan/p3.webp"
               alt="image"
             />
           </div>
@@ -162,13 +162,13 @@ function HindustanInternationalSchool() {
             <Image
               width={500}
               height={200}
-              src="/hindustan/p4.png"
+              src="/hindustan/p4.webp"
               alt="image"
             />
             <Image
               width={500}
               height={200}
-              src="/hindustan/p5.png"
+              src="/hindustan/p5.webp"
               alt="image"
             />
           </div>
@@ -176,13 +176,13 @@ function HindustanInternationalSchool() {
             <Image
               width={500}
               height={200}
-              src="/hindustan/p6.png"
+              src="/hindustan/p6.webp"
               alt="image"
             />
             <Image
               width={500}
               height={200}
-              src="/hindustan/p7.png"
+              src="/hindustan/p7.webp"
               alt="image"
             />
           </div>

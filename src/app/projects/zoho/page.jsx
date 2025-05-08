@@ -28,7 +28,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/zoho/p1.png"
+              src="/zoho/p1.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
           </div>
@@ -161,13 +161,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/zoho/p2.png"
+              src="/zoho/p2.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
             <Image
               width={500}
               height={200}
-              src="/zoho/p3.png"
+              src="/zoho/p3.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
           </div>
@@ -175,13 +175,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/zoho/p4.png"
+              src="/zoho/p4.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
             <Image
               width={500}
               height={200}
-              src="/zoho/p5.png"
+              src="/zoho/p5.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
           </div>
@@ -189,13 +189,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/zoho/p6.png"
+              src="/zoho/p6.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
             <Image
               width={500}
               height={200}
-              src="/zoho/p7.png"
+              src="/zoho/p7.webp"
               alt="ZOHO Estancia Turnkey Works"
             />
           </div>

@@ -28,7 +28,12 @@ function Page() {
             </h1>
           </div>
           <div className="row1ProjectsInner">
-            <Image width={500} height={200} src="/silicon/p1.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p1.webp"
+              alt="image"
+            />
           </div>
           <div className="pageHeader">
             <ul>
@@ -107,16 +112,46 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/silicon/p2.png" alt="image" />
-            <Image width={500} height={200} src="/silicon/p3.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p2.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p3.webp"
+              alt="image"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/silicon/p4.png" alt="image" />
-            <Image width={500} height={200} src="/silicon/p5.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p4.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p5.webp"
+              alt="image"
+            />
           </div>
           <div className="row5ProjectsInner">
-            <Image width={500} height={200} src="/silicon/p6.png" alt="image" />
-            <Image width={500} height={200} src="/silicon/p7.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p6.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/silicon/p7.webp"
+              alt="image"
+            />
           </div>
         </div>
       </div>

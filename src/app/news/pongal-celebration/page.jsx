@@ -31,7 +31,7 @@ function PongalCelebrations() {
             </div>
             {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
-                <img className="authorImage" src="/news/in1.png" alt="author" />
+                <img className="authorImage" src="/news/in1.webp" alt="author" />
                 <div className="contentAuthor">
                   <p className="description">
                     <strong>Nettie Stanton</strong>
@@ -39,7 +39,7 @@ function PongalCelebrations() {
                   <p className="description">Jan 14, 2024</p>
                 </div>
               </div>
-              <img className="divider" src="/news/divider.png" alt="divider" />
+              <img className="divider" src="/news/divider.webp" alt="divider" />
               <div className="socialShare">
                 <SocialShare />
               </div>
@@ -47,7 +47,7 @@ function PongalCelebrations() {
             <div className="row3NewsLayoutInnerInner">
               <img
                 className="mainImage half"
-                src="/news/pongal1.png"
+                src="/news/pongal1.webp"
                 alt="main image"
               />
             </div>

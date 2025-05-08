@@ -118,7 +118,7 @@ function Menu() {
       <Link href="/">
         <Image
           className={Styles.logo}
-          src="/logo-web.png"
+          src="/logo-web.webp"
           alt="Logo"
           width={209}
           height={52}
@@ -154,7 +154,7 @@ function Menu() {
           <Link href="/">
             <Image
               className={Styles.mobileLogoImage}
-              src="/mobile-menu-logo-1.png"
+              src="/mobile-menu-logo-1.webp"
               alt="Logo"
               width={209}
               height={52}

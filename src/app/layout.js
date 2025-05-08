@@ -3,8 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Menu from "@/components/Menu";
 import GoToTopButton from "@/components/GoToTopButton";
-import Script from "next/script"; // ✅ Import Script
-import { getMetadata } from "@/app/metadata-config";
+import Script from "next/script";
 
 const roboto = Roboto({
   variable: "--font-roboto-sans",
@@ -18,30 +17,105 @@ export const metadata = {
     "Build with confidence! Ocean Lifespaces India Pvt Ltd delivers Civil Construction Company in Chennai with innovation and trust.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
 };
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* Google site verification */}
+        {/* ✅ Google Tag Manager */}
+        <Script id="gtm-script" strategy="beforeInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M9PZQW94');`}
+        </Script>
+
+        {/* ✅ Google Site Verification */}
         <meta
           name="google-site-verification"
-          content="3IRwYPpAbdgsZkHf91RbsCBqImSHypc8xWXBayOvdcc"
+          content="Lb7CitML3oiSoZZl3PGbiYCKCptQgyzb7f0odg_wunw"
         />
-        {/* Google Analytics */}
+
+        {/* ✅ Structured Data - Product */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-DY1EBZHY2N"
+          id="ld-product"
+          type="application/ld+json"
           strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-DY1EBZHY2N');
-          `}
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "Ocean Lifespaces India Private Limited",
+            image: "https://www.olipl.com/foot-logo.webp",
+            description:
+              "Ocean Lifespaces India Pvt Ltd – a trusted civil construction company in Chennai, building iconic spaces that blend innovation, quality, and lasting impact.",
+            brand: {
+              "@type": "Brand",
+              name: "Civil Construction Company in Chennai",
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.3",
+              bestRating: "5",
+              worstRating: "1",
+              ratingCount: "168",
+            },
+          })}
+        </Script>
+
+        {/* ✅ Structured Data - WebSite */}
+        <Script
+          id="ld-website"
+          type="application/ld+json"
+          strategy="afterInteractive"
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "WebSite",
+            name: "Ocean Lifespaces India Private Limited",
+            url: "https://www.olipl.com/",
+            potentialAction: {
+              "@type": "SearchAction",
+              target:
+                "https://www.google.com/search?q=ocean+lifespace{search_term_string}",
+              "query-input": "required name=search_term_string",
+            },
+          })}
+        </Script>
+
+        {/* ✅ Structured Data - Organization */}
+        <Script
+          id="ld-organization"
+          type="application/ld+json"
+          strategy="afterInteractive"
+        >
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Ocean Lifespaces India Private Limited",
+            alternateName: "Ocean Lifespaces",
+            url: "https://www.olipl.com/",
+            logo: "https://www.olipl.com/foot-logo.webp",
+            sameAs: [
+              "https://www.instagram.com/oceanlifespaces/",
+              "https://www.facebook.com/ocean.net.in/",
+              "https://www.linkedin.com/company/ocean-life-spaces-private-limited/",
+            ],
+          })}
         </Script>
       </head>
-      <body className={`${roboto.variable} `}>
+      <body className={`${roboto.variable}`}>
+        {/* ✅ Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-M9PZQW94"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+
         <Menu />
         {children}
         <Footer />

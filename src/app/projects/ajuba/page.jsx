@@ -35,7 +35,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/ajuba/p1.png"
+              src="/ajuba/p1.webp"
               alt="AJUBA Design & Build Project"
             />
           </div>
@@ -112,13 +112,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/ajuba/p2.png"
+              src="/ajuba/p2.webp"
               alt="Emerson Industrial Project"
             />
             <Image
               width={500}
               height={200}
-              src="/ajuba/p3.png"
+              src="/ajuba/p3.webp"
               alt="Emerson Industrial Project"
             />
           </div>
@@ -126,13 +126,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/ajuba/p4.png"
+              src="/ajuba/p4.webp"
               alt="Emerson Industrial Project"
             />
             <Image
               width={500}
               height={200}
-              src="/ajuba/p5.png"
+              src="/ajuba/p5.webp"
               alt="Emerson Industrial Project"
             />
           </div>
@@ -140,13 +140,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/ajuba/p6.png"
+              src="/ajuba/p6.webp"
               alt="Emerson Industrial Project"
             />
             <Image
               width={500}
               height={200}
-              src="/ajuba/p7.png"
+              src="/ajuba/p7.webp"
               alt="Emerson Industrial Project"
             />
           </div>

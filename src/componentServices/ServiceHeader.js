@@ -14,7 +14,7 @@ function ServiceHeader() {
               <Image
                 width={500}
                 height={200}
-                src="/services/head-inner.png"
+                src="/services/head-inner.webp"
                 alt="image"
               />
               <p className="description">

@@ -27,7 +27,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/pallepu/p1.png"
+              src="/pallepu/p1.webp"
               alt="VMware General Contract Works"
             />
           </div>
@@ -71,24 +71,44 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/pallepu/p2.png" alt="image" />
-            <Image width={500} height={200} src="/pallepu/p3.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/pallepu/p2.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pallepu/p3.webp"
+              alt="image"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/pallepu/p4.png" alt="image" />
-            <Image width={500} height={200} src="/pallepu/p5.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/pallepu/p4.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/pallepu/p5.webp"
+              alt="image"
+            />
           </div>
           <div className="row5ProjectsInner">
             <Image
               width={500}
               height={200}
-              src="/pallepu/p6.png"
+              src="/pallepu/p6.webp"
               alt="Simpliworks Project Interior"
             />
             <Image
               width={500}
               height={200}
-              src="/pallepu/p7.png"
+              src="/pallepu/p7.webp"
               alt="Simpliworks Workspace"
             />
           </div>

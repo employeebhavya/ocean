@@ -6,7 +6,7 @@ function Leadership() {
     <section className={styles.Leadership}>
       <div className={styles.mainRowLeadership}>
         <div className={styles.columnLeadership}>
-          <Image width={500} height={200} src="/leader.png" alt="Leader" />
+          <Image width={500} height={200} src="/leader.webp" alt="Leader" />
           <div className={styles.floatRow}>
             <h3 className="h4">Mr S.K. Peter</h3>
             <p className="description">Managing Director & CEO</p>

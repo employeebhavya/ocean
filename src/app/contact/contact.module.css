@@ -3,7 +3,7 @@
   width: 100%;
   overflow: hidden;
   padding-top: clamp(100px, 22vh, 22vh);
-  background-image: url("../../../public/contact/contact-pg-head.jpg");
+  background-image: url("../../../public/contact/contact-pg-head.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -66,7 +66,7 @@
   height: 100%;
   padding: clamp(40px, 5vh, 5vh) 0;
   background-color: var(--color-grey);
-  background-image: url("../../../public/feviconBg.png");
+  background-image: url("../../../public/feviconBg.webp");
   background-repeat: no-repeat;
   background-position: left bottom;
 }

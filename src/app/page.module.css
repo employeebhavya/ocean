@@ -4,7 +4,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  background-image: url("../../public/feviconBg.png");
+  background-image: url("../../public/feviconBg.webp");
   background-repeat: no-repeat;
   background-position: left bottom;
 }

@@ -47,7 +47,7 @@ function NewsLayoutInner({
               width={500}
               height={200}
               className={styles.divider}
-              src="/news/divider.png"
+              src="/news/divider.webp"
               alt="divider"
             />
             <SocialShare />

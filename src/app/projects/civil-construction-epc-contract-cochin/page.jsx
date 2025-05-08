@@ -26,7 +26,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi1.png"
+              src="/projectsOcean/pi1.webp"
               alt="Civil Construction Cochin"
             />
           </div>
@@ -138,13 +138,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi2.png"
+              src="/projectsOcean/pi2.webp"
               alt="Civil Construction Cochin 1"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi3.png"
+              src="/projectsOcean/pi3.webp"
               alt="Civil Construction Cochin 2"
             />
           </div>
@@ -152,13 +152,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi4.png"
+              src="/projectsOcean/pi4.webp"
               alt="Civil Construction Cochin 3"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi5.png"
+              src="/projectsOcean/pi5.webp"
               alt="Civil Construction Cochin 4"
             />
           </div>
@@ -166,13 +166,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi6.png"
+              src="/projectsOcean/pi6.webp"
               alt="Civil Construction Cochin 5"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi7.png"
+              src="/projectsOcean/pi7.webp"
               alt="Civil Construction Cochin 6"
             />
           </div>

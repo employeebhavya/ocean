@@ -12,7 +12,7 @@ if (typeof window !== "undefined") {
 
 const AccredItems = [
   {
-    image: "/about/awr-1.png.png",
+    image: "/about/awr-1.png.webp",
     title: "IMS",
     description: `
       ISO 9001:2015 - Quality <br>
@@ -21,33 +21,33 @@ const AccredItems = [
     `,
   },
   {
-    image: "/about/awr-2.png.png",
+    image: "/about/awr-2.png.webp",
     title: `CCR A- / STABLE RATING`,
     description: `CRISIL has upgraded our corporate credit rating to CCR A Stable from CCR BBB+/Positive.`,
   },
   {
-    image: "/about/awr-3.png.png",
+    image: "/about/awr-3.png.webp",
     title: `D&B D-U-N-S`,
     description: `
       Ocean has been evaluated and is now part of the Dun & Bradstreet Global Database.
     `,
   },
   {
-    image: "/about/awr-4.png.png",
+    image: "/about/awr-4.png.webp",
     title: "IMS",
     description: `
       Ocean is a member of Indian Green Building Council.
     `,
   },
   {
-    image: "/about/awr-8.png.png",
+    image: "/about/awr-8.png.webp",
     title: "ESA License",
     description: `
       Ocean has an in-house electrical team and SA grade license to carry out electrical works of any kind.
     `,
   },
   {
-    image: "/about/awr-9.png.png",
+    image: "/about/awr-9.png.webp",
     title: "FIDIC",
     description: `
       Ocean is a member of the Consulting Engineers Association of India.

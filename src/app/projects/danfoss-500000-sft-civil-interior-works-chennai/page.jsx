@@ -35,7 +35,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/danfoss/p1.png"
+              src="/danfoss/p1.webp"
               alt="Danfoss Civil & Interior Works"
             />
           </div>
@@ -183,24 +183,44 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/danfoss/p2.png" alt="image" />
-            <Image width={500} height={200} src="/danfoss/p3.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p2.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p3.webp"
+              alt="image"
+            />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/danfoss/p4.png" alt="image" />
-            <Image width={500} height={200} src="/danfoss/p5.png" alt="image" />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p4.webp"
+              alt="image"
+            />
+            <Image
+              width={500}
+              height={200}
+              src="/danfoss/p5.webp"
+              alt="image"
+            />
           </div>
           <div className="row5ProjectsInner">
             <Image
               width={500}
               height={200}
-              src="/danfoss/p6.png"
+              src="/danfoss/p6.webp"
               alt="Simpliworks Project Interior"
             />
             <Image
               width={500}
               height={200}
-              src="/danfoss/p7.png"
+              src="/danfoss/p7.webp"
               alt="Simpliworks Workspace"
             />
           </div>

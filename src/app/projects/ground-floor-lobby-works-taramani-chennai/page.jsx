@@ -30,7 +30,7 @@ function Page() {
             </h1>
           </div>
           <div className="row1ProjectsInner">
-            <Image width={500} height={200} src="/ground/p1.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p1.webp" alt="image" />
           </div>
           <div className="pageHeader">
             <ul>
@@ -145,16 +145,16 @@ function Page() {
             </p>
           </div>
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/ground/p2.png" alt="image" />
-            <Image width={500} height={200} src="/ground/p3.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p2.webp" alt="image" />
+            <Image width={500} height={200} src="/ground/p3.webp" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/ground/p4.png" alt="image" />
-            <Image width={500} height={200} src="/ground/p5.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p4.webp" alt="image" />
+            <Image width={500} height={200} src="/ground/p5.webp" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <Image width={500} height={200} src="/ground/p6.png" alt="image" />
-            <Image width={500} height={200} src="/ground/p7.png" alt="image" />
+            <Image width={500} height={200} src="/ground/p6.webp" alt="image" />
+            <Image width={500} height={200} src="/ground/p7.webp" alt="image" />
           </div>
         </div>
       </div>

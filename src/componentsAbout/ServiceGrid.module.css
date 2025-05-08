@@ -1,7 +1,7 @@
 .serviceGridSection {
   padding: clamp(40px, 5vh, 5vh) 0;
   position: relative;
-  background-image: url("../../public/homeServiceBg.png");
+  background-image: url("../../public/homeServiceBg.webp");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-blend-mode: lighten;

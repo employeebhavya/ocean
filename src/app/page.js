@@ -169,7 +169,7 @@ function HomeMain() {
             </div>
             <div className={Styles.columnDream}>
               <Image
-                src="/dreamImage.png"
+                src="/dreamImage.webp"
                 alt="dream"
                 width={624}
                 height={476}

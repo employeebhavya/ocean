@@ -13,8 +13,8 @@ import Image from "next/image";
 const images = [
   {
     id: 1,
-    testiImage: "/testimonial1.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial1.webp",
+    quoteImage: "/quote.webp",
     name: "Mr. C.K. Narayanan",
     designation: "CEO, Caterpillar",
     description:
@@ -22,8 +22,8 @@ const images = [
   },
   {
     id: 2,
-    testiImage: "/testimonial2.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial2.webp",
+    quoteImage: "/quote.webp",
     name: "Mr. Suresh Aldrin",
     designation: "Manager Facility",
     description:
@@ -31,8 +31,8 @@ const images = [
   },
   {
     id: 3,
-    testiImage: "/testimonial3.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial3.webp",
+    quoteImage: "/quote.webp",
     name: "Ms. Anitha Vaidhyanathan",
     designation: "Manager Administration, Standard Chartered",
     description:
@@ -40,8 +40,8 @@ const images = [
   },
   {
     id: 4,
-    testiImage: "/testimonial4.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial4.webp",
+    quoteImage: "/quote.webp",
     name: "Inautix",
     designation: "",
     description:
@@ -49,8 +49,8 @@ const images = [
   },
   {
     id: 5,
-    testiImage: "/testimonial5.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial5.webp",
+    quoteImage: "/quote.webp",
     name: "Royal Sundaram",
     designation: "",
     description:
@@ -58,8 +58,8 @@ const images = [
   },
   {
     id: 6,
-    testiImage: "/testimonial6.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial6.webp",
+    quoteImage: "/quote.webp",
     name: "Daimler",
     designation: "",
     description:
@@ -67,8 +67,8 @@ const images = [
   },
   {
     id: 7,
-    testiImage: "/testimonial7.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial7.webp",
+    quoteImage: "/quote.webp",
     name: "HCL",
     designation: "",
     description:
@@ -76,8 +76,8 @@ const images = [
   },
   {
     id: 8,
-    testiImage: "/testimonial8.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial8.webp",
+    quoteImage: "/quote.webp",
     name: "Parksons",
     designation: "",
     description:
@@ -85,8 +85,8 @@ const images = [
   },
   {
     id: 9,
-    testiImage: "/testimonial9.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial9.webp",
+    quoteImage: "/quote.webp",
     name: "Panimalar Medical College Hospital & Research Institute",
     designation: "Secretary & Correspondent",
     description:
@@ -94,8 +94,8 @@ const images = [
   },
   {
     id: 10,
-    testiImage: "/testimonial10.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial10.webp",
+    quoteImage: "/quote.webp",
     name: "B. Ayyapan",
     designation: "President",
     description:
@@ -103,8 +103,8 @@ const images = [
   },
   {
     id: 11,
-    testiImage: "/testimonial11.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial11.webp",
+    quoteImage: "/quote.webp",
     name: "Sitna Abraham",
     designation: "Chief Manager",
     description:
@@ -112,8 +112,8 @@ const images = [
   },
   {
     id: 12,
-    testiImage: "/testimonial12.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial12.webp",
+    quoteImage: "/quote.webp",
     name: "Hari Krishnan Pratap",
     designation: "Director",
     description:
@@ -121,8 +121,8 @@ const images = [
   },
   {
     id: 13,
-    testiImage: "/testimonial13.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial13.webp",
+    quoteImage: "/quote.webp",
     name: "A. S. Anantha Padmanabhan",
     designation: "Director",
     description:
@@ -130,8 +130,8 @@ const images = [
   },
   {
     id: 14,
-    testiImage: "/testimonial14.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial14.webp",
+    quoteImage: "/quote.webp",
     name: "Sathavalli G. Gopinath",
     designation: "Country Director",
     description:
@@ -139,8 +139,8 @@ const images = [
   },
   {
     id: 15,
-    testiImage: "/testimonial15.png",
-    quoteImage: "/quote.png",
+    testiImage: "/testimonial15.webp",
+    quoteImage: "/quote.webp",
     name: "R. Narasimhan",
     designation: "Vice President & Branch Head",
     description:
@@ -200,7 +200,7 @@ const TestimonialHome = () => {
         <div className={Styles.rowTestimonialHome}>
           <div className={Styles.columnTestimonialHome}>
             <Image
-              src="/testimonialLeftImage.jpg"
+              src="/testimonialLeftImage.webp"
               alt="Project Slider"
               width={500}
               height={500}

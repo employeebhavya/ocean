@@ -37,7 +37,7 @@ const newsEvents = [
     title: "Successful Completion of 2KM Access Road in Gujarat",
     description:
       "Ocean successfully completed access road works for an international client setting up a terminal yard...",
-    image: "/news/gujarat.jpg",
+    image: "/news/gujarat.webp",
     date: "2025-01-28T09:00:00",
     link: "/news/successful-completion-2km-access-road-gujarat",
   },
@@ -46,7 +46,7 @@ const newsEvents = [
       "Groundbreaking Ceremony for 30,000 Sq. Ft. Ground Floor Lobby Project in Taramani",
     description:
       "We are pleased to announce the successful Site Pooja for the Design and Build of the Ground Floor Lobby...",
-    image: "/news1.jpeg",
+    image: "/news1.webp",
     date: "2024-08-28T09:00:00",
     link: "/news/groundbreaking-ceremony",
   },
@@ -55,7 +55,7 @@ const newsEvents = [
       "Ocean Lifespaces Partners with Vestian for a Landmark Workplace Project in Chennai",
     description:
       "We are proud to announce our partnership with Vestian Global Workplace Services Pvt Ltd for the interiors...",
-    image: "/news2.jpeg",
+    image: "/news2.webp",
     date: "2024-09-25T08:50:00",
     link: "/news/ocean-lifespaces-partners",
   },
@@ -63,7 +63,7 @@ const newsEvents = [
     title: "Spreading Christmas Cheer at Ocean Lifespaces!",
     description:
       "The holiday spirit was in full swing at Ocean Lifespaces as our office transformed into a winter wonderland...",
-    image: "/news3.jpeg",
+    image: "/news3.webp",
     date: "2024-06-28T08:40:00",
     link: "/news/spreading-christmas-cheer-at-ocean-lifespaces",
   },
@@ -72,7 +72,7 @@ const newsEvents = [
       "Ocean Lifespaces at CoreNet Global India Conference 2024 - Bengaluru",
     description:
       "Ocean Lifespaces made a remarkable presence at the CoreNet Global India Conference 2024, held at Conrad Bangalore...",
-    image: "/news4.png",
+    image: "/news4.webp",
     date: "2024-06-25T12:00:00",
     link: "/news/cornet-global-india-conference",
   },
@@ -81,7 +81,7 @@ const newsEvents = [
       "Pongal Celebrations at Ocean Lifespaces: Harvesting Joy and Prosperity!",
     description:
       "At Ocean Lifespaces, we embrace traditions that bring us together and celebrate the spirit of unity, gratitude...",
-    image: "/news5.png",
+    image: "/news5.webp",
     date: "2024-06-27T15:30:00",
     link: "/news/pongal-celebration",
   },
@@ -90,7 +90,7 @@ const newsEvents = [
       "Successful Completion of Protective Coating Project at a Mission-Critical Nuclear Power Plant",
     description:
       "We are proud to announce the successful application of protective and antifouling coating on a hydro-technical...",
-    image: "/news6.png",
+    image: "/news6.webp",
     date: "2024-06-26T14:15:00",
     link: "/news/protective-coating-project",
   },
@@ -99,7 +99,7 @@ const newsEvents = [
       "Ocean Lifespaces Secures General Contracting Project for 55,000 Sq. Ft. Office Space in Hyderabad",
     description:
       "We are excited to announce our latest project win - the General Contracting of a 55,000 sq. ft. office space...",
-    image: "/news7.png",
+    image: "/news7.webp",
     date: "2024-06-20T10:00:00",
     link: "/news/general-contracting-project",
   },
@@ -185,7 +185,7 @@ const NewsAndEvents = ({ list = 3 }) => {
                 <h3>{news.title}</h3>
                 <p>{news.description}</p>
                 <Link href={news.link}>
-                  <button class={Styles.cta}>
+                  <button className={Styles.cta}>
                     <span>Read More</span>
                     <svg width="15px" height="10px" viewBox="0 0 13 10">
                       <path d="M1,5 L11,5"></path>

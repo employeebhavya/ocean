@@ -28,7 +28,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi1.png"
+              src="/projectsOcean/pi1.webp"
               alt="Autodesk General Contract Works"
             />
           </div>
@@ -116,13 +116,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi2.png"
+              src="/projectsOcean/pi2.webp"
               alt="Autodesk General Contract Works Image 1"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi3.png"
+              src="/projectsOcean/pi3.webp"
               alt="Autodesk General Contract Works Image 2"
             />
           </div>
@@ -130,13 +130,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi4.png"
+              src="/projectsOcean/pi4.webp"
               alt="Autodesk General Contract Works Image 3"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi5.png"
+              src="/projectsOcean/pi5.webp"
               alt="Autodesk General Contract Works Image 4"
             />
           </div>
@@ -144,13 +144,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi6.png"
+              src="/projectsOcean/pi6.webp"
               alt="Autodesk General Contract Works Image 5"
             />
             <Image
               width={500}
               height={200}
-              src="/projectsOcean/pi7.png"
+              src="/projectsOcean/pi7.webp"
               alt="Autodesk General Contract Works Image 6"
             />
           </div>

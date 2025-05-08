@@ -11,12 +11,12 @@ const ImageSlider = () => {
   const sliderRef = useRef(null);
 
   const images = [
-    "/about/driveSlide1.png",
-    "/about/driveSlide2.png",
-    "/about/driveSlide3.png",
-    "/about/driveSlide4.png",
-    "/about/driveSlide5.png",
-    "/about/driveSlide6.png",
+    "/about/driveSlide1.webp",
+    "/about/driveSlide2.webp",
+    "/about/driveSlide3.webp",
+    "/about/driveSlide4.webp",
+    "/about/driveSlide5.webp",
+    "/about/driveSlide6.webp",
   ];
 
   const nextSlide = () => {

@@ -25,7 +25,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/olam/p1.png"
+              src="/olam/p1.webp"
               alt="Olam Project Interior"
             />
           </div>
@@ -127,16 +127,16 @@ function Page() {
           </div>
 
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/olam/p2.png" alt="image" />
-            <Image width={500} height={200} src="/olam/p3.png" alt="image" />
+            <Image width={500} height={200} src="/olam/p2.webp" alt="image" />
+            <Image width={500} height={200} src="/olam/p3.webp" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/olam/p4.png" alt="image" />
-            <Image width={500} height={200} src="/olam/p5.png" alt="image" />
+            <Image width={500} height={200} src="/olam/p4.webp" alt="image" />
+            <Image width={500} height={200} src="/olam/p5.webp" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <Image width={500} height={200} src="/olam/p6.png" alt="image" />
-            <Image width={500} height={200} src="/olam/p7.png" alt="image" />
+            <Image width={500} height={200} src="/olam/p6.webp" alt="image" />
+            <Image width={500} height={200} src="/olam/p7.webp" alt="image" />
           </div>
 
           <div className="row2ProjectsInner">

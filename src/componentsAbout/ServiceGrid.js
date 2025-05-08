@@ -1,6 +1,5 @@
 "use client";
 
-/* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useRef } from "react";
 import Styles from "./ServiceGrid.module.css";
 import Link from "next/link";
@@ -16,31 +15,31 @@ const services = [
   {
     id: 1,
     title: "Turnkey Solutions",
-    imgSrc: "/interior.png",
+    imgSrc: "/interior.webp",
     link: "/services/turnkey-solutions",
   },
   {
     id: 2,
     title: "Interior Fit-Out Services",
-    imgSrc: "/fitOuts.png",
+    imgSrc: "/fitOuts.webp",
     link: "/services/interior-fit-out-services",
   },
   {
     id: 3,
     title: "Civil Construction",
-    imgSrc: "/civil.png",
+    imgSrc: "/civil.webp",
     link: "/services/civil-construction",
   },
   {
     id: 4,
     title: "Real Estate Development",
-    imgSrc: "/designBuild.png",
+    imgSrc: "/designBuild.webp",
     link: "/services/real-estate-development",
   },
   {
     id: 5,
     title: "Infrastructure Development",
-    imgSrc: "/marine.png",
+    imgSrc: "/marine.webp",
     link: "/services/infrastructure-development",
   },
 ];
@@ -112,7 +111,7 @@ const ServiceGrid = () => {
           </div>
           <div className={Styles.columnServiceGrid} ref={btnRef}>
             <Link href="/services">
-              <button class="inner-blue-button">
+              <button className="inner-blue-button">
                 <span>Read More</span>
                 <svg width="15px" height="10px" viewBox="0 0 13 10">
                   <path d="M1,5 L11,5"></path>

@@ -31,7 +31,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/maersk/p1.png"
+              src="/maersk/p1.webp"
               alt="Maersk Office Interior"
             />
           </div>
@@ -146,16 +146,16 @@ function Page() {
 
           {/* Image Rows */}
           <div className="row3ProjectsInner">
-            <Image width={500} height={200} src="/maersk/p2.png" alt="image" />
-            <Image width={500} height={200} src="/maersk/p3.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p2.webp" alt="image" />
+            <Image width={500} height={200} src="/maersk/p3.webp" alt="image" />
           </div>
           <div className="row4ProjectsInner">
-            <Image width={500} height={200} src="/maersk/p4.png" alt="image" />
-            <Image width={500} height={200} src="/maersk/p5.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p4.webp" alt="image" />
+            <Image width={500} height={200} src="/maersk/p5.webp" alt="image" />
           </div>
           <div className="row5ProjectsInner">
-            <Image width={500} height={200} src="/maersk/p6.png" alt="image" />
-            <Image width={500} height={200} src="/maersk/p7.png" alt="image" />
+            <Image width={500} height={200} src="/maersk/p6.webp" alt="image" />
+            <Image width={500} height={200} src="/maersk/p7.webp" alt="image" />
           </div>
 
           <div className="row2ProjectsInner">

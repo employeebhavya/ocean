@@ -10,27 +10,27 @@ import Slider from "@/componentsInnerServices/Slider";
 
 // Sample images array
 const images = [
-  "/project1.png",
-  "/project2.png",
-  "/project3.png",
-  "/project4.png",
-  "/project5.png",
-  "/project6.png",
-  "/project7.png",
-  "/project8.png",
-  "/project9.png",
-  "/project10.png",
-  "/project11.png",
-  "/project12.png",
-  "/project13.png",
-  "/project14.png",
-  "/project15.png",
-  "/project16.png",
-  "/project17.png",
-  "/project18.png",
-  "/project19.png",
-  "/project20.png",
-  "/project21.png",
+  "/project1.webp",
+  "/project2.webp",
+  "/project3.webp",
+  "/project4.webp",
+  "/project5.webp",
+  "/project6.webp",
+  "/project7.webp",
+  "/project8.webp",
+  "/project9.webp",
+  "/project10.webp",
+  "/project11.webp",
+  "/project12.webp",
+  "/project13.webp",
+  "/project14.webp",
+  "/project15.webp",
+  "/project16.webp",
+  "/project17.webp",
+  "/project18.webp",
+  "/project19.webp",
+  "/project20.webp",
+  "/project21.webp",
 ];
 
 const ProjectSlider = () => {
@@ -94,7 +94,7 @@ const ProjectSlider = () => {
               endeavor.
             </p>
             <Link href="/projects">
-              <button class={Styles.cta}>
+              <button className={Styles.cta}>
                 <span>View All</span>
                 <svg width="15px" height="10px" viewBox="0 0 13 10">
                   <path d="M1,5 L11,5"></path>

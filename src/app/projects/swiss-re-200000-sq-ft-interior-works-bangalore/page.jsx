@@ -35,7 +35,7 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/swiss/p1.png"
+              src="/swiss/p1.webp"
               alt="Swiss RE Interior Works"
             />
           </div>
@@ -180,13 +180,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/swiss/p2.png"
+              src="/swiss/p2.webp"
               alt="Swiss RE Interior"
             />
             <Image
               width={500}
               height={200}
-              src="/swiss/p3.png"
+              src="/swiss/p3.webp"
               alt="Swiss RE Workspace"
             />
           </div>
@@ -194,13 +194,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/swiss/p4.png"
+              src="/swiss/p4.webp"
               alt="Office Interiors"
             />
             <Image
               width={500}
               height={200}
-              src="/swiss/p5.png"
+              src="/swiss/p5.webp"
               alt="Interior Workspaces"
             />
           </div>
@@ -208,13 +208,13 @@ function Page() {
             <Image
               width={500}
               height={200}
-              src="/swiss/p6.png"
+              src="/swiss/p6.webp"
               alt="Workspace Design"
             />
             <Image
               width={500}
               height={200}
-              src="/swiss/p7.png"
+              src="/swiss/p7.webp"
               alt="Modern Office Interiors"
             />
           </div>

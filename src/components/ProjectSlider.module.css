@@ -8,7 +8,7 @@
   justify-content: center;
   padding: clamp(80px, 7vh, 7vh) 0;
   color: var(--color-white);
-  background-image: url("../../public/projectBgHome.jpg");
+  background-image: url("../../public/projectBgHome.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

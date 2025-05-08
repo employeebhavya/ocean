@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   padding: clamp(40px, 5vh, 5vh) 0;
-  background-image: url("../../public/feviconBg.png");
+  background-image: url("../../public/feviconBg.webp");
   background-repeat: no-repeat;
   background-position: left bottom;
 }
