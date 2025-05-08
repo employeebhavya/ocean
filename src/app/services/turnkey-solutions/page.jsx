@@ -24,70 +24,87 @@ function TurkneySolutions() {
     {
       imgSrc: "/services/danfoss.webp",
       title: "Danfoss",
+      link: "/projects/danfoss-500000-sft-civil-interior-works-chennai",
     },
     {
       imgSrc: "/services/zoho.webp",
       title: "Zoho Estancia",
+      link: "#",
     },
     {
       imgSrc: "/services/ford.webp",
       title: "Ford",
+      link: "#",
     },
     {
       imgSrc: "/services/gecapital.webp",
       title: "GE Capital",
+      link: "#",
     },
     {
       imgSrc: "/services/hp.webp",
       title: "HP",
+      link: "#",
     },
     {
       imgSrc: "/services/hsbc.webp",
       title: "HSBC",
+      link: "#",
     },
     {
       imgSrc: "/services/kbr.webp",
       title: "KBR",
+      link: "#",
     },
     {
       imgSrc: "/services/kmpg.webp",
       title: "KPMG",
+      link: "#",
     },
     {
       imgSrc: "/services/nvidia.webp",
       title: "Nvidia",
+      link: "/projects/nvidia-office-bangalore",
     },
     {
       imgSrc: "/services/pharmed.webp",
       title: "Pharmed",
+      link: "#",
     },
     {
       imgSrc: "/services/pwc.webp",
       title: "PWC",
+      link: "/projects/PWC",
     },
     {
       imgSrc: "/services/shell.webp",
       title: "Shell",
+      link: "/projects/shell",
     },
     {
       imgSrc: "/services/siliconlab.webp",
       title: "Silicon Lab",
+      link: "/projects/silicon-lab-hyderabad",
     },
     {
       imgSrc: "/services/simpliworks.webp",
       title: "Simpliworks",
+      link: "/projects/simpliworks-384000-sft-civil-interior-works-hyderabad",
     },
     {
       imgSrc: "/services/247.webp",
       title: "24/7",
+      link: "#",
     },
     {
       imgSrc: "/services/dell.webp",
       title: "Dell",
+      link: "/projects/dell-project-bangalore",
     },
     {
       imgSrc: "/services/hdfc.webp",
       title: "HDFC",
+      link: "/projects/hdfc-office-chennai",
     },
   ];
 

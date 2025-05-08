@@ -5,6 +5,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { gsap } from "gsap";
 import styles from "./RecentProjects.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 const RecentProjects = ({ projects }) => {
   const sliderRef = useRef(null);
@@ -74,7 +75,7 @@ const RecentProjects = ({ projects }) => {
           <div className={styles.rightColumn}>
             <div className={styles.slider} ref={sliderRef}>
               {projects.map((project, index) => (
-                <div key={index} className={styles.slide}>
+                <Link key={index} href={project.link} className={styles.slide}>
                   <Image
                     width={500}
                     height={200}
@@ -85,7 +86,7 @@ const RecentProjects = ({ projects }) => {
                     <h3>{project.title}</h3>
                     <p>{project.location}</p>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
           </div>

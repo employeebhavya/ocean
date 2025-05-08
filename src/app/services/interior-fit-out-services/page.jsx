@@ -23,18 +23,22 @@ function FitOuts() {
     {
       imgSrc: "/services/genysis.webp",
       title: "Genysis",
+      link: "#",
     },
     {
       imgSrc: "/services/tafe.webp",
       title: "Tafe",
+      link: "#",
     },
     {
       imgSrc: "/services/daimler.webp",
       title: "Daimler",
+      link: "#",
     },
     {
       imgSrc: "/services/swissre.webp",
       title: "SwissRe",
+      link: "/projects/swiss-re-200000-sq-ft-interior-works-bangalore",
     },
   ];
 

@@ -141,16 +141,18 @@ function ScrollSection() {
             <div className={Styles.sectionAbout}>
               <div className={Styles.aboutContent} ref={contentRef}>
                 <h2 className={Styles.aboutHeading} ref={headingRef}>
-                  <Link href={"https://www.olipl.com/"}>About Us</Link>
+                  About Us
                 </h2>
                 <p className={Styles.aboutDescription} ref={descriptionRef}>
-                  Established in 1996 as Ocean Interiors Limited, Ocean
-                  Lifespaces India Private Limited has evolved into a premier
-                  name in the industry. Under the visionary leadership of Mr.
-                  S.K. Peter, MD & CEO, the company has expanded its expertise
-                  to encompass General Contracting, including MEP, Design &
-                  Build, Civil Construction, and Façade works, delivering
-                  excellence across all sectors.
+                  Established in 1996 as Ocean Interiors Limited,{" "}
+                  <Link href={"https://www.olipl.com/"}>
+                    Ocean Lifespaces India Private Limited
+                  </Link>{" "}
+                  has evolved into a premier name in the industry. Under the
+                  visionary leadership of Mr. S.K. Peter, MD & CEO, the company
+                  has expanded its expertise to encompass General Contracting,
+                  including MEP, Design & Build, Civil Construction, and Façade
+                  works, delivering excellence across all sectors.
                 </p>
                 <Link href={"/about"} ref={linkRef}>
                   <button className={Styles.cta}>

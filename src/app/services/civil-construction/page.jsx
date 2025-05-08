@@ -23,42 +23,52 @@ function CivilConstruction() {
     {
       imgSrc: "/services/alf.webp",
       title: "Alf",
+      link: "#",
     },
     {
       imgSrc: "/services/braycontrols.webp",
       title: "Bray Controls",
+      link: "/projects/bray-controls-india-chennai",
     },
     {
       imgSrc: "/services/colgatepalmolive.webp",
       title: "Colgate Palmolive",
+      link: "#",
     },
     {
       imgSrc: "/services/hindustaninternationalschool.webp",
       title: "Hindustan International School",
+      link: "/projects/hindustan-international-school-chennai",
     },
     {
       imgSrc: "/services/hotelgreysuit.webp",
       title: "Hotel Grey Suit",
+      link: "#",
     },
     {
       imgSrc: "/services/iocl.webp",
       title: "IOCL",
+      link: "#",
     },
     {
       imgSrc: "/services/kone.webp",
       title: "KONE",
+      link: "/projects/kone-project-chennai",
     },
     {
       imgSrc: "/services/pacques.webp",
       title: "Pacques",
+      link: "#",
     },
     {
       imgSrc: "/services/parksonspackaging.webp",
       title: "Parksons Packaging",
+      link: "#",
     },
     {
       imgSrc: "/services/emerson.webp",
       title: "Emerson",
+      link: "/projects/emersion",
     },
   ];
 

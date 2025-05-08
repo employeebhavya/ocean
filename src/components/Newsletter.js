@@ -1,45 +1,14 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import styles from "./Newsletter.module.css";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-
-if (typeof window !== "undefined") {
-  gsap.registerPlugin(ScrollTrigger);
-}
 
 export default function Newsletter() {
-  const sectionRef = useRef(null);
-  const headingRef = useRef(null);
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [emailError, setEmailError] = useState("");
-
-  useEffect(() => {
-    const context = gsap.context(() => {
-      const tl = gsap.timeline({
-        scrollTrigger: {
-          trigger: sectionRef.current,
-          start: "top 80%",
-          end: "bottom 100%",
-          scrub: 1,
-        },
-      });
-
-      tl.from(headingRef.current, {
-        opacity: 0,
-        y: 50,
-        duration: 1,
-      });
-    }, sectionRef);
-
-    return () => {
-      context.revert();
-    };
-  }, []);
 
   const validateEmail = (email) => {
     // Basic email regex validation
@@ -100,9 +69,9 @@ export default function Newsletter() {
   };
 
   return (
-    <section ref={sectionRef} className={styles.sectionNewsLetter}>
+    <section className={styles.sectionNewsLetter}>
       <div className={styles.container}>
-        <h2 className={styles.heading} ref={headingRef}>
+        <h2 className={styles.heading}>
           Get The Latest Ocean Updates <br></br> By Subscribing To Our
           Newsletter!
         </h2>
