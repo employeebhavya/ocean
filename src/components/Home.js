@@ -51,7 +51,7 @@ export default function Home() {
 
         {/* Overlay content */}
         <div className={Styles.content}>
-          <h1 className="h1">
+          <h1 className={Styles.h1}>
             Ocean Lifespaces <br></br>India Private Limited
           </h1>
           <h2 className={Styles.heading} ref={headingRef}>

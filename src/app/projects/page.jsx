@@ -333,6 +333,23 @@ function Projects() {
               </div>
             </div>
           </div>
+          <div className={styles.row3Projects}>
+            <div className={styles.columnProjects}>
+              <Image
+                width={200}
+                height={100}
+                src="/projectsOcean/zoho.webp"
+                alt="image"
+              />
+              <div className={styles.content}>
+                <h2 className="h3">ZOHO</h2>
+                <p className="description">Chennai | Area - 3,50,000 sq. ft.</p>
+                <Link href="/projects/zoho">
+                  <span> Learn More</span> <MdOutlineArrowRightAlt />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

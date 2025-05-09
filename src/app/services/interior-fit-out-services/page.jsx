@@ -20,25 +20,35 @@ function FitOuts() {
   ];
 
   const page4Projects = [
-    {
-      imgSrc: "/services/genysis.webp",
-      title: "Genysis",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/tafe.webp",
-      title: "Tafe",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/daimler.webp",
-      title: "Daimler",
-      link: "#",
-    },
+    // {
+    //   imgSrc: "/services/genysis.webp",
+    //   title: "Genysis",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/tafe.webp",
+    //   title: "Tafe",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/daimler.webp",
+    //   title: "Daimler",
+    //   link: "#",
+    // },
     {
       imgSrc: "/services/swissre.webp",
       title: "SwissRe",
       link: "/projects/swiss-re-200000-sq-ft-interior-works-bangalore",
+    },
+    {
+      imgSrc: "/services/shell.webp",
+      title: "Shell",
+      link: "/projects/shell",
+    },
+    {
+      imgSrc: "/services/siliconlab.webp",
+      title: "Silicon Lab",
+      link: "/projects/silicon-lab-hyderabad",
     },
   ];
 

@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* ✅ Google Tag Manager */}
-        <Script id="gtm-script" strategy="beforeInteractive">
+        <Script defer id="gtm-script" strategy="beforeInteractive">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -39,6 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         {/* ✅ Structured Data - Product */}
         <Script
+          defer
           id="ld-product"
           type="application/ld+json"
           strategy="afterInteractive"
@@ -66,6 +67,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         {/* ✅ Structured Data - WebSite */}
         <Script
+          defer
           id="ld-website"
           type="application/ld+json"
           strategy="afterInteractive"
@@ -86,6 +88,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
         {/* ✅ Structured Data - Organization */}
         <Script
+          defer
           id="ld-organization"
           type="application/ld+json"
           strategy="afterInteractive"

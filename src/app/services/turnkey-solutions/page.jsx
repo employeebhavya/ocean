@@ -29,48 +29,48 @@ function TurkneySolutions() {
     {
       imgSrc: "/services/zoho.webp",
       title: "Zoho Estancia",
-      link: "#",
+      link: "/projects/zoho",
     },
-    {
-      imgSrc: "/services/ford.webp",
-      title: "Ford",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/gecapital.webp",
-      title: "GE Capital",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/hp.webp",
-      title: "HP",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/hsbc.webp",
-      title: "HSBC",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/kbr.webp",
-      title: "KBR",
-      link: "#",
-    },
-    {
-      imgSrc: "/services/kmpg.webp",
-      title: "KPMG",
-      link: "#",
-    },
+    // {
+    //   imgSrc: "/services/ford.webp",
+    //   title: "Ford",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/gecapital.webp",
+    //   title: "GE Capital",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/hp.webp",
+    //   title: "HP",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/hsbc.webp",
+    //   title: "HSBC",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/kbr.webp",
+    //   title: "KBR",
+    //   link: "#",
+    // },
+    // {
+    //   imgSrc: "/services/kmpg.webp",
+    //   title: "KPMG",
+    //   link: "#",
+    // },
     {
       imgSrc: "/services/nvidia.webp",
       title: "Nvidia",
       link: "/projects/nvidia-office-bangalore",
     },
-    {
-      imgSrc: "/services/pharmed.webp",
-      title: "Pharmed",
-      link: "#",
-    },
+    // {
+    //   imgSrc: "/services/pharmed.webp",
+    //   title: "Pharmed",
+    //   link: "#",
+    // },
     {
       imgSrc: "/services/pwc.webp",
       title: "PWC",
@@ -91,11 +91,11 @@ function TurkneySolutions() {
       title: "Simpliworks",
       link: "/projects/simpliworks-384000-sft-civil-interior-works-hyderabad",
     },
-    {
-      imgSrc: "/services/247.webp",
-      title: "24/7",
-      link: "#",
-    },
+    // {
+    //   imgSrc: "/services/247.webp",
+    //   title: "24/7",
+    //   link: "#",
+    // },
     {
       imgSrc: "/services/dell.webp",
       title: "Dell",

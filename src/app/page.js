@@ -14,7 +14,7 @@ import Transform from "../components/Transform";
 import TestimonialHome from "../components/TestimonialHome";
 import LogoScroll from "../components/LogoScroll";
 import Newsletter from "../components/Newsletter";
-import Loader from "../components/Loader"; // Import the loader component
+import Loader from "../components/Loader";
 
 function HomeMain() {
   const pathname = usePathname(); // Get the current path

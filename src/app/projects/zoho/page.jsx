@@ -17,12 +17,12 @@ function Page() {
                 ZOHO Estancia - 3,50,000 SQ FT Turnkey Works, Chennai
               </p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               ZOHO Estancia
               {/* <span className="description">
                 3,50,000 SQ FT Turnkey Works, Chennai
               </span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -49,19 +49,22 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              Ocean Lifespaces successfully executed the ZOHO Estancia project
-              in Chennai, a high-value, complex turnkey project that spanned
-              across 16 floors, including ground plus 12 floors, mezzanine, and
-              terrace. The project included a revamp of the base build
-              infrastructure and MEP (Mechanical, Electrical, and Plumbing)
-              services. With a focus on precision and efficiency, the project
-              was delivered successfully within the specified timeline.
+              Ocean Lifespaces successfully executed the{" "}
+              <Link href={"https://www.olipl.com/projects/zoho"}>
+                ZOHO Estancia project in Chennai
+              </Link>
+              , a high-value, complex turnkey project that spanned across 16
+              floors, including ground plus 12 floors, mezzanine, and terrace.
+              The project included a revamp of the base build infrastructure and
+              MEP (Mechanical, Electrical, and Plumbing) services. With a focus
+              on precision and efficiency, the project was delivered
+              successfully within the specified timeline.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <ul>
               <li>
                 Create a state-of-the-art office facility that supports ZOHO’s
@@ -74,7 +77,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Site Execution:</strong> With a large-scale site
@@ -106,7 +109,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Result:</h3>
+            <h2 className="h4 dark">Result:</h2>
             <ul>
               <li>
                 <strong>Modernized Infrastructure:</strong> The 16-floor
@@ -127,7 +130,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Successfully executed a large-scale turnkey project with
@@ -148,9 +151,10 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The ZOHO Estancia project is a prime example of Ocean Lifespaces
+              The ZOHO Estancia project is a prime example of{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>{" "}
               capability to handle large-scale, turnkey projects with precision.
               By combining efficient execution, timely delivery, and modern
               infrastructure, the project stands as a testament to Ocean

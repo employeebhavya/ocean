@@ -6,6 +6,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import { Draggable } from "gsap/Draggable";
 import Styles from "./ServiceSlider.module.css";
 import Link from "next/link";
+import Image from "next/image";
 
 // Register GSAP Plugins only on the client-side
 if (typeof window !== "undefined") {
@@ -205,7 +206,9 @@ const ServiceSlider = () => {
                   ref={(el) => (serviceRefs.current[index] = el)} // Store refs in array
                 >
                   <Link href={service.link}>
-                    <img
+                    <Image
+                      width={384}
+                      height={196}
                       src={service.imgSrc}
                       alt={service.title}
                       style={{ width: "100%" }}
