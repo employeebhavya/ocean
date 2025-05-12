@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Take a tour! r1 rcm in chennai workspace was delivered with functional design and detail.",
   keywords: "R1 RCM in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/RIRCM",
+  },
 };
 
 function Page() {

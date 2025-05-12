@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Explore now! bray controls india chennai was delivered with superior planning and construction finesse by Ocean Lifespaces.",
   keywords: "bray controls india chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/bray-controls-india-chennai",
+  },
 };
 
 function Page() {

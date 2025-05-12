@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Develop with us! infrastructure development in chennai powered by Ocean's innovative vision.",
   keywords: "Infrastructure Development in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/services/infrastructure-development",
+  },
 };
 
 function InfrastructureDevelopment() {

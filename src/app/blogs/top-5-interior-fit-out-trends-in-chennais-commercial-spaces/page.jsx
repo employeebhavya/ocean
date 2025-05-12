@@ -2,17 +2,26 @@ import Head from "next/head";
 import styles from "./InteriorTrends.module.css";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Top 5 Interior Fit-Out Trends in Chennais Commercial Spaces | OLIPL",
+  description:
+    "Discover Ocean Lifespaces' top 5 commercial interior fit-out trends in Chennai, blending biophilic design, smart tech, and sustainable solutions.",
+  alternates: {
+    canonical:
+      "https://www.olipl.in/blogs/top-5-interior-fit-out-trends-in-chennais-commercial-spaces",
+  },
+};
+
 export default function InteriorFitOutTrends() {
   return (
     <>
       <Head>
         <title>
-          Top 5 Interior Fit-Out Trends in Chennai's Commercial Spaces | Ocean
-          Lifespaces
+          Top 5 Interior Fit-Out Trends in Chennais Commercial Spaces | OLIPL
         </title>
         <meta
           name="description"
-          content="Discover the top 5 interior design trends transforming Chennai's commercial spaces and how Ocean Lifespaces is leading this revolution."
+          content="Discover Ocean Lifespaces' top 5 commercial interior fit-out trends in Chennai, blending biophilic design, smart tech, and sustainable solutions."
         />
       </Head>
 

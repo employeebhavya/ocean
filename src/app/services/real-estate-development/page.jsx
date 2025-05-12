@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Invest in value! real estate development in chennai with Ocean Lifespaces brings quality and returns.",
   keywords: "Real Estate Development in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/services/real-estate-development",
+  },
 };
 
 function RealEstateDevelopment() {

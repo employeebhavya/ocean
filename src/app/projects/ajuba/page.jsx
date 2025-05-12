@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Take a look! coronis ajuba chennai office project reflects Ocean's excellence in construction and timely project execution.",
   keywords: "coronis ajuba chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/ajuba",
+  },
 };
 
 function Page() {

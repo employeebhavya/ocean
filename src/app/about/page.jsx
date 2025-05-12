@@ -11,6 +11,9 @@ export const metadata = {
   description:
     "Meet the team! Learn how Ocean Lifespaces India Pvt Ltd leads in civil construction with integrity, experience, and a future-focused vision.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/about",
+  },
 };
 
 function About() {

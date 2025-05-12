@@ -8,6 +8,9 @@ export const metadata = {
   description:
     "Explore quality! kone project in chennai was executed with precision by Ocean Lifespaces India Pvt Ltd.",
   keywords: "KONE project in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/kone-project-chennai",
+  },
 };
 
 function Page() {

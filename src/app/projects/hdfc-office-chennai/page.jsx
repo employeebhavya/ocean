@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "See success! hdfc in chennai office was delivered with efficiency and excellence by Ocean Lifespaces.",
   keywords: "HDFC in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/hdfc-office-chennai",
+  },
 };
 
 function Page() {

@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Discover workspace! tek systems in bangalore interiors crafted for tech and team synergy.",
   keywords: "Tek Systems in Bangalore",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/tek-systems-bangalore",
+  },
 };
 
 function Page() {

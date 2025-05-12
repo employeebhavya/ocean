@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Explore space! silicon lab in hyderabad interiors were executed with cutting-edge quality and care.",
   keywords: "Silicon Lab in Hyderabad",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/silicon-lab-hyderabad",
+  },
 };
 
 function Page() {

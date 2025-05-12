@@ -5,6 +5,9 @@ export const metadata = {
   description:
     "Explore our latest blogs and updates on civil construction, architecture, and design. Stay informed with Ocean Lifespaces India Pvt Ltd.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/blogs/",
+  },
 };
 
 function page() {

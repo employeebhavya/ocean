@@ -531,4 +531,7 @@ export const metadata = {
   description:
     "Your privacy is important to us. Read our Privacy Policy to understand how we collect, use, and protect your personal information.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/privacy-policy",
+  },
 };

@@ -1,7 +1,16 @@
-/* eslint-disable @next/next/no-Image width={500} height={200}-element */
 import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
+
+export const metadata = {
+  title: "Olam Projects Chennai - Ocean Lifespaces Pvt Ltd",
+  description:
+    "Discover now! Olam Projects Chennai workspace built with smart infrastructure and aesthetic value.",
+  keywords: "Olam Projects Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/olam-project-chennai",
+  },
+};
 
 function Page() {
   return (
@@ -16,10 +25,10 @@ function Page() {
               <LuChevronRight />
               <p className="description">Olam Project, Chennai</p>
             </div>
-            <h2 className="h2">
+            <h1 className="h2">
               Olam Project
               {/* <span className="description">Chennai</span> */}
-            </h2>
+            </h1>
           </div>
           <div className="row1ProjectsInner">
             <Image
@@ -49,19 +58,25 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Project Overview:</h3>
+            <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
-              The Olam Project in Chennai stands as a testament to Ocean
-              Lifespaces’ commitment to excellence in construction and interior
-              design. More than just a development, Olam was envisioned as a
-              modern, future-ready space that embodies innovation,
-              functionality, and aesthetic appeal. This project was a blend of
-              meticulous planning, seamless execution, and a dedication to
-              quality, setting new benchmarks in the industry.
+              The{" "}
+              <Link
+                href={"https://www.olipl.com/projects/olam-project-chennai"}
+              >
+                Olam Project in Chennai
+              </Link>{" "}
+              stands as a testament to Ocean Lifespaces’ commitment to
+              excellence in construction and interior design. More than just a
+              development, Olam was envisioned as a modern, future-ready space
+              that embodies innovation, functionality, and aesthetic appeal.
+              This project was a blend of meticulous planning, seamless
+              execution, and a dedication to quality, setting new benchmarks in
+              the industry.
             </p>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Objective:</h3>
+            <h2 className="h4 dark">Objective:</h2>
             <p className="description">
               The primary goal of the Olam Project was to create a space that
               aligns with contemporary architectural and interior trends while
@@ -83,7 +98,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Approach:</h3>
+            <h2 className="h4 dark">Approach:</h2>
             <ul>
               <li>
                 <strong>Concept & Planning:</strong> Conducted detailed research
@@ -108,7 +123,7 @@ function Page() {
             </ul>
           </div>
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Results:</h3>
+            <h2 className="h4 dark">Results:</h2>
             <ul>
               <li>A visually striking and functionally efficient space.</li>
               <li>
@@ -140,7 +155,7 @@ function Page() {
           </div>
 
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Key Takeaways:</h3>
+            <h2 className="h4 dark">Key Takeaways:</h2>
             <ul>
               <li>
                 Collaboration and precision are critical in delivering
@@ -160,13 +175,14 @@ function Page() {
           </div>
 
           <div className="row2ProjectsInner">
-            <h3 className="h4 dark">Conclusion:</h3>
+            <h2 className="h4 dark">Conclusion:</h2>
             <p className="description">
-              The Olam Project in Chennai is a milestone achievement for Ocean
-              Lifespaces, reflecting our passion for creating meaningful,
-              well-crafted spaces. This project not only reinforced our
-              expertise in construction and interior design but also
-              strengthened our commitment to excellence.
+              The Olam Project in Chennai is a milestone achievement for{" "}
+              <Link href={"https://www.olipl.com/"}>Ocean Lifespaces</Link>,
+              reflecting our passion for creating meaningful, well-crafted
+              spaces. This project not only reinforced our expertise in
+              construction and interior design but also strengthened our
+              commitment to excellence.
             </p>
           </div>
         </div>

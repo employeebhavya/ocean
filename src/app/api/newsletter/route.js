@@ -1,103 +1,82 @@
 import nodemailer from "nodemailer";
 
 export async function POST(request) {
-  try {
-    const { email, name, message } = await request.json();
+  const { email } = await request.json();
 
-    // Validate email
-    if (!email || !email.includes("@")) {
-      return new Response(
-        JSON.stringify({ message: "Please enter a valid email address" }),
-        { status: 400, headers: { "Content-Type": "application/json" } }
-      );
-    }
+  // Create Zoho Mail transporter (using same credentials as before)
+  const transporter = nodemailer.createTransport({
+    service: "gmail",
+    auth: {
+      user: process.env.GMAIL_USER,
+      pass: process.env.GMAIL_PASSWORD,
+    },
+  });
 
-    // Create transporter for Outlook
-    const transporter = nodemailer.createTransport({
-      host: "smtp.office365.com", // Outlook SMTP server
-      port: 587, // Outlook recommended port
-      secure: false, // true for 465, false for other ports
-      auth: {
-        user: process.env.OUTLOOK_USER,
-        pass: process.env.OUTLOOK_PASSWORD,
-      },
-      tls: {
-        ciphers: "SSLv3", // Sometimes needed for Outlook
-      },
-    });
-
-    // Email to subscriber (confirmation)
-    const subscriberMailOptions = {
-      from: `"Ocean Updates" <${process.env.OUTLOOK_USER}>`,
-      to: email,
-      subject: "Thanks for subscribing to Ocean Updates!",
-      text: `Thank you for subscribing to our newsletter! You'll receive updates about our ocean conservation efforts.`,
-      html: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #0066cc;">Thank you for subscribing!</h2>
-          <p>You've successfully subscribed to our Ocean Updates newsletter.</p>
-          <p>You'll receive periodic updates about our ocean conservation efforts, research findings, and ways you can help protect our oceans.</p>
-          ${message ? `<p>Your message: ${message}</p>` : ""}
-          <p>If this was a mistake, you can ignore this email.</p>
-          <p style="margin-top: 30px;">Best regards,</p>
-          <p>The Ocean Conservation Team</p>
+  // Email content for subscriber
+  const subscriberMailOptions = {
+    from: `Ocean Lifespaces Newsletter <${process.env.ZOHO_MAIL_USER}>`,
+    to: email,
+    subject: "Thank You for Subscribing to Ocean Lifespaces Newsletter",
+    html: `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <h1 style="color: #1a365d;">Thank You for Subscribing!</h1>
+        
+        <div style="background-color: #f7fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
+          <p>You've successfully subscribed to the Ocean Lifespaces newsletter. We'll keep you updated with our latest news, events, and updates.</p>
+          <p>Your email: <strong>${email}</strong> has been added to our mailing list.</p>
         </div>
-      `,
-    };
+        
+        <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; font-size: 0.9em; color: #718096;">
+          <p>If this was a mistake or you wish to unsubscribe, please contact us at <a href="mailto:support@Ocean Lifespaces.org" style="color: #3182ce;">support@Ocean Lifespaces.org</a></p>
+          <p>© ${new Date().getFullYear()} Ocean Lifespaces. All rights reserved.</p>
+        </div>
+      </div>
+    `,
+  };
 
-    // Email to admin (lead notification)
-    const adminMailOptions = {
-      from: `"Newsletter Signup" <${process.env.OUTLOOK_USER}>`,
-      to: process.env.LEADS_EMAIL || process.env.OUTLOOK_USER, // Can use separate email for leads
-      subject: `New ${
-        message ? "contact form submission" : "newsletter subscriber"
-      }: ${email}`,
-      text: `You have a new ${message ? "contact" : "newsletter subscriber"}:
-Email: ${email}
-${name ? `Name: ${name}\n` : ""}
-${message ? `Message: ${message}\n` : ""}
-Timestamp: ${new Date().toISOString()}`,
-      html: `
-        <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #0066cc;">New ${
-            message ? "Contact" : "Subscriber"
-          }</h2>
+  // Email content for president
+  const presidentMailOptions = {
+    from: `Ocean Lifespaces Newsletter <${process.env.ZOHO_MAIL_USER}>`,
+    to: "reports@olipl.com",
+    subject: `New Newsletter Subscriber: ${email}`,
+    html: `
+      <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+        <h1 style="color: #1a365d;">New Newsletter Subscription</h1>
+        
+        <div style="background-color: #f7fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
+          <p>A new subscriber has joined the Ocean Lifespaces newsletter mailing list:</p>
           <p><strong>Email:</strong> ${email}</p>
-          ${name ? `<p><strong>Name:</strong> ${name}</p>` : ""}
-          ${message ? `<p><strong>Message:</strong> ${message}</p>` : ""}
-          <p><strong>Timestamp:</strong> ${new Date().toString()}</p>
+          <p><strong>Subscription Date:</strong> ${new Date().toLocaleDateString()}</p>
         </div>
-      `,
-    };
+        
+        <div style="border-top: 1px solid #e2e8f0; padding-top: 20px; font-size: 0.9em; color: #718096;">
+          <p>This email was automatically generated by the Ocean Lifespaces newsletter system.</p>
+        </div>
+      </div>
+    `,
+  };
 
+  try {
     // Send both emails
     await transporter.sendMail(subscriberMailOptions);
-    await transporter.sendMail(adminMailOptions);
+    await transporter.sendMail(presidentMailOptions);
 
-    return new Response(
-      JSON.stringify({
-        message: message
-          ? "Thank you for contacting us! We'll get back to you soon."
-          : "Subscription successful! Please check your email.",
-      }),
-      { status: 200, headers: { "Content-Type": "application/json" } }
-    );
+    return new Response(JSON.stringify({ success: true }), {
+      status: 200,
+      headers: { "Content-Type": "application/json" },
+    });
   } catch (error) {
-    console.error("Error sending email:", error);
+    console.error("Error sending email via Zoho:", error);
     return new Response(
       JSON.stringify({
-        message: "Error processing your request. Please try again later.",
-        error:
-          process.env.NODE_ENV === "development" ? error.message : undefined,
+        success: false,
+        error: error.message,
+        stack: process.env.NODE_ENV === "development" ? error.stack : undefined,
       }),
-      { status: 500, headers: { "Content-Type": "application/json" } }
+      {
+        status: 500,
+        headers: { "Content-Type": "application/json" },
+      }
     );
   }
-}
-
-export async function GET() {
-  return new Response(JSON.stringify({ message: "Method not allowed" }), {
-    status: 405,
-    headers: { "Content-Type": "application/json" },
-  });
 }

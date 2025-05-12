@@ -7,6 +7,10 @@ export const metadata = {
   description:
     "Discover quality! danfoss chennai office combines architectural function and design by Ocean Lifespaces India Pvt Ltd.",
   keywords: "danfoss chennai",
+  alternates: {
+    canonical:
+      "https://www.olipl.com/projects/danfoss-500000-sft-civil-interior-works-chennai",
+  },
 };
 
 function Page() {

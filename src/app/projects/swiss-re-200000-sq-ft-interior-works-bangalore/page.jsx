@@ -7,6 +7,10 @@ export const metadata = {
   description:
     "See design! swiss re interior works project in bangalore features elegant execution by Ocean Lifespaces.",
   keywords: "Swiss RE interior works project in Bangalore",
+  alternates: {
+    canonical:
+      "https://www.olipl.com/projects/swiss-re-200000-sq-ft-interior-works-bangalore",
+  },
 };
 
 function Page() {

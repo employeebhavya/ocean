@@ -16,6 +16,9 @@ export const metadata = {
   description:
     "Build with confidence! Ocean Lifespaces India Pvt Ltd delivers Civil Construction Company in Chennai with innovation and trust.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -36,6 +39,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           name="google-site-verification"
           content="Lb7CitML3oiSoZZl3PGbiYCKCptQgyzb7f0odg_wunw"
         />
+        <meta name="robots" content="index, follow, noodp, noydir" />
 
         {/* ✅ Structured Data - Product */}
         <Script

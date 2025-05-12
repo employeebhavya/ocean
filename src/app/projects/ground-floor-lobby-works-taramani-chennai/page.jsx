@@ -7,6 +7,10 @@ export const metadata = {
   description:
     "Step inside! ground floor lobby works built for impression and flow, designed by Ocean Lifespaces.",
   keywords: "Ground Floor Lobby Works",
+  alternates: {
+    canonical:
+      "https://www.olipl.com/projects/ground-floor-lobby-works-taramani-chennai",
+  },
 };
 
 function Page() {

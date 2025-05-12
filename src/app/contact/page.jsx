@@ -10,6 +10,9 @@ export const metadata = {
   description:
     "Let's connect! Contact Ocean Lifespaces India Pvt Ltd for expert civil construction and project consultation across Chennai.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/contact",
+  },
 };
 
 function Contact() {

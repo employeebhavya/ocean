@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "View project! emerson chennai workspace created by Ocean Lifespaces, blending function and design.",
   keywords: "Emerson chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/emersion",
+  },
 };
 
 function Page() {

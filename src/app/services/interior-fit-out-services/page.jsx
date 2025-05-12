@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Design smart! interior fit-out services in chennai crafted for productivity and brand presence.",
   keywords: "Interior Fit-Out Services in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/services/interior-fit-out-services",
+  },
 };
 
 function FitOuts() {

@@ -8,6 +8,9 @@ export const metadata = {
   description:
     "Explore our work! construction projects in chennai built with trust and structural finesse.",
   keywords: "Construction Projects in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects",
+  },
 };
 
 function Projects() {
@@ -212,7 +215,7 @@ function Projects() {
               <div className={styles.content}>
                 <h2 className="h3">Olam Project</h2>
                 <p className="description">Bangalore | Area - Confidential</p>
-                <Link href="/projects/tek-systems-bangalore">
+                <Link href="/projects/olam-project-chennai">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -344,7 +347,7 @@ function Projects() {
               <div className={styles.content}>
                 <h2 className="h3">ZOHO</h2>
                 <p className="description">Chennai | Area - 3,50,000 sq. ft.</p>
-                <Link href="/projects/zoho">
+                <Link href="/projects/zoho-estancia">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>

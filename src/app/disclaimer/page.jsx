@@ -196,4 +196,7 @@ export const metadata = {
   description:
     "Disclaimer for Ocean Lifespaces India Pvt Ltd. The information provided is for general purposes only and does not constitute professional advice.",
   keywords: "Ocean Lifespaces India Pvt Ltd, disclaimer",
+  alternates: {
+    canonical: "https://www.olipl.com/disclaimer",
+  },
 };

@@ -6,6 +6,9 @@ export const metadata = {
   description:
     "Meet our partners! Explore Ocean Lifespaces India Pvt Ltd's network of partners helping deliver reliable construction solutions.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/partners",
+  },
 };
 
 function Partners() {

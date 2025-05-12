@@ -6,6 +6,10 @@ export const metadata = {
   description:
     "Best Civil Construction Company in Chennai – Ocean Lifespaces delivers quality residential & commercial projects with trust, innovation & timely execution.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical:
+      "https://www.olipl.com/blogs/best-civil-construction-company-chennai",
+  },
 };
 
 function page() {

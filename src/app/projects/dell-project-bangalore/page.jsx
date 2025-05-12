@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Check it out! dell bangalore facility built with modern workplace solutions by Ocean Lifespaces.",
   keywords: "dell bangalore",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/dell-project-bangalore",
+  },
 };
 
 function Page() {

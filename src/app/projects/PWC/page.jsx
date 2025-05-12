@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "View excellence! pwc office chennai features modern interiors crafted by Ocean Lifespaces.",
   keywords: "PWC office Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/PWC",
+  },
 };
 
 function Page() {

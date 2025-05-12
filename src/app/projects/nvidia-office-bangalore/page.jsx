@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Discover now! nvidia bangalore workspace built with smart infrastructure and aesthetic value.",
   keywords: "Nvidia Bangalore",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/nvidia-office-bangalore",
+  },
 };
 
 function Page() {

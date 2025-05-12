@@ -7,6 +7,10 @@ export const metadata = {
   description:
     "Tour innovation! simpliworks in hyderabad office reflects agile and functional design by Ocean.",
   keywords: "Simpliworks in Hyderabad",
+  alternates: {
+    canonical:
+      "https://www.olipl.com/projects/simpliworks-384000-sft-civil-interior-works-hyderabad",
+  },
 };
 
 function Page() {

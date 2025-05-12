@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Built to last! maersk chennai corporate facility completed with solid civil works by Ocean Lifespaces.",
   keywords: "maersk chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/maersk-office-chennai",
+  },
 };
 
 function Page() {

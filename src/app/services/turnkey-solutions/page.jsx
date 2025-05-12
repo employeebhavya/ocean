@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Go turnkey! turnkey solutions in chennai by Ocean Lifespaces deliver full-cycle project success.",
   keywords: "Turnkey Solutions in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/services/turnkey-solutions",
+  },
 };
 
 function TurkneySolutions() {

@@ -7,6 +7,10 @@ export const metadata = {
   description:
     "Build for learning! hindustan international school chennai project reflects quality educational construction.",
   keywords: "Hindustan International School chennai",
+  alternates: {
+    canonical:
+      "https://www.olipl.com/projects/hindustan-international-school-chennai",
+  },
 };
 
 function HindustanInternationalSchool() {

@@ -2,6 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { LuChevronRight } from "react-icons/lu";
 
+export const metadata = {
+  title: "ZOHO Estancia project in Chennai – Ocean Lifespaces Pvt Ltd",
+  description:
+    "Explore the ZOHO Estancia project by Ocean Lifespaces in Chennai – premium turnkey interiors designed for modern workspaces with style, function & precision.",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/zoho-estancia",
+  },
+};
+
 function Page() {
   return (
     <section className="projectsInner">
@@ -52,7 +61,7 @@ function Page() {
             <h2 className="h4 dark">Project Overview:</h2>
             <p className="description">
               Ocean Lifespaces successfully executed the{" "}
-              <Link href={"https://www.olipl.com/projects/zoho"}>
+              <Link href={"https://www.olipl.com/projects/zoho-estancia"}>
                 ZOHO Estancia project in Chennai
               </Link>
               , a high-value, complex turnkey project that spanned across 16

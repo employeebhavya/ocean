@@ -39,7 +39,7 @@ const newsEvents = [
       "The commercial landscape in Chennai is transforming drastically and is on the rise. With the enormous...",
     image: "/blogs/top5.webp",
     date: "2025-05-09T09:00:00",
-    link: "/blogs/interior-fit-out-trends",
+    link: "/blogs/top-5-interior-fit-out-trends-in-chennais-commercial-spaces",
   },
   {
     title:

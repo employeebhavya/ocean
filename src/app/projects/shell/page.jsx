@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Visit now! shell in chennai office space blends corporate needs with high-quality construction.",
   keywords: "Shell in Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/projects/shell",
+  },
 };
 
 function Page() {

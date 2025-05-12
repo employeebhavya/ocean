@@ -7,6 +7,9 @@ export const metadata = {
   description:
     "Stay informed! Get the latest project news and achievements from Ocean Lifespaces India Pvt Ltd.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/news",
+  },
 };
 
 function News() {

@@ -62,6 +62,9 @@ export const metadata = {
   description:
     "See who trusts us! Discover the clients behind Ocean Lifespaces India Pvt Ltd's success in construction and infrastructure delivery.",
   keywords: "Ocean Lifespaces India Pvt Ltd",
+  alternates: {
+    canonical: "https://www.olipl.com/clients",
+  },
 };
 
 function Clients() {

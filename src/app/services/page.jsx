@@ -8,6 +8,9 @@ export const metadata = {
   description:
     "Choose expertise! civil construction services chennai by Ocean Lifespaces ensure durability and design.",
   keywords: "Civil Construction Services Chennai",
+  alternates: {
+    canonical: "https://www.olipl.com/services",
+  },
 };
 
 function Services() {
