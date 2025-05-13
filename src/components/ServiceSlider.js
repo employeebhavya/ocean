@@ -206,9 +206,7 @@ const ServiceSlider = () => {
                   ref={(el) => (serviceRefs.current[index] = el)} // Store refs in array
                 >
                   <Link href={service.link}>
-                    <Image
-                      width={384}
-                      height={196}
+                    <img
                       src={service.imgSrc}
                       alt={service.title}
                       style={{ width: "100%" }}

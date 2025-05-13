@@ -40,7 +40,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           content="Lb7CitML3oiSoZZl3PGbiYCKCptQgyzb7f0odg_wunw"
         />
         <meta name="robots" content="index, follow, noodp, noydir" />
-
+        <meta property="og:title" content="Ocean Lifespaces India Pvt Ltd" />
+        <meta
+          property="og:site_name"
+          content="Ocean Lifespaces India Pvt Ltd"
+        />
+        <meta property="og:url" content="https://www.olipl.com/" />
+        <meta
+          property="og:description"
+          content="Build with confidence! Ocean Lifespaces India Pvt Ltd delivers Civil Construction services in Chennai with innovation and trust."
+        />
+        <meta property="og:type" content="website" />
         {/* ✅ Structured Data - Product */}
         <Script
           defer
