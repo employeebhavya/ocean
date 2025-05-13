@@ -9,6 +9,7 @@ const roboto = Roboto({
   variable: "--font-roboto-sans",
   subsets: ["latin"],
   weight: ["100", "300"],
+  display: "swap",
 });
 
 export const metadata = {
@@ -130,9 +131,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
+            strategy="lazyOnload"
           ></iframe>
         </noscript>
-
         <Menu />
         {children}
         <Footer />
