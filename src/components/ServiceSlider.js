@@ -44,6 +44,12 @@ const services = [
     imgSrc: "/marine.webp",
     link: "/services/infrastructure-development",
   },
+  {
+    id: 6,
+    title: "Interiro Design",
+    imgSrc: "/interior/home-interior.webp",
+    link: "/services/interior-design",
+  },
 ];
 
 const ServiceSlider = () => {

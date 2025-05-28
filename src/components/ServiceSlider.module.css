@@ -108,6 +108,9 @@
   font-weight: normal;
   color: var(--color-white);
 }
+.cardServiceSlider img {
+  border-radius: 20px;
+}
 
 /* responsive-css-starts-here */
 @media screen and (max-width: 768px) {

@@ -42,6 +42,12 @@ const services = [
     imgSrc: "/marine.webp",
     link: "/services/infrastructure-development",
   },
+  {
+    id: 6,
+    title: "Interiro Design",
+    imgSrc: "/interior/home-interior.webp",
+    link: "/services/interior-design",
+  },
 ];
 
 const DraggableSlider = () => {
@@ -148,7 +154,11 @@ const DraggableSlider = () => {
               <img
                 src={service.imgSrc}
                 alt={service.title}
-                style={{ width: "100%", marginBottom: "12px" }}
+                style={{
+                  width: "100%",
+                  marginBottom: "12px",
+                  borderRadius: "20px",
+                }}
               />
               <h3 className="h4" style={{ textAlign: "left" }}>
                 {service.title}

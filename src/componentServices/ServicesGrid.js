@@ -33,6 +33,12 @@ const ServicesItems = [
     description: `Our expertise extends to specialized facilities, including international airports, electric battery factories, sporting facilities, petroleum lube plants and nuclear power plant maintenance, where we deliver corrosion-resistant coatings, fireproofing solutions, and safety-compliant designs, to name a few.`,
     link: "/services/infrastructure-development",
   },
+  {
+    image: "/interior/interior-service.webp",
+    title: "Interior Design",
+    description: `At the forefront of mission-critical infrastructure development, we have established ourselves as a trusted execution partner for the construction of world-class Data Centre facilities. With an impressive track record of delivering high-value projects for leading multinational corporations (MNCs) across Tamil Nadu.`,
+    link: "/services/interior-design",
+  },
 ];
 
 function ServicesGrid() {
