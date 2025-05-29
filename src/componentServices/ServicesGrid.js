@@ -35,9 +35,9 @@ const ServicesItems = [
   },
   {
     image: "/interior/interior-service.webp",
-    title: "Interior Design",
+    title: "Data Centre Project Expertise",
     description: `At the forefront of mission-critical infrastructure development, we have established ourselves as a trusted execution partner for the construction of world-class Data Centre facilities. With an impressive track record of delivering high-value projects for leading multinational corporations (MNCs) across Tamil Nadu.`,
-    link: "/services/interior-design",
+    link: "/services/data-centre-project-expertise",
   },
 ];
 

@@ -15,7 +15,7 @@ function page() {
                 <span className="description">Our Services</span>
               </Link>
               <LuChevronRight />
-              <p className="description">Interior Design</p>
+              <p className="description">Data Centre Project Expertise</p>
             </div>
             <div className={Styles.headerInteriorDesign}>
               <h1 className="h1">Data Centre Project Expertise</h1>
@@ -32,14 +32,14 @@ function page() {
               <div className={Styles.headerImage}>
                 <Image
                   className={Styles.desktop}
-                  src={"/interior/header.webp"}
+                  src={"/interior/header-main.webp"}
                   width={500}
                   height={500}
                   alt="header-image"
                 />
                 <Image
                   className={Styles.mobile}
-                  src={"/interior/mobile1.webp"}
+                  src={"/interior/header-main-mobile.webp"}
                   width={500}
                   height={500}
                   alt="header-image"
@@ -54,6 +54,7 @@ function page() {
                   performance, security, and availability benchmarks required by
                   data-intensive enterprises.
                 </p>
+                <div className={Styles.headerImageOverlay}></div>
               </div>
             </div>
             <div className={Styles.interiorGrid}>
@@ -367,7 +368,7 @@ function page() {
             </div>
             <div className={Styles.interiorClientsCol2}>
               <Image
-                src={"/interior/6.webp"}
+                src={"/interior/commitment.webp"}
                 width={500}
                 height={500}
                 alt="image"

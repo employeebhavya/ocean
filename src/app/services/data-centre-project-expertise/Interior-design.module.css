@@ -37,6 +37,16 @@
   margin-top: clamp(10px, 1vw, 1vw);
   position: relative;
 }
+.headerImageOverlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 99%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  border-radius: clamp(20px, 2vw, 2vw);
+}
 .headerImage img {
   width: 100%;
   height: auto;
@@ -48,6 +58,7 @@
   bottom: 2vw;
   color: var(--color-white);
   max-width: 60%;
+  z-index: 2;
 }
 .interiorGrid {
   position: relative;

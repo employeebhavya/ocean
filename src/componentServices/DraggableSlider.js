@@ -44,9 +44,9 @@ const services = [
   },
   {
     id: 6,
-    title: "Interiro Design",
+    title: "Data Centre Project Expertise",
     imgSrc: "/interior/home-interior.webp",
-    link: "/services/interior-design",
+    link: "/services/data-centre-project-expertise",
   },
 ];
 
